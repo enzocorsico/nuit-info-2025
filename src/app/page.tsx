@@ -8,6 +8,7 @@ import {
   MapPinIcon,
 } from "@heroicons/react/24/solid";
 import AvatarChat from "./components/AvatarChat";
+import { Logo3DImage } from "./components/Logo3DImage";
 
 const badges = [
   { label: "Inclusion", color: "bg-blue-500" },
@@ -244,6 +245,21 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Section 3D Logo */}
+      <section className="py-20 md:py-32 px-6 bg-linear-to-b from-slate-800 to-slate-900">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              Explore en 3D
+            </h2>
+            <p className="text-xl text-slate-300 max-w-2xl mx-auto">
+              Découvre une expérience interactive avec le logo KLUB
+            </p>
+          </div>
+          <Logo3DImage />
         </div>
       </section>
 
