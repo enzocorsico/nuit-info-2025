@@ -259,11 +259,6 @@ export default function Home() {
                 Commencer maintenant
               </button>
             </Link>
-            <Link href="/communaute">
-              <button className="px-10 py-4 md:px-12 md:py-5 bg-white/20 text-white font-bold text-lg rounded-full border-2 border-white hover:bg-white/30 transition-all duration-300 transform hover:scale-105 cursor-pointer">
-                Voir la communauté
-              </button>
-            </Link>
           </div>
         </div>
       </section>
