@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { use, useState } from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { CheckCircleIcon, ExclamationTriangleIcon } from '@heroicons/react/24/solid';
+import { use, useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { CheckCircleIcon, ExclamationTriangleIcon } from "@heroicons/react/24/solid";
 
 // Mission data structure
 interface Choice {
@@ -34,141 +34,141 @@ interface Mission {
 
 // Mock missions database
 const missionsDatabase: Record<string, Mission> = {
-  'mission-1': {
-    id: 'mission-1',
-    title: 'Les données collectées : qui en profite?',
-    description: 'Analyser comment vos données personnelles sont utilisées par les grandes tech',
-    theme: 'données',
+  "mission-1": {
+    id: "mission-1",
+    title: "Les données collectées : qui en profite?",
+    description: "Analyser comment vos données personnelles sont utilisées par les grandes tech",
+    theme: "données",
     steps: [
       {
-        id: 'step-1',
-        title: 'Première découverte',
-        description: 'Vous découvrez que vos données de navigation sont vendues à des annonceurs. Que faites-vous ?',
+        id: "step-1",
+        title: "Première découverte",
+        description: "Vous découvrez que vos données de navigation sont vendues à des annonceurs. Que faites-vous ?",
         choices: [
           {
-            id: 'choice-1',
-            text: 'Je refuse et j\'utilise un VPN + bloqueurs de publicités',
-            feedback: 'Excellente réaction ! Vous protégez votre vie privée de manière active.',
+            id: "choice-1",
+            text: "Je refuse et j'utilise un VPN + bloqueurs de publicités",
+            feedback: "Excellente réaction ! Vous protégez votre vie privée de manière active.",
             scores: { inclusion: 10, responsabilité: 20, durabilité: 10 },
           },
           {
-            id: 'choice-2',
-            text: 'Je n\'y fais pas attention, c\'est normal maintenant',
-            feedback: 'Attention ! En ignorant cela, vous acceptez une surveillance massive de votre activité.',
+            id: "choice-2",
+            text: "Je n'y fais pas attention, c'est normal maintenant",
+            feedback: "Attention ! En ignorant cela, vous acceptez une surveillance massive de votre activité.",
             scores: { inclusion: 0, responsabilité: 0, durabilité: 0 },
           },
           {
-            id: 'choice-3',
-            text: 'Je cherche à comprendre ce qui se passe exactement',
-            feedback: 'Très bien ! Comprendre les enjeux est le premier pas vers une action responsable.',
+            id: "choice-3",
+            text: "Je cherche à comprendre ce qui se passe exactement",
+            feedback: "Très bien ! Comprendre les enjeux est le premier pas vers une action responsable.",
             scores: { inclusion: 15, responsabilité: 15, durabilité: 15 },
           },
         ],
       },
       {
-        id: 'step-2',
-        title: 'Le choix des outils',
-        description: 'Pour votre établissement, vous devez choisir entre Google Workspace (gratuit mais trace) et une suite bureautique open-source (payante mais souveraine).',
+        id: "step-2",
+        title: "Le choix des outils",
+        description: "Pour votre établissement, vous devez choisir entre Google Workspace (gratuit mais trace) et une suite bureautique open-source (payante mais souveraine).",
         choices: [
           {
-            id: 'choice-1',
-            text: 'Google Workspace - facile et gratuit',
-            feedback: 'Pratique, mais vous acceptez la dépendance technologique aux GAFAM.',
+            id: "choice-1",
+            text: "Google Workspace - facile et gratuit",
+            feedback: "Pratique, mais vous acceptez la dépendance technologique aux GAFAM.",
             scores: { inclusion: 5, responsabilité: -10, durabilité: -5 },
           },
           {
-            id: 'choice-2',
-            text: 'Suite open-source - responsable mais complexe',
-            feedback: 'Excellent choix pour l\'indépendance numérique ! Un peu de courbe d\'apprentissage en vaut la peine.',
+            id: "choice-2",
+            text: "Suite open-source - responsable mais complexe",
+            feedback: "Excellent choix pour l'indépendance numérique ! Un peu de courbe d'apprentissage en vaut la peine.",
             scores: { inclusion: 20, responsabilité: 30, durabilité: 25 },
           },
           {
-            id: 'choice-3',
-            text: 'Hybrid : open-source avec formation pour tous',
-            feedback: 'Parfait ! Vous cherchez l\'équilibre entre accessibilité et responsabilité.',
+            id: "choice-3",
+            text: "Hybrid : open-source avec formation pour tous",
+            feedback: "Parfait ! Vous cherchez l'équilibre entre accessibilité et responsabilité.",
             scores: { inclusion: 25, responsabilité: 25, durabilité: 20 },
           },
         ],
       },
       {
-        id: 'step-3',
-        title: 'L\'engagement collectif',
-        description: 'Vous proposez une campagne de sensibilisation sur la vie privée numérique. Comment l\'organisez-vous ?',
+        id: "step-3",
+        title: "L'engagement collectif",
+        description: "Vous proposez une campagne de sensibilisation sur la vie privée numérique. Comment l'organisez-vous ?",
         choices: [
           {
-            id: 'choice-1',
-            text: 'Un atelier inclusif pour tous, du débutant à l\'expert',
-            feedback: 'Magnifique ! Vous pratiquez l\'inclusion numérique.',
+            id: "choice-1",
+            text: "Un atelier inclusif pour tous, du débutant à l'expert",
+            feedback: "Magnifique ! Vous pratiquez l'inclusion numérique.",
             scores: { inclusion: 30, responsabilité: 20, durabilité: 15 },
           },
           {
-            id: 'choice-2',
-            text: 'Un webinaire technique réservé aux experts',
-            feedback: 'Efficace mais limité... Vous n\'incluez pas tous les niveaux.',
+            id: "choice-2",
+            text: "Un webinaire technique réservé aux experts",
+            feedback: "Efficace mais limité... Vous n'incluez pas tous les niveaux.",
             scores: { inclusion: 10, responsabilité: 15, durabilité: 10 },
           },
           {
-            id: 'choice-3',
-            text: 'Une série de ressources en ligne accessibles 24/7',
-            feedback: 'Excellent ! Vous maximisez la portée et l\'accessibilité pour tous.',
+            id: "choice-3",
+            text: "Une série de ressources en ligne accessibles 24/7",
+            feedback: "Excellent ! Vous maximisez la portée et l'accessibilité pour tous.",
             scores: { inclusion: 25, responsabilité: 20, durabilité: 30 },
           },
         ],
       },
     ],
   },
-  'mission-prof-1': {
-    id: 'mission-prof-1',
-    title: 'Enseigner le numérique responsable',
-    description: 'Intégrer NIRD dans votre curriculum pédagogique',
-    theme: 'pédagogie',
+  "mission-prof-1": {
+    id: "mission-prof-1",
+    title: "Enseigner le numérique responsable",
+    description: "Intégrer NIRD dans votre curriculum pédagogique",
+    theme: "pédagogie",
     steps: [
       {
-        id: 'step-1',
-        title: 'Préparation de votre cours',
-        description: 'Comment allez-vous introduire la responsabilité numérique à vos élèves ?',
+        id: "step-1",
+        title: "Préparation de votre cours",
+        description: "Comment allez-vous introduire la responsabilité numérique à vos élèves ?",
         choices: [
           {
-            id: 'choice-1',
-            text: 'Par des cas concrets et des débats',
-            feedback: 'Parfait ! L\'apprentissage critique et engageant.',
+            id: "choice-1",
+            text: "Par des cas concrets et des débats",
+            feedback: "Parfait ! L'apprentissage critique et engageant.",
             scores: { inclusion: 20, responsabilité: 25, durabilité: 15 },
           },
           {
-            id: 'choice-2',
-            text: 'Par une présentation magistrale',
-            feedback: 'Efficace mais pas très interactif...',
+            id: "choice-2",
+            text: "Par une présentation magistrale",
+            feedback: "Efficace mais pas très interactif...",
             scores: { inclusion: 10, responsabilité: 10, durabilité: 5 },
           },
           {
-            id: 'choice-3',
-            text: 'En les impliquant dans un projet collectif',
-            feedback: 'Excellent ! L\'apprentissage par l\'action est plus efficace.',
+            id: "choice-3",
+            text: "En les impliquant dans un projet collectif",
+            feedback: "Excellent ! L'apprentissage par l'action est plus efficace.",
             scores: { inclusion: 25, responsabilité: 20, durabilité: 25 },
           },
         ],
       },
       {
-        id: 'step-2',
-        title: 'Outils pédagogiques',
-        description: 'Quel type de ressources allez-vous créer ?',
+        id: "step-2",
+        title: "Outils pédagogiques",
+        description: "Quel type de ressources allez-vous créer ?",
         choices: [
           {
-            id: 'choice-1',
-            text: 'Utiliser les ressources NIRD existantes',
-            feedback: 'Bon départ ! Vous économisez du temps et maintenez la cohérence.',
+            id: "choice-1",
+            text: "Utiliser les ressources NIRD existantes",
+            feedback: "Bon départ ! Vous économisez du temps et maintenez la cohérence.",
             scores: { inclusion: 15, responsabilité: 15, durabilité: 15 },
           },
           {
-            id: 'choice-2',
-            text: 'Créer vos propres ressources adaptées à vos élèves',
-            feedback: 'Excellent ! Personnalisé et adapté à votre contexte.',
+            id: "choice-2",
+            text: "Créer vos propres ressources adaptées à vos élèves",
+            feedback: "Excellent ! Personnalisé et adapté à votre contexte.",
             scores: { inclusion: 25, responsabilité: 20, durabilité: 20 },
           },
           {
-            id: 'choice-3',
-            text: 'Combiner ressources existantes et création personnelle',
-            feedback: 'Parfait ! Vous bénéficiez du meilleur des deux approches.',
+            id: "choice-3",
+            text: "Combiner ressources existantes et création personnelle",
+            feedback: "Parfait ! Vous bénéficiez du meilleur des deux approches.",
             scores: { inclusion: 30, responsabilité: 25, durabilité: 25 },
           },
         ],
@@ -176,8 +176,6 @@ const missionsDatabase: Record<string, Mission> = {
     ],
   },
 };
-
-type ScoreType = 'inclusion' | 'responsabilité' | 'durabilité';
 
 export default function MissionRunnerPage({
   params,
@@ -247,10 +245,10 @@ export default function MissionRunnerPage({
   };
 
   const getScoreColor = (value: number): string => {
-    if (value < 0) return 'text-red-600';
-    if (value < 20) return 'text-orange-600';
-    if (value < 40) return 'text-yellow-600';
-    return 'text-green-600';
+    if (value < 0) return "text-red-600";
+    if (value < 20) return "text-orange-600";
+    if (value < 40) return "text-yellow-600";
+    return "text-green-600";
   };
 
   return (
@@ -297,26 +295,26 @@ export default function MissionRunnerPage({
 
               {/* Choices */}
               <div className="space-y-4">
-                {currentStep.choices.map((choice, idx) => (
+                {currentStep.choices.map(choice => (
                   <button
                     key={choice.id}
                     onClick={() => handleChoice(choice)}
                     disabled={showFeedback !== null}
                     className={`w-full p-6 rounded-xl border-2 text-left transition-all duration-200 cursor-pointer ${
                       showFeedback !== null
-                        ? 'opacity-50 cursor-not-allowed'
-                        : 'hover:border-blue-500 hover:shadow-md hover:scale-102'
+                        ? "opacity-50 cursor-not-allowed"
+                        : "hover:border-blue-500 hover:shadow-md hover:scale-102"
                     } ${
                       showFeedback === choice.feedback
-                        ? 'border-green-500 bg-green-50'
-                        : 'border-slate-200 bg-white hover:bg-slate-50'
+                        ? "border-green-500 bg-green-50"
+                        : "border-slate-200 bg-white hover:bg-slate-50"
                     }`}
                   >
                     <div className="flex items-start gap-4">
                       <div className={`w-6 h-6 rounded-full border-2 shrink-0 mt-1 ${
                         showFeedback === choice.feedback
-                          ? 'border-green-500 bg-green-500'
-                          : 'border-slate-300'
+                          ? "border-green-500 bg-green-500"
+                          : "border-slate-300"
                       }`}></div>
                       <div className="grow">
                         <p className="text-lg font-semibold text-slate-900">
@@ -342,7 +340,7 @@ export default function MissionRunnerPage({
               {showFeedback && (
                 <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200 text-center">
                   <p className="text-blue-900 font-semibold">
-                    {isLastStep ? 'Redirection vers les résultats...' : 'Passage à l\'étape suivante...'}
+                    {isLastStep ? "Redirection vers les résultats..." : "Passage à l'étape suivante..."}
                   </p>
                 </div>
               )}
@@ -360,7 +358,7 @@ export default function MissionRunnerPage({
                   <div className="flex items-center justify-between mb-2">
                     <span className="font-semibold text-slate-900">Inclusion</span>
                     <span className={`font-bold text-lg ${getScoreColor(scores.inclusion)}`}>
-                      {scores.inclusion > 0 ? '+' : ''}{scores.inclusion}
+                      {scores.inclusion > 0 ? "+" : ""}{scores.inclusion}
                     </span>
                   </div>
                   <div className="w-full bg-slate-200 rounded-full h-3 overflow-hidden">
@@ -377,7 +375,7 @@ export default function MissionRunnerPage({
                   <div className="flex items-center justify-between mb-2">
                     <span className="font-semibold text-slate-900">Responsabilité</span>
                     <span className={`font-bold text-lg ${getScoreColor(scores.responsabilité)}`}>
-                      {scores.responsabilité > 0 ? '+' : ''}{scores.responsabilité}
+                      {scores.responsabilité > 0 ? "+" : ""}{scores.responsabilité}
                     </span>
                   </div>
                   <div className="w-full bg-slate-200 rounded-full h-3 overflow-hidden">
@@ -394,7 +392,7 @@ export default function MissionRunnerPage({
                   <div className="flex items-center justify-between mb-2">
                     <span className="font-semibold text-slate-900">Durabilité</span>
                     <span className={`font-bold text-lg ${getScoreColor(scores.durabilité)}`}>
-                      {scores.durabilité > 0 ? '+' : ''}{scores.durabilité}
+                      {scores.durabilité > 0 ? "+" : ""}{scores.durabilité}
                     </span>
                   </div>
                   <div className="w-full bg-slate-200 rounded-full h-3 overflow-hidden">

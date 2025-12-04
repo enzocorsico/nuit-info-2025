@@ -1,72 +1,69 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 import {
   AcademicCapIcon,
-  StarIcon,
-  HeartIcon,
-  CheckCircleIcon,
   SparklesIcon,
   UsersIcon,
   MapPinIcon,
-} from '@heroicons/react/24/solid';
+} from "@heroicons/react/24/solid";
 
 const badges = [
-  { label: 'Inclusion', color: 'bg-blue-500' },
-  { label: 'Responsabilité', color: 'bg-pink-500' },
-  { label: 'Durabilité', color: 'bg-yellow-400' },
+  { label: "Inclusion", color: "bg-blue-500" },
+  { label: "Responsabilité", color: "bg-pink-500" },
+  { label: "Durabilité", color: "bg-yellow-400" },
 ];
 
 const steps = [
   {
-    number: '01',
-    title: 'Choisis ton rôle',
-    description: 'Élève, Professeur, Direction, Tech, Famille ou Collectivité - chaque perspective compte',
+    number: "01",
+    title: "Choisis ton rôle",
+    description: "Élève, Professeur, Direction, Tech, Famille ou Collectivité - chaque perspective compte",
     icon: AcademicCapIcon,
-    color: 'text-blue-500',
+    color: "text-blue-500",
   },
   {
-    number: '02',
-    title: 'Explore ton village',
-    description: 'Découvre 6 lieux uniques : salle des profs, atelier linux, serveurs, direction, familles et collectivité',
+    number: "02",
+    title: "Explore ton village",
+    description: "Découvre 6 lieux uniques : salle des profs, atelier linux, serveurs, direction, familles et collectivité",
     icon: MapPinIcon,
-    color: 'text-purple-500',
+    color: "text-purple-500",
   },
   {
-    number: '03',
-    title: 'Lance des missions',
-    description: 'Complète des défis adaptés à ton rôle et accumule des points d\'Inclusion, Responsabilité et Durabilité',
+    number: "03",
+    title: "Lance des missions",
+    description: "Complète des défis adaptés à ton rôle et accumule des points d'Inclusion, Responsabilité et Durabilité",
     icon: SparklesIcon,
-    color: 'text-pink-500',
+    color: "text-pink-500",
   },
   {
-    number: '04',
-    title: 'Partage tes succès',
-    description: 'Rejoins la communauté, partage tes initiatives et inspire d\'autres à agir pour un numérique responsable',
+    number: "04",
+    title: "Partage tes succès",
+    description: "Rejoins la communauté, partage tes initiatives et inspire d'autres à agir pour un numérique responsable",
     icon: UsersIcon,
-    color: 'text-green-500',
+    color: "text-green-500",
   },
 ];
 
 const pillars = [
   {
-    title: '🌍 Inclusion',
-    description: 'Assurer que le numérique bénéficie à tous, sans laisser personne derrière',
-    details: 'Accessibilité, égalité des chances, formation pour tous les âges',
-    color: 'from-blue-400 to-cyan-400',
+    title: "🌍 Inclusion",
+    description: "Assurer que le numérique bénéficie à tous, sans laisser personne derrière",
+    details: "Accessibilité, égalité des chances, formation pour tous les âges",
+    color: "from-blue-400 to-cyan-400",
   },
   {
-    title: '⚖️ Responsabilité',
-    description: 'Prendre en charge l\'impact de nos choix numériques sur la société',
-    details: 'Éthique, transparence, protection des données et vie privée',
-    color: 'from-pink-400 to-rose-400',
+    title: "⚖️ Responsabilité",
+    description: "Prendre en charge l'impact de nos choix numériques sur la société",
+    details: "Éthique, transparence, protection des données et vie privée",
+    color: "from-pink-400 to-rose-400",
   },
   {
-    title: '🌱 Durabilité',
-    description: 'Créer un écosystème numérique viable pour les générations futures',
-    details: 'Sobriété énergétique, longévité des équipements, alternatives libres',
-    color: 'from-yellow-300 to-orange-400',
+    title: "🌱 Durabilité",
+    description: "Créer un écosystème numérique viable pour les générations futures",
+    details: "Sobriété énergétique, longévité des équipements, alternatives libres",
+    color: "from-yellow-300 to-orange-400",
   },
 ];
 

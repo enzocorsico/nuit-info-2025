@@ -1,26 +1,25 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
-import { TrophyIcon, StarIcon, SparklesIcon } from '@heroicons/react/24/solid';
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { TrophyIcon, StarIcon, SparklesIcon } from "@heroicons/react/24/solid";
 
 export default function ResultPage() {
   const searchParams = useSearchParams();
 
-  const inclusion = parseInt(searchParams.get('inclusion') || '0');
-  const responsabilité = parseInt(searchParams.get('responsabilité') || '0');
-  const durabilité = parseInt(searchParams.get('durabilité') || '0');
-  const mission = searchParams.get('mission') || 'mission-1';
-  const role = searchParams.get('role') || 'élève';
+  const inclusion = parseInt(searchParams.get("inclusion") || "0");
+  const responsabilité = parseInt(searchParams.get("responsabilité") || "0");
+  const durabilité = parseInt(searchParams.get("durabilité") || "0");
+  const role = searchParams.get("role") || "élève";
 
   const totalScore = inclusion + responsabilité + durabilité;
 
   // Determine achievement level
   const getAchievementLevel = () => {
-    if (totalScore >= 150) return { level: 'Maître NIRD', emoji: '🏆', color: 'from-yellow-400 to-orange-500' };
-    if (totalScore >= 100) return { level: 'Expert NIRD', emoji: '⭐', color: 'from-blue-400 to-purple-500' };
-    if (totalScore >= 50) return { level: 'Champion NIRD', emoji: '🎯', color: 'from-purple-400 to-pink-500' };
-    return { level: 'Apprenti NIRD', emoji: '🌱', color: 'from-green-400 to-teal-500' };
+    if (totalScore >= 150) return { level: "Maître NIRD", emoji: "🏆", color: "from-yellow-400 to-orange-500" };
+    if (totalScore >= 100) return { level: "Expert NIRD", emoji: "⭐", color: "from-blue-400 to-purple-500" };
+    if (totalScore >= 50) return { level: "Champion NIRD", emoji: "🎯", color: "from-purple-400 to-pink-500" };
+    return { level: "Apprenti NIRD", emoji: "🌱", color: "from-green-400 to-teal-500" };
   };
 
   const achievement = getAchievementLevel();
@@ -69,7 +68,7 @@ export default function ResultPage() {
               ></div>
             </div>
             <p className="text-sm text-slate-600">
-              {getScoreMessage(inclusion, 'accessibilité')}
+              {getScoreMessage(inclusion, "accessibilité")}
             </p>
           </div>
 
@@ -89,7 +88,7 @@ export default function ResultPage() {
               ></div>
             </div>
             <p className="text-sm text-slate-600">
-              {getScoreMessage(responsabilité, 'l\'éthique numérique')}
+              {getScoreMessage(responsabilité, "l'éthique numérique")}
             </p>
           </div>
 
@@ -109,7 +108,7 @@ export default function ResultPage() {
               ></div>
             </div>
             <p className="text-sm text-slate-600">
-              {getScoreMessage(durabilité, 'l\'impact écologique')}
+              {getScoreMessage(durabilité, "l'impact écologique")}
             </p>
           </div>
         </div>

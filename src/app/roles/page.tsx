@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
+import Link from "next/link";
 import {
   AcademicCapIcon,
   PencilIcon,
@@ -8,50 +8,50 @@ import {
   CogIcon,
   UsersIcon,
   MapPinIcon,
-} from '@heroicons/react/24/solid';
+} from "@heroicons/react/24/solid";
 
 const roles = [
   {
-    id: 'eleve',
-    name: 'Élève',
-    description: 'Découvrez comment développer votre pensée critique face aux Big Tech',
+    id: "eleve",
+    name: "Élève",
+    description: "Découvrez comment développer votre pensée critique face aux Big Tech",
     icon: AcademicCapIcon,
-    color: 'from-blue-400 to-blue-600',
+    color: "from-blue-400 to-blue-600",
   },
   {
-    id: 'prof',
-    name: 'Professeur',
-    description: 'Outillez vos cours avec une approche numérique responsable',
+    id: "prof",
+    name: "Professeur",
+    description: "Outillez vos cours avec une approche numérique responsable",
     icon: PencilIcon,
-    color: 'from-purple-400 to-purple-600',
+    color: "from-purple-400 to-purple-600",
   },
   {
-    id: 'direction',
-    name: 'Direction',
-    description: 'Pilotez la transformation numérique de votre établissement',
+    id: "direction",
+    name: "Direction",
+    description: "Pilotez la transformation numérique de votre établissement",
     icon: BuildingOfficeIcon,
-    color: 'from-pink-400 to-pink-600',
+    color: "from-pink-400 to-pink-600",
   },
   {
-    id: 'tech',
-    name: 'Tech',
-    description: 'Contribuez aux solutions NIRD innovantes et durables',
+    id: "tech",
+    name: "Tech",
+    description: "Contribuez aux solutions NIRD innovantes et durables",
     icon: CogIcon,
-    color: 'from-yellow-400 to-yellow-600',
+    color: "from-yellow-400 to-yellow-600",
   },
   {
-    id: 'famille',
-    name: 'Famille',
-    description: 'Sensibilisez vos enfants à un numérique conscient',
+    id: "famille",
+    name: "Famille",
+    description: "Sensibilisez vos enfants à un numérique conscient",
     icon: UsersIcon,
-    color: 'from-red-400 to-red-600',
+    color: "from-red-400 to-red-600",
   },
   {
-    id: 'collectivite',
-    name: 'Collectivité',
-    description: 'Encouragez la résilience numérique de votre territoire',
+    id: "collectivite",
+    name: "Collectivité",
+    description: "Encouragez la résilience numérique de votre territoire",
     icon: MapPinIcon,
-    color: 'from-teal-400 to-teal-600',
+    color: "from-teal-400 to-teal-600",
   },
 ];
 

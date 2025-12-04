@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import {
   BookOpenIcon,
   CommandLineIcon,
@@ -9,62 +9,62 @@ import {
   BriefcaseIcon,
   HeartIcon,
   GlobeAltIcon,
-} from '@heroicons/react/24/solid';
+} from "@heroicons/react/24/solid";
 
 const lieux = [
   {
-    id: 'salle-profs',
-    name: 'Salle des Profs',
-    description: 'Découvrez des ressources pédagogiques et des outils pour enseigner la responsabilité numérique',
+    id: "salle-profs",
+    name: "Salle des Profs",
+    description: "Découvrez des ressources pédagogiques et des outils pour enseigner la responsabilité numérique",
     icon: BookOpenIcon,
-    color: 'from-blue-400 to-blue-600',
-    bgColor: 'bg-blue-50',
+    color: "from-blue-400 to-blue-600",
+    bgColor: "bg-blue-50",
   },
   {
-    id: 'atelier-linux',
-    name: 'Atelier Linux',
-    description: 'Apprenez les bases du système Linux libre et découvrez les alternatives open-source',
+    id: "atelier-linux",
+    name: "Atelier Linux",
+    description: "Apprenez les bases du système Linux libre et découvrez les alternatives open-source",
     icon: CommandLineIcon,
-    color: 'from-orange-400 to-orange-600',
-    bgColor: 'bg-orange-50',
+    color: "from-orange-400 to-orange-600",
+    bgColor: "bg-orange-50",
   },
   {
-    id: 'salle-serveur',
-    name: 'Salle Serveur',
-    description: 'Comprenez l\'infrastructure numérique et la gestion responsable des données',
+    id: "salle-serveur",
+    name: "Salle Serveur",
+    description: "Comprenez l'infrastructure numérique et la gestion responsable des données",
     icon: ServerStackIcon,
-    color: 'from-red-400 to-red-600',
-    bgColor: 'bg-red-50',
+    color: "from-red-400 to-red-600",
+    bgColor: "bg-red-50",
   },
   {
-    id: 'bureau-direction',
-    name: 'Bureau Direction',
-    description: 'Stratégie numérique d\'établissement et gouvernance responsable',
+    id: "bureau-direction",
+    name: "Bureau Direction",
+    description: "Stratégie numérique d'établissement et gouvernance responsable",
     icon: BriefcaseIcon,
-    color: 'from-purple-400 to-purple-600',
-    bgColor: 'bg-purple-50',
+    color: "from-purple-400 to-purple-600",
+    bgColor: "bg-purple-50",
   },
   {
-    id: 'quartier-familles',
-    name: 'Quartier Familles',
-    description: 'Conseils et ressources pour une utilisation saine du numérique en famille',
+    id: "quartier-familles",
+    name: "Quartier Familles",
+    description: "Conseils et ressources pour une utilisation saine du numérique en famille",
     icon: HeartIcon,
-    color: 'from-pink-400 to-pink-600',
-    bgColor: 'bg-pink-50',
+    color: "from-pink-400 to-pink-600",
+    bgColor: "bg-pink-50",
   },
   {
-    id: 'collectivite',
-    name: 'Collectivité',
-    description: 'Initiatives territoriales et projets communautaires pour la résilience numérique',
+    id: "collectivite",
+    name: "Collectivité",
+    description: "Initiatives territoriales et projets communautaires pour la résilience numérique",
     icon: GlobeAltIcon,
-    color: 'from-teal-400 to-teal-600',
-    bgColor: 'bg-teal-50',
+    color: "from-teal-400 to-teal-600",
+    bgColor: "bg-teal-50",
   },
 ];
 
 export default function VillagePage() {
   const searchParams = useSearchParams();
-  const role = searchParams.get('role') || 'eleve';
+  const role = searchParams.get("role") || "eleve";
 
   return (
     <main className="min-h-screen w-full bg-linear-to-br from-slate-50 to-slate-100 py-12 md:py-20 px-4 md:px-6">
