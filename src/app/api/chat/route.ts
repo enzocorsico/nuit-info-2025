@@ -27,6 +27,15 @@ export async function POST(request: Request) {
       );
     }
 
+    await fetch(`${ollamaBaseURL}/pull`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: "mistral",
+        stream: false
+      }),
+    })
+
     const systemPrompt = `Tu es un avatar IA amusant et bienveillant du projet NIRD. Tu représentes les valeurs de Numérique Inclusif Responsable Durable. 
 Tu es enthousiaste, tu utilises parfois des emojis, et tu aimes aider les gens à comprendre comment contribuer à un numérique plus responsable.
 Sois court dans tes réponses (2-3 phrases max), amical et engageant. 
@@ -34,7 +43,6 @@ Tu peux parler de sujets variés mais ramène toujours vers NIRD et les missions
 Réponds toujours en français.`;
 
     try {
-      console.log("Attempting to connect to Ollama at:", ollamaBaseURL);
       const result = streamText({
         model: ollama("mistral"),
         system: systemPrompt,

@@ -80,7 +80,6 @@ export default function AvatarChat() {
 
         if (reader) {
           let accumulatedText = "";
-          
           while (true) {
             const { done, value } = await reader.read();
             if (done) break;
@@ -196,7 +195,7 @@ export default function AvatarChat() {
                 priority
                 draggable={false}
               />
-              
+
               {/* Speech bubble indicator */}
               {!isDragging && (
                 <div className="absolute -top-2 -right-2 bg-white rounded-full px-3 py-1 shadow-lg border-2 border-amber-400 animate-pulse">
@@ -241,23 +240,25 @@ export default function AvatarChat() {
           {/* Messages Container */}
           <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-linear-to-b from-slate-50 to-white">
             {messages.map((message, index) => (
-              <div
-                key={index}
-                className={`flex ${message.type === "user" ? "justify-end" : "justify-start"}`}
-              >
+              message.type === "user" || message.text ? (
                 <div
-                  className={`max-w-xs px-4 py-3 rounded-2xl ${
-                    message.type === "user"
-                      ? "bg-linear-to-r from-blue-500 to-purple-600 text-white rounded-br-none"
-                      : "bg-slate-200 text-slate-900 rounded-bl-none"
-                  } shadow-sm`}
+                  key={index}
+                  className={`flex ${message.type === "user" ? "justify-end" : "justify-start"}`}
                 >
-                  <p className="text-sm leading-relaxed">{message.text}</p>
+                  <div
+                    className={`max-w-xs px-4 py-3 rounded-2xl ${
+                      message.type === "user"
+                        ? "bg-linear-to-r from-blue-500 to-purple-600 text-white rounded-br-none"
+                        : "bg-slate-200 text-slate-900 rounded-bl-none"
+                    } shadow-sm`}
+                  >
+                    <p className="text-sm leading-relaxed">{message.text}</p>
+                  </div>
                 </div>
-              </div>
+              ) : null
             ))}
 
-            {isLoading && (
+            {isLoading && !messages[messages.length - 1]?.text && (
               <div className="flex justify-start">
                 <div className="bg-slate-200 text-slate-900 px-4 py-3 rounded-2xl rounded-bl-none">
                   <div className="flex gap-1">

@@ -80,7 +80,7 @@ export default function Home() {
           {/* NIRD Logo */}
           <div className="mb-8 flex justify-center">
             <Image
-              src="/Logo Accueil.png"
+              src="/logo-accueil.png"
               alt="Logo NIRD"
               width={170}
               height={100}
