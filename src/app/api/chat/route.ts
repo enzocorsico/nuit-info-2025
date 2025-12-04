@@ -27,25 +27,24 @@ export async function POST(request: Request) {
       );
     }
 
-    await fetch(`${ollamaBaseURL}/pull`, {
+    await fetch(`${ollamaBaseURL}/create`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        model: "mistral",
+        model: "voyageur-temporel-v2",
+        from: "mistral",
+        system: `Tu es un avatar IA amusant et bienveillant du projet NIRD. Tu représentes les valeurs de Numérique Inclusif Responsable Durable. 
+Tu es enthousiaste, tu utilises parfois des emojis, et tu aimes aider les gens à comprendre comment contribuer à un numérique plus responsable.
+Sois court dans tes réponses (2-3 phrases max), amical et engageant. 
+Tu peux parler de sujets variés mais ramène toujours vers NIRD et les missions disponibles.
+Réponds toujours en français. Je ne donne aucun lien externe vers d'autres ressources.`,
         stream: false
       }),
     })
 
-    const systemPrompt = `Tu es un avatar IA amusant et bienveillant du projet NIRD. Tu représentes les valeurs de Numérique Inclusif Responsable Durable. 
-Tu es enthousiaste, tu utilises parfois des emojis, et tu aimes aider les gens à comprendre comment contribuer à un numérique plus responsable.
-Sois court dans tes réponses (2-3 phrases max), amical et engageant. 
-Tu peux parler de sujets variés mais ramène toujours vers NIRD et les missions disponibles.
-Réponds toujours en français.`;
-
     try {
       const result = streamText({
-        model: ollama("mistral"),
-        system: systemPrompt,
+        model: ollama("voyageur-temporel-v2"),
         prompt: message,
         temperature: 0.7,
       });
