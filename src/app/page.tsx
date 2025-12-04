@@ -5,7 +5,6 @@ import Image from "next/image";
 import {
   AcademicCapIcon,
   SparklesIcon,
-  UsersIcon,
   MapPinIcon,
 } from "@heroicons/react/24/solid";
 
@@ -36,13 +35,6 @@ const steps = [
     description: "Complète des défis adaptés à ton rôle et accumule des points d'Inclusion, Responsabilité et Durabilité",
     icon: SparklesIcon,
     color: "text-pink-500",
-  },
-  {
-    number: "04",
-    title: "Partage tes succès",
-    description: "Rejoins la communauté, partage tes initiatives et inspire d'autres à agir pour un numérique responsable",
-    icon: UsersIcon,
-    color: "text-green-500",
   },
 ];
 
@@ -139,24 +131,24 @@ export default function Home() {
               Comment ça marche ?
             </h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              4 étapes simples pour transformer ta vision du numérique responsable
+              3 étapes simples pour transformer ta vision du numérique responsable
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {steps.map((step, index) => {
               const Icon = step.icon;
               return (
                 <div key={index} className="group">
                   {/* Card */}
                   <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-200 hover:border-slate-300 h-full">
-                    {/* Number */}
-                    <div className="text-5xl font-bold text-slate-200 mb-4">
-                      {step.number}
+                    {/* Number and Icon */}
+                    <div className="flex items-center justify-between mb-6">
+                      <div className="text-5xl font-bold text-slate-200">
+                        {step.number}
+                      </div>
+                      <Icon className={`w-10 h-10 ${step.color}`} />
                     </div>
-
-                    {/* Icon */}
-                    <Icon className={`w-10 h-10 mb-4 ${step.color}`} />
 
                     {/* Title */}
                     <h3 className="text-xl font-bold text-slate-900 mb-3">
