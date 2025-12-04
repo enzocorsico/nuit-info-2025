@@ -7,6 +7,7 @@ import {
   SparklesIcon,
   MapPinIcon,
 } from "@heroicons/react/24/solid";
+import AvatarChat from "./components/AvatarChat";
 
 const badges = [
   { label: "Inclusion", color: "bg-blue-500" },
@@ -62,6 +63,9 @@ const pillars = [
 export default function Home() {
   return (
     <main className="min-h-screen w-full overflow-hidden">
+      {/* Avatar Chat Component */}
+      <AvatarChat />
+
       {/* Hero Section */}
       <div className="relative min-h-screen w-full flex items-center justify-center bg-linear-to-br from-slate-900 via-slate-800 to-slate-900">
         {/* Animated gradient overlay */}
