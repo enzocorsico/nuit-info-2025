@@ -29,17 +29,8 @@ interface Snake3DProps {
 }
 
 function Snake3D({ snake, food, foodType }: Snake3DProps) {
-  const groupRef = useRef<THREE.Group>(null);
-
-  useFrame((state) => {
-    if (groupRef.current) {
-      // Subtle rotation animation
-      groupRef.current.rotation.y = Math.sin(state.clock.elapsedTime * 0.5) * 0.1;
-    }
-  });
-
   return (
-    <group ref={groupRef}>
+    <group>
       {/* Snake segments */}
       {snake.map((segment, index) => {
         const isHead = index === 0;
@@ -243,10 +234,12 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
   const [gameOver, setGameOver] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
   const [speed, setSpeed] = useState(INITIAL_SPEED);
+  const [showVideo, setShowVideo] = useState(false);
 
   const directionRef = useRef<Direction>("RIGHT");
   const gameLoopRef = useRef<number | undefined>(undefined);
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   const sound = useSound();
 
@@ -291,13 +284,31 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       if (checkCollision(newHead, prevSnake)) {
         setGameOver(true);
         sound.play("gameOver");
+        // Pause video on game over
+        if (videoRef.current) {
+          videoRef.current.pause();
+        }
         return prevSnake;
       }
 
       const newSnake = [newHead, ...prevSnake];
 
       if (newHead.x === food.x && newHead.y === food.y) {
-        setScore((prev) => prev + 10);
+        setScore((prev) => {
+          const newScore = prev + 20;
+          // Trigger video at 150 points (7 items)
+          if (newScore >= 150 && !showVideo) {
+            setShowVideo(true);
+            setTimeout(() => {
+              if (videoRef.current) {
+                videoRef.current.play().catch((err) => {
+                  console.log("Video autoplay blocked:", err);
+                });
+              }
+            }, 100);
+          }
+          return newScore;
+        });
         setSpeed((prev) => Math.max(50, prev - 2));
         generateFood();
         sound.play("eat");
@@ -424,6 +435,11 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
     setDirection("RIGHT");
     directionRef.current = "RIGHT";
     setScore(0);
+    setShowVideo(false);
+    if (videoRef.current) {
+      videoRef.current.pause();
+      videoRef.current.currentTime = 0;
+    }
     setGameOver(false);
     setIsPaused(false);
     setSpeed(INITIAL_SPEED);
@@ -437,7 +453,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       onTouchEnd={handleTouchEnd}
     >
       {/* UI Header */}
-      <div className="absolute top-0 left-0 right-0 p-4 flex items-center justify-between z-10 bg-gradient-to-b from-black/80 to-transparent">
+      <div className="absolute top-0 left-0 right-0 p-4 flex items-center justify-between z-10 bg-linear-to-b from-black/80 to-transparent">
         <div className="flex items-center gap-6">
           <div className="text-nird-blue font-bold text-2xl md:text-3xl tracking-wider animate-pulse">
             SNAKE <span className="text-nird-pink">3D</span>
@@ -459,10 +475,26 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       <Canvas
         camera={{ position: [0, 20, 25], fov: 50 }}
         shadows
-        gl={{ antialias: true, alpha: false }}
+        gl={{ antialias: true, alpha: true }}
+        style={{ position: "relative", zIndex: 5 }}
       >
         <Scene3D snake={snake} food={food} foodType={foodType} />
       </Canvas>
+
+      {/* Video Overlay - on top of canvas */}
+      {showVideo && (
+        <div className="absolute inset-0 z-10 pointer-events-none flex items-center justify-center">
+          <video
+            ref={videoRef}
+            className="w-full h-full object-cover opacity-60"
+            loop
+            playsInline
+            autoPlay
+          >
+            <source src="/Meilleurs memes - Tu vas repartir mal mon copain.mp4" type="video/mp4" />
+          </video>
+        </div>
+      )}
 
       {/* Game Over Overlay */}
       {gameOver && (
