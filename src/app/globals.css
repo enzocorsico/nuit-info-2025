@@ -16,6 +16,54 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentcolor);
   }
+
+  /* NIRD Custom Colors */
+  :root {
+    --nird-blue: #3b82f6;
+    --nird-pink: #ec4899;
+    --nird-coral: #f97316;
+    --nird-yellow: #facc15;
+  }
+}
+
+/* NIRD Color Utilities */
+@layer utilities {
+  .text-nird-blue {
+    color: var(--nird-blue);
+  }
+  .bg-nird-blue {
+    background-color: var(--nird-blue);
+  }
+  .border-nird-blue {
+    border-color: var(--nird-blue);
+  }
+  .text-nird-pink {
+    color: var(--nird-pink);
+  }
+  .bg-nird-pink {
+    background-color: var(--nird-pink);
+  }
+  .border-nird-pink {
+    border-color: var(--nird-pink);
+  }
+  .text-nird-coral {
+    color: var(--nird-coral);
+  }
+  .bg-nird-coral {
+    background-color: var(--nird-coral);
+  }
+  .border-nird-coral {
+    border-color: var(--nird-coral);
+  }
+  .text-nird-yellow {
+    color: var(--nird-yellow);
+  }
+  .bg-nird-yellow {
+    background-color: var(--nird-yellow);
+  }
+  .border-nird-yellow {
+    border-color: var(--nird-yellow);
+  }
 }
 
 /* Custom animations for hero section */
@@ -51,6 +99,65 @@
 
   .animate-float-smooth {
     animation: float-smooth 3s ease-in-out infinite;
+  }
+
+
+  @keyframes float-smooth {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+
+  .animate-float-smooth {
+    animation: float-smooth 3s ease-in-out infinite;
+  }
+
+  .animate-spin-return {
+    animation: spin-return 3.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  /* Snake game animations */
+  @keyframes grid-scroll {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 40px 40px;
+    }
+  }
+
+  @keyframes glitch {
+    0%, 100% {
+      opacity: 0;
+      transform: translate(0, 0);
+    }
+    10% {
+      opacity: 0.1;
+      transform: translate(-2px, 2px);
+    }
+    20% {
+      opacity: 0;
+      transform: translate(2px, -2px);
+    }
+    30% {
+      opacity: 0.15;
+      transform: translate(-3px, -3px);
+    }
+    40% {
+      opacity: 0;
+      transform: translate(0, 0);
+    }
+  }
+
+  .animate-glitch {
+    animation: glitch 2s infinite;
   }
 
   @keyframes spin-return {
@@ -90,14 +197,6 @@
     100% {
       transform: rotate(1800deg) scale(1) translateX(0) translateY(0);
     }
-  }
-
-  .animate-spin-return {
-    animation: spin-return 3.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-
-  .animation-delay-4000 {
-    animation-delay: 4s;
   }
 }
 
