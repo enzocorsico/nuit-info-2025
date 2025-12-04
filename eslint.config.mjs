@@ -16,11 +16,10 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [{
-  ignores: ["node_modules/**", "prisma/client/**", ".next/**", "out/**", "build/**", "next-env.d.ts"]
+  ignores: ["node_modules/**", ".next/**", "out/**", "build/**", "next-env.d.ts", "postcss.config.js"]
 }, ...compat.extends(
   "eslint:recommended",
   "plugin:@typescript-eslint/recommended",
-  "next/core-web-vitals",
   "plugin:tailwindcss/recommended",
 ), {
   plugins: {
