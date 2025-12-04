@@ -234,7 +234,8 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
   const [gameOver, setGameOver] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
   const [speed, setSpeed] = useState(INITIAL_SPEED);
-  const [showVideo, setShowVideo] = useState(false);
+  const [currentVideo, setCurrentVideo] = useState<number>(0); // 0 = no video, 1+ = video index
+  const [videos, setVideos] = useState<string[]>([]);
 
   const directionRef = useRef<Direction>("RIGHT");
   const gameLoopRef = useRef<number | undefined>(undefined);
@@ -242,6 +243,15 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const sound = useSound();
+
+  // Load all videos from /public/snake/ directory
+  useEffect(() => {
+    const videoFiles = [
+      "/snake/BigardV2.mp4",
+      "/snake/Meilleurs memes - Tu vas repartir mal mon copain.mp4",
+    ];
+    setVideos(videoFiles);
+  }, []);
 
   const generateFood = useCallback(() => {
     const newFood = {
@@ -296,17 +306,23 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       if (newHead.x === food.x && newHead.y === food.y) {
         setScore((prev) => {
           const newScore = prev + 20;
-          // Trigger video at 150 points (7 items)
-          if (newScore >= 150 && !showVideo) {
-            setShowVideo(true);
+          
+          // Trigger videos at intervals of 60 points
+          const videoInterval = 60;
+          const videoIndex = Math.floor(newScore / videoInterval);
+          
+          if (videoIndex > 0 && videoIndex <= videos.length && videoIndex > currentVideo) {
+            setCurrentVideo(videoIndex);
             setTimeout(() => {
               if (videoRef.current) {
+                videoRef.current.currentTime = 0;
                 videoRef.current.play().catch((err) => {
                   console.log("Video autoplay blocked:", err);
                 });
               }
             }, 100);
           }
+          
           return newScore;
         });
         setSpeed((prev) => Math.max(50, prev - 2));
@@ -318,7 +334,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
 
       return newSnake;
     });
-  }, [gameOver, isPaused, food, checkCollision, generateFood, sound]);
+  }, [gameOver, isPaused, food, checkCollision, generateFood, sound, currentVideo]);
 
   useEffect(() => {
     let lastTime = 0;
@@ -435,7 +451,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
     setDirection("RIGHT");
     directionRef.current = "RIGHT";
     setScore(0);
-    setShowVideo(false);
+    setCurrentVideo(0);
     if (videoRef.current) {
       videoRef.current.pause();
       videoRef.current.currentTime = 0;
@@ -482,17 +498,16 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       </Canvas>
 
       {/* Video Overlay - on top of canvas */}
-      {showVideo && (
+      {currentVideo > 0 && (
         <div className="absolute inset-0 z-10 pointer-events-none flex items-center justify-center">
           <video
             ref={videoRef}
+            key={currentVideo}
             className="w-full h-full object-cover opacity-60"
-            loop
             playsInline
             autoPlay
-          >
-            <source src="/Meilleurs memes - Tu vas repartir mal mon copain.mp4" type="video/mp4" />
-          </video>
+            src={videos[currentVideo - 1]}
+          />
         </div>
       )}
 

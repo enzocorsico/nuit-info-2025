@@ -3,7 +3,7 @@
 import { useState } from "react";
 import "./globals.css";
 import { useKonamiCode } from "./hooks/useKonamiCode";
-import SnakeGame3D from "./components/SnakeGame3D";
+import SnakeMenu from "./components/SnakeMenu";
 
 export default function RootLayout({
   children,
@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   const [showSnake, setShowSnake] = useState(false);
 
-  // Activate Snake game 3D with Konami code
+  // Activate Snake menu with Konami code
   useKonamiCode(() => {
     setShowSnake(true);
   });
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="fr">
       <body>
         {children}
-        {showSnake && <SnakeGame3D onClose={() => setShowSnake(false)} />}
+        {showSnake && <SnakeMenu onClose={() => setShowSnake(false)} />}
       </body>
     </html>
   );
