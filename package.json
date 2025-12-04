@@ -1,0 +1,41 @@
+{
+  "name": "nextjs-prisma-tailwindcss-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm prisma migrate deploy && pnpm prisma generate && next dev",
+    "build": "next build",
+    "start": "pnpm prisma migrate deploy && next start",
+    "lint": "eslint --fix .",
+    "prisma": "dotenv -e .env -- prisma",
+    "docker:dev": "docker compose exec nextjs"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "dotenv-cli": "^10.0.0",
+    "next": "15.5.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.33.0",
+    "@next/eslint-plugin-next": "^15.5.0",
+    "@stylistic/eslint-plugin": "^5.2.3",
+    "@types/node": "^20.12.7",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@typescript-eslint/eslint-plugin": "^8.40.0",
+    "@typescript-eslint/parser": "^8.40.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.33.0",
+    "eslint-config-next": "15.5.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-tailwindcss": "^3.18.2",
+    "eslint-plugin-unused-imports": "^4.2.0",
+    "postcss": "^8.5.6",
+    "prisma": "^6.14.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.9.2"
+  }
+}

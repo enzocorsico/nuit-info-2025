@@ -1,0 +1,24 @@
+name: 🚀 Déploiement
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    name: 🚀 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📤 Connect to server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_DEPLOY }}
+          username: ${{ secrets.USERNAME_DEPLOY }}
+          key: ${{ secrets.PRIVATE_KEY_DEPLOY }}
+          port: ${{ secrets.PORT_DEPLOY }}
+          script: |
+            cd ${{ secrets.PATH_DEPLOY }}
+            git pull
+            docker compose exec nextjs pnpm install
+            sudo make docker-prod-down
+            sudo make docker-prod-up

@@ -1,0 +1,33 @@
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    command: dockerize 
+      -wait tcp://postgres:5432 -timeout 10s
+      pnpm run start
+    ports:
+      - ${NEXTJS_PORT}:3000
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+      - /app/bdd
+    env_file:
+      - .env
+  
+  postgres:
+    image: postgres:latest
+    ports:
+      - 5432
+    volumes:
+      - ./bdd:/var/lib/postgresql/data
+    env_file:
+      - .env
+  
+  adminer:
+    image: adminer:latest
+    depends_on:
+      - postgres
+    ports:
+      - ${ADMINER_PORT}:8080
