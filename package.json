@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "ai": "^5.0.106",
+    "@heroicons/react": "^2.2.0",
     "next": "16.0.7",
     "ollama-ai-provider-v2": "^1.5.5",
     "react": "19.2.1",
