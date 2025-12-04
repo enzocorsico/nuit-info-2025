@@ -3,12 +3,17 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.prod
-    command: pnpm run start
+    command: node server.js
     ports:
       - ${NEXTJS_PORT}:3000
+    env_file:
+      - .env
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - ${OLLAMA_PORT}:11434
     volumes:
-      - .:/app
-      - /app/node_modules
-      - /app/.next
+      - ./ollama:/root/.ollama
     env_file:
       - .env

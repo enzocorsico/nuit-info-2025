@@ -20,7 +20,6 @@ const eslintConfig = [{
 }, ...compat.extends(
   "eslint:recommended",
   "plugin:@typescript-eslint/recommended",
-  "plugin:tailwindcss/recommended",
 ), {
   plugins: {
     "@typescript-eslint": typescriptEslint,
@@ -45,11 +44,6 @@ const eslintConfig = [{
     "@stylistic/no-trailing-spaces": ["error", {
       skipBlankLines: false
     }],
-    "tailwindcss/classnames-order": "error",
-    "tailwindcss/no-custom-classname": "error",
-    "tailwindcss/migration-from-tailwind-2": "error",
-    "tailwindcss/enforces-shorthand": "error",
-    "tailwindcss/no-unnecessary-arbitrary-value": "error",
     "max-params": ["error", 7],
     "space-before-blocks": ["error", "always"],
     "object-curly-spacing": ["error", "always"],
