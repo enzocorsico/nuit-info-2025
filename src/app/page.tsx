@@ -124,13 +124,13 @@ export default function Home() {
       </div>
 
       {/* Section 1: Comment ça marche */}
-      <section className="py-20 md:py-32 px-6 bg-linear-to-b from-slate-50 to-white">
+      <section className="py-20 md:py-32 px-6 bg-linear-to-b from-slate-900 to-slate-800">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Comment ça marche ?
             </h2>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+            <p className="text-xl text-slate-300 max-w-2xl mx-auto">
               3 étapes simples pour transformer ta vision du numérique responsable
             </p>
           </div>
@@ -141,7 +141,7 @@ export default function Home() {
               return (
                 <div key={index} className="group">
                   {/* Card */}
-                  <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-200 hover:border-slate-300 h-full">
+                  <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-700 hover:border-slate-600 h-full">
                     {/* Number and Icon */}
                     <div className="flex items-center justify-between mb-6">
                       <div className="text-5xl font-bold text-slate-200">
@@ -151,23 +151,14 @@ export default function Home() {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-xl font-bold text-slate-900 mb-3">
+                    <h3 className="text-xl font-bold text-white mb-3">
                       {step.title}
                     </h3>
 
                     {/* Description */}
-                    <p className="text-slate-600 leading-relaxed">
+                    <p className="text-slate-300 leading-relaxed">
                       {step.description}
                     </p>
-
-                    {/* Arrow */}
-                    {index < steps.length - 1 && (
-                      <div className="hidden lg:block absolute -right-10 top-1/2 transform -translate-y-1/2">
-                        <svg className="w-8 h-8 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                        </svg>
-                      </div>
-                    )}
                   </div>
                 </div>
               );
