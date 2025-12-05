@@ -224,7 +224,7 @@ export default function AvatarChat() {
 
             <div className="flex items-center gap-3 ml-28">
               <div>
-                <h3 className="font-bold text-white text-lg">Pirate NIRD</h3>
+                <h3 className="font-bold text-white text-lg">Chat'bruti</h3>
                 <p className="text-white/80 text-xs">Toujours prêt à discuter!</p>
               </div>
             </div>
