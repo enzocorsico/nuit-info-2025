@@ -1,5 +1,13 @@
 import { streamText } from "ai";
 import { createOllama } from "ollama-ai-provider-v2";
+import {
+  checkRateLimit,
+  validateMessageContent,
+  getCachedResponse,
+  cacheResponse,
+  getClientId,
+  createCacheKey,
+} from "@/lib/abusePreventionMiddleware";
 
 // Fallback responses when Ollama is not available
 const fallbackResponses = [
@@ -28,13 +36,37 @@ interface ChatRequest {
 export async function POST(request: Request) {
   try {
     const body: ChatRequest = await request.json();
-    const { message, type = "normal", context } = body;
+    const { message, type = "normal", missionId, context } = body;
 
-    if (!message) {
+    // Get client ID for rate limiting
+    const clientId = getClientId(request);
+
+    // Check rate limit
+    const rateLimitCheck = checkRateLimit(clientId);
+    if (!rateLimitCheck.allowed) {
       return Response.json(
-        { error: "Message is required" },
+        { error: rateLimitCheck.message },
+        { status: 429 }
+      );
+    }
+
+    // Validate message content
+    const validation = validateMessageContent(message);
+    if (!validation.valid) {
+      return Response.json(
+        { error: validation.reason },
         { status: 400 }
       );
+    }
+
+    // Check cache for duplicate messages
+    const cacheKey = createCacheKey(message, missionId);
+    const cachedResult = getCachedResponse(cacheKey);
+    if (cachedResult.cached && cachedResult.response) {
+      return Response.json({
+        response: cachedResult.response,
+        cached: true,
+      });
     }
 
     const existingModels = await fetch(`${ollamaBaseURL}/tags`).then(res => res.json());
