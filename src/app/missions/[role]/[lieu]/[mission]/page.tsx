@@ -205,6 +205,51 @@ export default function MissionRunnerPage({
   });
   const [selectedChoice, setSelectedChoice] = useState<Choice | null>(null);
   const [showFeedback, setShowFeedback] = useState<string | null>(null);
+  const [missionCompleted, setMissionCompleted] = useState(false);
+  const [hasSavedProgress, setHasSavedProgress] = useState(false);
+
+  // Helper: Save mission completion to localStorage
+  const saveMissionToStorage = (finalScores: typeof scores) => {
+    try {
+      const storageKey = `mission-${role}-${lieu}-${missionId}`;
+      const missionData = {
+        missionId,
+        role,
+        lieu,
+        scores: finalScores,
+        completedAt: new Date().toISOString(),
+      };
+      localStorage.setItem(storageKey, JSON.stringify(missionData));
+      
+      // Also update global progress index
+      const progressKey = 'nird-progress';
+      const currentProgress = JSON.parse(localStorage.getItem(progressKey) || '{}');
+      if (!currentProgress[missionId]) {
+        currentProgress[missionId] = missionData;
+      }
+      localStorage.setItem(progressKey, JSON.stringify(currentProgress));
+    } catch (error) {
+      console.error('Failed to save mission to localStorage:', error);
+    }
+  };
+
+  // Helper: Load mission progress from localStorage
+  const loadMissionFromStorage = () => {
+    try {
+      const storageKey = `mission-${role}-${lieu}-${missionId}`;
+      const data = localStorage.getItem(storageKey);
+      if (data) {
+        const missionData = JSON.parse(data);
+        setScores(missionData.scores);
+        setMissionCompleted(true);
+        setHasSavedProgress(true);
+        return missionData.scores;
+      }
+    } catch (error) {
+      console.error('Failed to load mission from localStorage:', error);
+    }
+    return null;
+  };
 
   // Load mission content from JSON
   useEffect(() => {
@@ -219,11 +264,13 @@ export default function MissionRunnerPage({
         setMission(missionsDatabase[missionId] || null);
       } finally {
         setLoading(false);
+        // Load saved progress
+        loadMissionFromStorage();
       }
     }
 
     fetchMission();
-  }, [missionId]);
+  }, [missionId, role, lieu]);
 
   if (loading) {
     return (
@@ -275,6 +322,9 @@ export default function MissionRunnerPage({
 
   const handleNext = () => {
     if (isLastStep) {
+      // Save mission completion to localStorage
+      saveMissionToStorage(scores);
+      
       // Trigger confetti before redirect
       confetti({
         particleCount: 100,
@@ -371,10 +421,20 @@ export default function MissionRunnerPage({
         </Link>
 
         <div className="mb-8">
-          <h1 className={`text-3xl md:text-4xl font-bold mb-2 ${isCatastrophe ? "text-red-700" : "text-slate-900"}`}>
-            {mission.title}
-          </h1>
-          <p className={isCatastrophe ? "text-red-600" : "text-slate-600"}>
+          <div className="flex items-center justify-between mb-2">
+            <h1 className={`text-3xl md:text-4xl font-bold ${isCatastrophe ? 'text-red-700' : 'text-slate-900'}`}>
+              {mission.title}
+            </h1>
+            {hasSavedProgress && (
+              <div className="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-semibold flex items-center gap-2">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                Complétée
+              </div>
+            )}
+          </div>
+          <p className={isCatastrophe ? 'text-red-600' : 'text-slate-600'}>
             Étape {currentStepIndex + 1} sur {mission.steps.length}
           </p>
         </div>
