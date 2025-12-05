@@ -1,0 +1,72 @@
+{
+  "id": "mission-collectivite-prof-2",
+  "title": "Former les citoyens à la cybersécurité",
+  "description": "Organiser des ateliers pour prévenir les arnagues numériques dans la commune",
+  "theme": "cybersecurity",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Cibler les arnacles les plus communes localement",
+      "description": "Quelles menaces adresser en priorité ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Arnacques usuelles : phishing, faux emails banque",
+          "feedback": "Bon. Couvrez les bases universelles.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Sondage auprès des habitants pour identifier LEURS préoccupations spécifiques",
+          "feedback": "Excellent ! Vous adaptez au contexte réel.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 45,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Ne pas former, c'est trop technique",
+          "feedback": "Les arnaqueurs se réjouissent ! L'éducation c'est la meilleure défense.",
+          "scores": {
+            "inclusion": -40,
+            "responsabilité": -45,
+            "durabilité": -30
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Format pédagogique",
+      "description": "Comment enseigner ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Présentation sérieuse avec slides techniques",
+          "feedback": "Risque d'ennuyer les participants. Le sujet est important mais l'engagement compte.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 25,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Simulations, jeux de rôle, études de cas réels (amusantes mais sérieuses)",
+          "feedback": "Parfait ! L'apprentissage ludique marche mieux.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 40
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "mission-eleve-4",
+  "title": "Enquête sur l'empreinte carbone numérique",
+  "description": "Mesurer l'impact environnemental de vos usages numériques quotidiens",
+  "theme": "environnement",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Le streaming vidéo",
+      "description": "Vous regardez des vidéos en ligne plusieurs heures par jour. Comment réduire votre impact ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je télécharge les vidéos pour les regarder hors-ligne",
+          "feedback": "Bonne idée ! Vous évitez les téléchargements multiples et réduisez la bande passante.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je réduis la qualité vidéo (720p au lieu de 4K)",
+          "feedback": "Excellent ! La qualité 720p suffit souvent et consomme 6 fois moins de données.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 20,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je continue comme avant, c'est négligeable",
+          "feedback": "Détrompez-vous : le streaming vidéo représente 60% du trafic internet mondial !",
+          "scores": {
+            "inclusion": 0,
+            "responsabilité": 0,
+            "durabilité": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Les emails et le stockage cloud",
+      "description": "Votre boîte mail contient 15 000 emails non lus. Que faites-vous ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je fais un grand ménage et me désabonne des newsletters inutiles",
+          "feedback": "Parfait ! Chaque email stocké consomme de l'énergie dans les data centers.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je garde tout, on ne sait jamais",
+          "feedback": "Réfléchissez : avez-vous vraiment besoin de ces milliers d'emails ?",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 0,
+            "durabilité": -5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je mets en place une règle de suppression automatique après 1 an",
+          "feedback": "Intelligent ! Vous automatisez la gestion tout en gardant l'essentiel.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Le matériel électronique",
+      "description": "Votre smartphone a 2 ans mais un nouveau modèle vient de sortir. Que décidez-vous ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je garde mon téléphone jusqu'à ce qu'il soit vraiment inutilisable",
+          "feedback": "Bravo ! La fabrication d'un smartphone représente 80% de son impact environnemental.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "J'achète le nouveau et je revends l'ancien",
+          "feedback": "Mieux que de le jeter, mais la production de nouveaux appareils reste très polluante.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "J'achète un téléphone reconditionné quand le mien sera HS",
+          "feedback": "Excellent compromis ! Le reconditionné divise l'impact par 10.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        }
+      ]
+    }
+  ]
+}

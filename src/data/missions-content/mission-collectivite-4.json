@@ -1,0 +1,230 @@
+{
+  "id": "mission-collectivite-4",
+  "title": "Open data et transparence citoyenne",
+  "description": "Mettre les données publiques à disposition des citoyens",
+  "theme": "open-data",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Données publiques disponibles",
+      "description": "Avez-vous identifié les données à ouvrir?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on garde tout interne",
+          "feedback": "Manque d'transparence. Open data = droit citoyen.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, liste partielle identifiée",
+          "feedback": "Bon début. Élargissez progressivement.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, audit complet + priorités définis avec citoyens",
+          "feedback": "Excellent! Transparence participative.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Publication des données",
+      "description": "Comment partagez-vous vos données?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Sur demande, processus compliqué",
+          "feedback": "C'est une forme d'obstruction. Ouvrez!",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Portal open data + formats standards (CSV, JSON)",
+          "feedback": "Bien! Accessibilité technique.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Portal + formats ouverts + API + visualisations",
+          "feedback": "Excellent! Usabilité maximale.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Qualité des données",
+      "description": "Assurerez-vous la qualité des données ouvertes?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, elles sortent brutes",
+          "feedback": "Données sales = peu utiles. Nettoyage requis.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, nettoyage basique + documentation",
+          "feedback": "Bon! Vous rendez les données utiles.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, processus robuste + validation + MAJ régulière",
+          "feedback": "Excellent! Données fiables et à jour.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Cas d'usage et innov",
+      "description": "Encouragez-vous l'utilisation créative?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on ouvre juste pour l'obligation",
+          "feedback": "Dommage! Open data peut créer de l'innovation.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on communique les cas d'usage existants",
+          "feedback": "Bien! Vous inspirez les autres.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, hackathons + concours + incubation",
+          "feedback": "Excellent! Vous créez un écosystème innovant.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Protection de la vie privée",
+      "description": "Comment protégez-vous les données sensibles?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "On ouvre tout, même données perso",
+          "feedback": "Grave violation de vie privée!",
+          "scores": {
+            "inclusion": -10,
+            "responsabilité": -10,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Anonymisation basique des données sensibles",
+          "feedback": "Bon! Vous protégez la vie privée.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Anonymisation robuste + RGPD compliance",
+          "feedback": "Excellent! Protection maximale + légalité.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Engagement citoyen",
+      "description": "Écoutez-vous les retours et demandes?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, c'est décidé une fois pour toutes",
+          "feedback": "Pas participatif. Open data doit être vivant.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, feedback par contact mail/formulaire",
+          "feedback": "Bon! Vous écoutez.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, forum participatif + co-design des données",
+          "feedback": "Excellent! Vrai dialogue citoyen.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

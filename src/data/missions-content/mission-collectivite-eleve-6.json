@@ -1,0 +1,119 @@
+{
+  "id": "mission-collectivite-eleve-6",
+  "title": "Ambassadeur numérique de quartier",
+  "description": "Devenir point de contact pour aider les habitants avec leurs questions numériques",
+  "theme": "ambassador",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Former-vous aux services municipaux",
+      "description": "Comment vous préparer à cette mission ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Vous improviser sur place, les utilisateurs vous poseront des questions",
+          "feedback": "Dangereux ! Vous risquez de donner des mauvaises informations.",
+          "scores": {
+            "inclusion": -20,
+            "responsabilité": -25,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Suivre une formation complète : services, outils, accessibilité, gestion de crise",
+          "feedback": "Parfait ! Vous serez vraiment capable d'aider.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Consulter un manuel quand quelqu'un pose une question",
+          "feedback": "Peu efficace. L'utilisateur attend une réponse rapide et empathique.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Créer un créneau d'accueil régulier",
+      "description": "Où et quand être disponible ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Un mardi matin à la mairie, pour les gens qui peuvent se déplacer",
+          "feedback": "Partiel ! Vous n'atteignez que ceux qui peuvent se libérer en semaine.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 15,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Créneaux multiples : quartier, mairie, bibliothèque, en ligne, sur RDV",
+          "feedback": "Excellent ! Vous allez à la rencontre des gens là où ils sont.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 45,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Attendre que les gens prennent un RDV",
+          "feedback": "Peu inclusif pour les plus fragiles qui ne penseront jamais à appeler.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 10,
+            "durabilité": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Documenter les questions fréquentes",
+      "description": "Comment partager vos apprentissages ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Garder pour vous, c'est votre avantage concurrentiel",
+          "feedback": "Égoïste ! Vous limitez le partage de savoir collectif.",
+          "scores": {
+            "inclusion": -30,
+            "responsabilité": -40,
+            "durabilité": -20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Créer une FAQ partagée, des tutoriels, une documentation accessible",
+          "feedback": "Magnifique ! Vous décuplifiez votre impact.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Proposer des formations payantes pour monétiser votre savoir",
+          "feedback": "Vous fragmentez la communauté. L'inclusion c'est aussi l'accessibilité économique.",
+          "scores": {
+            "inclusion": -20,
+            "responsabilité": -15,
+            "durabilité": -10
+          }
+        }
+      ]
+    }
+  ]
+}

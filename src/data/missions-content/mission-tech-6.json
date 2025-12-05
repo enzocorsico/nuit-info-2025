@@ -1,0 +1,230 @@
+{
+  "id": "mission-tech-6",
+  "title": "Documentation collaborative",
+  "description": "Mettre en place une connaissance partagée et durable",
+  "theme": "documentation",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "État de la documentation",
+      "description": "Comment documentez-vous actuellement?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pas vraiment, c'est dans la tête des gens",
+          "feedback": "Danger! Perte de connaissance si quelqu'un part.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Documentation dispersée (emails, notes, wikis)",
+          "feedback": "Mieux que rien, mais trop fragile.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Plateforme centralisée avec versioning",
+          "feedback": "Excellent! Vous avez une base stable.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Outils collaboratifs",
+      "description": "Utilisez-vous des outils modernes?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Documents Word partagés ou PDF statiques",
+          "feedback": "Peu efficace. Les versions se multiplient.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Wiki (Confluence, MediaWiki) ou Google Docs",
+          "feedback": "Meilleur! Versioning et collaboration en temps réel.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Markdown + Git (hébergé sur Gitea, GitHub)",
+          "feedback": "Excellent! Léger, flexible et transparent.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Types de documentation",
+      "description": "Qu'est-ce que vous documentez?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Juste les procédures pour support IT",
+          "feedback": "Trop étroit. Manquent architecture, contexte, raisons.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Procédures + FAQ + troubleshooting",
+          "feedback": "Bon! Vous couvrez les besoins courants.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Architecture + code + procédures + rationale décisions",
+          "feedback": "Excellent! Documentation complète et pertinente.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Participation et actualisation",
+      "description": "Qui peut contribuer à la documentation?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Juste les responsables IT/tech",
+          "feedback": "Bottleneck! Vous avez une ressource unique.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "L'équipe tech, avec processus de validation",
+          "feedback": "Bon! Vous distribuez la responsabilité.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Quiconque avec accès peut proposer, révision avant merge",
+          "feedback": "Excellent! Documentation comme code, culture commune.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Accessibilité de la doc",
+      "description": "Qui peut accéder à votre documentation?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Juste l'équipe IT, accès restreint",
+          "feedback": "Pas collaboratif! Les profs/élèves pourraient apprendre.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Documentation publique générale + partie privée IT",
+          "feedback": "Bon! Transparence publique et sécurité.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Documentation publique en multilingue et facile à lire",
+          "feedback": "Excellent! Vraiment inclusive et transparente.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Onboarding et maintien",
+      "description": "Comment gardez-vous la doc à jour?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pas de process, la doc devient obsolète",
+          "feedback": "Grave! Une doc incorrecte est pire que pas de doc.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Révision occasionnelle lors de changements majeurs",
+          "feedback": "Mieux. Mais pourquoi pas systématiser?",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Review trimestriel + check lors d'onboarding (nouveau staff)",
+          "feedback": "Excellent! Vous maintenez la qualité active.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

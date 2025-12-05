@@ -1,0 +1,119 @@
+{
+  "id": "mission-collectivite-eleve-5",
+  "title": "Open data pour la transparence locale",
+  "description": "Utiliser les données publiques pour améliorer la transparence municipal",
+  "theme": "open-data",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Identifier les données à ouvrir",
+      "description": "Quelles données publier en premier ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Commencer par les données 'neutres' : météo, transports",
+          "feedback": "Bon début mais trop facile. Les vrais enjeux sont les finances, urbanisme, etc.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Ouvrir les données sensibles : budget municipal, permis de construire, résultats électoraux",
+          "feedback": "Excellent ! Vous pratiquez la vraie transparence démocratique.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 50,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Ne pas ouvrir de données, c'est trop dangereux",
+          "feedback": "L'opacité n'est pas la sécurité ! Vous freinez le progrès démocratique.",
+          "scores": {
+            "inclusion": -40,
+            "responsabilité": -50,
+            "durabilité": -30
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Choisir le format de partage",
+      "description": "Quel format pour les open data ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Les publier en PDF fermés sur le site",
+          "feedback": "Ce n'est pas vraiment de l'open data. Les fichiers fermés ne sont pas réutilisables.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 5,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Format ouvert (CSV, JSON) avec API publique et licence libre",
+          "feedback": "Parfait ! Vous permettez aux citoyens et entrepreneurs de réutiliser les données.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 50,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Créer une plateforme propriétaire payante",
+          "feedback": "Vous perdez l'esprit de l'open data ! Les citoyens sont payeurs, pas accès.",
+          "scores": {
+            "inclusion": -30,
+            "responsabilité": -40,
+            "durabilité": -20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Créer des visualisations",
+      "description": "Comment présenter les données simplement ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Publier les données brutes et laisser les gens se débrouiller",
+          "feedback": "Pour un expert en données c'est ok, mais vous excluez le grand public.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 20,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Créer des dashboards visuels : graphiques, cartes, infographies",
+          "feedback": "Excellent ! Vous rendez les données accessibles et compréhensibles pour tous.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 45,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Ignorer les données, trop complexe à gérer",
+          "feedback": "L'absence d'information crée le doute. L'open data c'est aussi une forme de confiance.",
+          "scores": {
+            "inclusion": -40,
+            "responsabilité": -50,
+            "durabilité": -30
+          }
+        }
+      ]
+    }
+  ]
+}

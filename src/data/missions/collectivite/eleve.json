@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mission-collectivite-eleve-1",
+    "title": "Numériser les services publics locaux",
+    "description": "Aider les habitants à accéder aux services de la commune en ligne",
+    "difficulty": "facile",
+    "duration": "1h",
+    "participants": 234,
+    "reward": 150,
+    "objectives": [
+      "Comprendre les services numériques existants",
+      "Identifier les obstacles pour les habitants",
+      "Proposer des améliorations"
+    ]
+  },
+  {
+    "id": "mission-collectivite-eleve-2",
+    "title": "Campagne de sensibilisation au numérique responsable",
+    "description": "Créer une campagne pour sensibiliser les citoyens aux usages durables du numérique",
+    "difficulty": "moyen",
+    "duration": "3h",
+    "participants": 167,
+    "reward": 300,
+    "objectives": [
+      "Créer des supports de communication",
+      "Adapter le message aux différents publics",
+      "Organiser des événements de sensibilisation"
+    ]
+  },
+  {
+    "id": "mission-collectivite-eleve-3",
+    "title": "Audit digital de la collectivité",
+    "description": "Analyser l'usage du numérique dans votre commune et proposer des optimisations",
+    "difficulty": "difficile",
+    "duration": "1 semaine",
+    "participants": 95,
+    "reward": 600,
+    "objectives": [
+      "Dresser un inventaire des outils numériques",
+      "Évaluer leur impact environnemental",
+      "Recommander des alternatives responsables"
+    ]
+  },
+  {
+    "id": "mission-collectivite-eleve-4",
+    "title": "Création d'un guide d'e-inclusion",
+    "description": "Développer un guide pour aider les seniors et personnes en difficulté avec le numérique",
+    "difficulty": "moyen",
+    "duration": "2h30",
+    "participants": 208,
+    "reward": 350,
+    "objectives": [
+      "Identifier les besoins spécifiques",
+      "Créer des tutoriels simplifiés",
+      "Organiser des ateliers pratiques"
+    ]
+  },
+  {
+    "id": "mission-collectivite-eleve-5",
+    "title": "Open data pour la transparence locale",
+    "description": "Utiliser les données publiques pour améliorer la transparence municipal",
+    "difficulty": "difficile",
+    "duration": "2 semaines",
+    "participants": 74,
+    "reward": 700,
+    "objectives": [
+      "Récupérer et analyser les open data",
+      "Créer des visualisations pédagogiques",
+      "Présenter les résultats aux citoyens"
+    ]
+  },
+  {
+    "id": "mission-collectivite-eleve-6",
+    "title": "Ambassadeur numérique de quartier",
+    "description": "Devenir point de contact pour aider les habitants avec leurs questions numériques",
+    "difficulty": "facile",
+    "duration": "3h/mois",
+    "participants": 312,
+    "reward": 200,
+    "objectives": [
+      "Former-vous aux services numériques locaux",
+      "Créer un créneau d'accueil régulier",
+      "Documenter les questions fréquentes"
+    ]
+  }
+]

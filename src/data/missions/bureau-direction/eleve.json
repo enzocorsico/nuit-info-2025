@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-eleve-1",
+    "title": "Structure et gouvernance",
+    "description": "Comprendre comment la direction gère l'école. Organisation et responsabilités.",
+    "difficulty": "facile",
+    "duration": "1-2h",
+    "participants": 189,
+    "reward": 120,
+    "objectives": [
+      "Découvrir rôles direction et vice-direction",
+      "Comprendre gouvernance établissement",
+      "Voir organigramme complet",
+      "Rencontrer directeur de l'école",
+      "Découvrir processus décision"
+    ]
+  },
+  {
+    "id": "mission-eleve-2",
+    "title": "Projet établissement",
+    "description": "Participer au projet d'établissement. Avoir voix au chapitre.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 145,
+    "reward": 200,
+    "objectives": [
+      "Lire et comprendre projet établissement",
+      "Identifier ses 3 axes prioritaires",
+      "Proposer améliorations",
+      "Participer à consultation élèves",
+      "Retour sur propositions acceptées"
+    ]
+  },
+  {
+    "id": "mission-eleve-3",
+    "title": "Budget et ressources école",
+    "description": "Comprendre où va l'argent de l'école. Transparency budgétaire.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 123,
+    "reward": 180,
+    "objectives": [
+      "Consulter budget public école",
+      "Identifier postes de dépense",
+      "Ratio budget pédago vs administration",
+      "Voir financement et subventions",
+      "Proposer optimisations"
+    ]
+  },
+  {
+    "id": "mission-eleve-4",
+    "title": "Bien-être à l'école",
+    "description": "Contribuer à créer un environnement bienveillant. Qualité de vie scolaire.",
+    "difficulty": "facile",
+    "duration": "1-2h",
+    "participants": 167,
+    "reward": 150,
+    "objectives": [
+      "Évaluer climat scolaire actuel",
+      "Identifier problèmes (harcèlement, stress)",
+      "Proposer solutions concrètes",
+      "Participer à conseil bien-être",
+      "Suivre implémentation propositions"
+    ]
+  },
+  {
+    "id": "mission-eleve-5",
+    "title": "Représentation élèves",
+    "description": "Candidater délégué de classe. Voix collective des élèves.",
+    "difficulty": "moyen",
+    "duration": "2-4h",
+    "participants": 134,
+    "reward": 250,
+    "objectives": [
+      "Comprendre rôle délégué",
+      "Écouter besoins camarades",
+      "Préparer programme campagne",
+      "Présenter idées aux copains",
+      "Participer conseil élèves"
+    ]
+  },
+  {
+    "id": "mission-eleve-6",
+    "title": "Leadership responsable",
+    "description": "Développer compétences leadership. Influence positive sur communauté.",
+    "difficulty": "avancé",
+    "duration": "3-5h",
+    "participants": 98,
+    "reward": 300,
+    "objectives": [
+      "Écouter active et empathie",
+      "Prendre décisions transparentes",
+      "Communiquer vision claire",
+      "Responsabilité ses actions",
+      "Inspirer autres étudiants"
+    ]
+  }
+]

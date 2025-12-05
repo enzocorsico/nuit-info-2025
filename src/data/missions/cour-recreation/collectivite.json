@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-collectivite-1",
+    "title": "Territoire numérique inclusif",
+    "description": "Réduire la fracture numérique locale et assurer l'accès pour tous. Créer égalité des chances.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 19,
+    "reward": 700,
+    "objectives": [
+      "Auditer fracture numérique: accès, compétences, usages",
+      "Mettre en place points d'accès public (mairie, bibliothèque, école)",
+      "Proposer formations gratuites multiâges et multilingues",
+      "Partenariat avec associations pour accompagnement personnes fragiles",
+      "Mesurer impact social et atteinte des populations isolées"
+    ]
+  },
+  {
+    "id": "mission-collectivite-2",
+    "title": "Smart city responsable",
+    "description": "Déployer technologies smart city au service de l'intérêt public, pas du profit. Durable et inclusif.",
+    "difficulty": "avancé",
+    "duration": "12-18h",
+    "participants": 22,
+    "reward": 800,
+    "objectives": [
+      "Identifier enjeux locaux (mobilité, énergie, environnement)",
+      "Co-construire avec citoyens les solutions de smart city",
+      "Évaluer impact environnemental et gouvernance des données",
+      "Déployer avec gouvernance transparente et participative",
+      "Mesurer résultats et adapter en continu"
+    ]
+  },
+  {
+    "id": "mission-collectivite-3",
+    "title": "Équipement numérique des écoles",
+    "description": "Doter les écoles d'outils appropriés et durables. Équité entre écoles et entre élèves.",
+    "difficulty": "moyen",
+    "duration": "6-10h",
+    "participants": 26,
+    "reward": 500,
+    "objectives": [
+      "Auditer parc IT des écoles et identifier besoins réels",
+      "Co-construire avec directeurs et enseignants",
+      "Assurer équité: budget adapté à chaque école (priorité REP+)",
+      "Favoriser reconditionnement et économie circulaire",
+      "Mettre en place support technique et formation continue"
+    ]
+  },
+  {
+    "id": "mission-collectivite-4",
+    "title": "Open data et transparence citoyenne",
+    "description": "Mettre les données publiques à disposition. Transparence et innovation citoyenne.",
+    "difficulty": "moyen",
+    "duration": "5-8h",
+    "participants": 23,
+    "reward": 450,
+    "objectives": [
+      "Identifier données à ouvrir (budgets, environnement, mobilité)",
+      "Créer portail open data avec formats standards (CSV, JSON)",
+      "Assurer qualité et mise à jour régulière des données",
+      "Communiquer et encourager réutilisations et innovations",
+      "Protéger vie privée (anonymisation RGPD complète)"
+    ]
+  },
+  {
+    "id": "mission-collectivite-5",
+    "title": "Démocratie participative numérique",
+    "description": "Renforcer l'engagement citoyen grâce au numérique. Voix de tous entendue et prise en compte.",
+    "difficulty": "avancé",
+    "duration": "8-12h (mise en place sur 3 mois)",
+    "participants": 21,
+    "reward": 650,
+    "objectives": [
+      "Mettre en place plateforme participative robuste et accessible",
+      "Assurer vrai impact: les propositions changent les décisions",
+      "Former citoyens et modérateurs à débat constructif",
+      "Communiquer raisons des décisions finales",
+      "Évaluer satisfaction et adapter l'outil régulièrement"
+    ]
+  },
+  {
+    "id": "mission-collectivite-6",
+    "title": "Réseau territorial NIRD",
+    "description": "Créer un écosystème territorial engagé. Écoles, familles, entreprises, collectivité coordonnées.",
+    "difficulty": "avancé",
+    "duration": "15-25h (mise en place sur 6 mois)",
+    "participants": 18,
+    "reward": 1000,
+    "objectives": [
+      "Cartographier acteurs locaux (écoles, asso, entreprises, collectivité)",
+      "Créer gouvernance collaborative du réseau NIRD",
+      "Définir axes communs (éducation, inclusion, écologie, sécurité)",
+      "Mutualiser ressources (formations, outils, documentation)",
+      "Plaidoyer politique pour intégrer NIRD dans stratégie locale"
+    ]
+  }
+]

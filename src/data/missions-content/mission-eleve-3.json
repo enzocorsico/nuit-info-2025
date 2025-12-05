@@ -1,0 +1,300 @@
+{
+  "id": "mission-eleve-3",
+  "title": "Le défi du déconnexion",
+  "description": "Relever des défis pour réduire votre consommation numérique",
+  "theme": "bien-être",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Évaluation de votre dépendance",
+      "description": "Combien d'heures par jour passez-vous en moyenne sur les écrans?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Moins de 2 heures",
+          "feedback": "Excellent! Vous avez déjà un bon équilibre.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "2-4 heures",
+          "feedback": "C'est raisonnable, mais vous pouvez encore optimiser.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "4-6 heures",
+          "feedback": "C'est important. Un défi de déconnexion vous ferait du bien.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Plus de 6 heures",
+          "feedback": "Il est temps de reprendre le contrôle de votre temps et de votre attention.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Identifier les déclencheurs",
+      "description": "Qu'est-ce qui vous pousse le plus à utiliser vos écrans?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "L'habitude et la distraction",
+          "feedback": "Reconnaître ses habitudes est le premier pas pour les changer.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "La FOMO (peur de rater quelque chose)",
+          "feedback": "C'est une pression sociale forte. Vous apprendrez à la gérer.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Le besoin de rester connecté et informé",
+          "feedback": "Valable, mais l'information peut aussi devenir une surcharge.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "L'ennui ou le stress",
+          "feedback": "Utiliser les écrans pour fuir n'est que temporaire. Trouvez des alternatives saines.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Le défi du jour sans écran",
+      "description": "Êtes-vous prêt à relever le défi d'une journée complètement sans écran?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, j'en suis capable",
+          "feedback": "Bravo! C'est un défi excitant et libérateur.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Non, c'est impossible pour moi",
+          "feedback": "Pas besoin d'être parfait. Commencez par des demi-journées.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je peux essayer une demi-journée",
+          "feedback": "Parfait! Commencez par là et augmentez progressivement.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Oui, mais c'est compliqué pour le travail/l'école",
+          "feedback": "C'est vrai. Peut-être un week-end sans écrans personnels?",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Activités de remplacement",
+      "description": "Quelles activités allez-vous faire à la place des écrans?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Lire des livres, écouter de la musique",
+          "feedback": "Excellent choix! Très enrichissant et reposant.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Sports, activités physiques",
+          "feedback": "Parfait! Bon pour votre corps et votre esprit.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Activités créatives: dessin, musique, écriture",
+          "feedback": "Magnifique! Laissez libre cours à votre créativité.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Socialiser en personne",
+          "feedback": "Les vraies connexions humaines, c'est irremplaçable!",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-5",
+          "text": "Passer du temps dans la nature",
+          "feedback": "Excellent pour votre bien-être et votre connexion à l'environnement.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Suivi et récompense",
+      "description": "Comment allez-vous suivre vos progrès et vous récompenser?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Un journal pour tracer mes progrès",
+          "feedback": "Excellent! L'écriture aide à la réflexion et la motivation.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Un challenge avec des copains",
+          "feedback": "Le soutien social est puissant pour réussir!",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Des petites récompenses pour chaque étape",
+          "feedback": "Bonne motivation! Tant qu'elles ne sont pas numériques.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Partager mon expérience sur les réseaux sociaux",
+          "feedback": "Ironique mais efficace! Documentez votre succès.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Après le défi",
+      "description": "Comment allez-vous pérenniser cette expérience?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Revenir à mon usage normal sans changement",
+          "feedback": "Dommage! Vous avez une opportunité de changer votre relation aux écrans.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Implémenter des jours sans écran réguliers",
+          "feedback": "Parfait! Créez une nouvelle habitude saine.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Réduire progressivement mon temps d'écran",
+          "feedback": "Bon plan! Graduellement et durablement.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Changer ma relation aux réseaux sociaux",
+          "feedback": "Excellent! Moins de dépendance, plus de liberté.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-direction-1",
+    "title": "Gouvernance numérique responsable",
+    "description": "Mettre en place une politique numérique inclusive et durable au niveau de l'établissement. Co-construire avec tous les stakeholders.",
+    "difficulty": "avancé",
+    "duration": "8-12h (mise en place sur 3 mois)",
+    "participants": 42,
+    "reward": 500,
+    "objectives": [
+      "Auditer les pratiques numériques actuelles et les enjeux",
+      "Créer un groupe de travail inclusif (direction, profs, élèves, familles, tech)",
+      "Co-construire une politique numérique responsable et contextuelle",
+      "Valider et diffuser la politique auprès de toute la communauté",
+      "Mettre en place un système de suivi et d'évaluation"
+    ]
+  },
+  {
+    "id": "mission-direction-2",
+    "title": "Budget numérique éco-responsable",
+    "description": "Optimiser les dépenses tech tout en réduisant l'impact environnemental. Maîtriser les coûts totaux de propriété.",
+    "difficulty": "moyen",
+    "duration": "4-6h",
+    "participants": 38,
+    "reward": 350,
+    "objectives": [
+      "Auditer tous les achats tech des 3 dernières années",
+      "Calculer le coût total (achat + maintenance + énergie + fin de vie)",
+      "Identifier les opportunités d'économies (reconditionnement, réparation)",
+      "Fixer des cibles de réduction (10-30% sur 3 ans)",
+      "Budgéter un plan d'action chiffré et porté par la direction"
+    ]
+  },
+  {
+    "id": "mission-direction-3",
+    "title": "Charte numérique co-construite",
+    "description": "Élaborer ensemble un cadre éthique et inclusif pour l'usage numérique. Obtenir l'adhésion de tous.",
+    "difficulty": "moyen",
+    "duration": "6-10h (mise en place sur 1 mois)",
+    "participants": 51,
+    "reward": 400,
+    "objectives": [
+      "Consulter tous les stakeholders via sondage et ateliers",
+      "Rédiger une charte claire et inspirante (pas punitive)",
+      "Obtenir la signature de tous les acteurs",
+      "Mettre en place le accompagnement (formation, soutien)",
+      "Évaluer l'adhésion et réviser annuellement"
+    ]
+  },
+  {
+    "id": "mission-direction-4",
+    "title": "Protection des données - RGPD",
+    "description": "Assurer la conformité légale et éthique. Protéger les données des élèves et des personnels.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 46,
+    "reward": 600,
+    "objectives": [
+      "Auditer complet de conformité RGPD par un cabinet externe",
+      "Nommer un Responsable Protection Données (DPO)",
+      "Créer un registre des traitements exhaustif",
+      "Mettre en place consentement explicite et droit à l'oubli",
+      "Former toute l'équipe aux responsabilités RGPD"
+    ]
+  },
+  {
+    "id": "mission-direction-5",
+    "title": "Label Numérique Responsable",
+    "description": "Obtenir une certification pour valider votre engagement. Devenir modèle inspirant pour d'autres établissements.",
+    "difficulty": "avancé",
+    "duration": "12-20h (candidature + suivi)",
+    "participants": 35,
+    "reward": 750,
+    "objectives": [
+      "Évaluer quel label NIRD correspond à vos priorités",
+      "Réaliser un audit interne complet",
+      "Combler les lacunes avec plan d'action chiffré",
+      "Constituer le dossier de candidature détaillé",
+      "Maintenir la certification par audit annuel"
+    ]
+  }
+]

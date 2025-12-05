@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mission-collectivite-tech-1",
+    "title": "Infrastructure cloud responsable",
+    "description": "Migrer vers une infrastructure numérique durable et souveraine",
+    "difficulty": "difficile",
+    "duration": "3 mois",
+    "participants": 156,
+    "reward": 1500,
+    "objectives": [
+      "Évaluer les solutions cloud responsables",
+      "Minimiser l'empreinte carbone",
+      "Assurer la souveraineté des données"
+    ]
+  },
+  {
+    "id": "mission-collectivite-tech-2",
+    "title": "Moderniser les systèmes hérités",
+    "description": "Remplacer les anciens systèmes informatiques par des solutions modernes et efficaces",
+    "difficulty": "difficile",
+    "duration": "4 mois",
+    "participants": 123,
+    "reward": 1400,
+    "objectives": [
+      "Auditer l'état des systèmes",
+      "Planifier les migrations",
+      "Former les utilisateurs"
+    ]
+  },
+  {
+    "id": "mission-collectivite-tech-3",
+    "title": "Cybersécurité municipale",
+    "description": "Renforcer la sécurité informatique de la collectivité face aux menaces croissantes",
+    "difficulty": "difficile",
+    "duration": "6 mois",
+    "participants": 134,
+    "reward": 1600,
+    "objectives": [
+      "Effectuer un test de pénétration",
+      "Implémenter le chiffrement",
+      "Établir un protocole de réponse aux incidents"
+    ]
+  },
+  {
+    "id": "mission-collectivite-tech-4",
+    "title": "API et interopérabilité municipale",
+    "description": "Créer une plateforme d'interconnexion entre les services de la collectivité",
+    "difficulty": "difficile",
+    "duration": "2 mois",
+    "participants": 98,
+    "reward": 1300,
+    "objectives": [
+      "Standardiser les échanges de données",
+      "Développer les APIs publiques",
+      "Documenter les connecteurs"
+    ]
+  },
+  {
+    "id": "mission-collectivite-tech-5",
+    "title": "Optimisation énergétique du datacentre",
+    "description": "Réduire la consommation énergétique des infrastructures informatiques",
+    "difficulty": "moyen",
+    "duration": "2 mois",
+    "participants": 167,
+    "reward": 900,
+    "objectives": [
+      "Auditer la consommation actuelle",
+      "Identifier les puits d'énergie",
+      "Implémenter des mesures d'efficacité"
+    ]
+  },
+  {
+    "id": "mission-collectivite-tech-6",
+    "title": "Plateforme de services numériques intégrés",
+    "description": "Développer un portail unique pour accéder à tous les services municipaux",
+    "difficulty": "difficile",
+    "duration": "5 mois",
+    "participants": 145,
+    "reward": 1700,
+    "objectives": [
+      "Concevoir l'expérience utilisateur",
+      "Intégrer les services existants",
+      "Assurer l'accessibilité pour tous"
+    ]
+  }
+]

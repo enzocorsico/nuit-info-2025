@@ -1,0 +1,240 @@
+{
+  "id": "mission-prof-3",
+  "title": "Lab numérique inclusif",
+  "description": "Adapter vos cours numériques pour tous les profils d'apprenants",
+  "theme": "accessibilité",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Diagnostic de votre classe",
+      "description": "Avez-vous des élèves en situation de handicap dans votre classe?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, plusieurs (dyslexie, handicap visuel, etc.)",
+          "feedback": "C'est une chance d'apprendre à enseigner de manière universelle!",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Un ou deux élèves",
+          "feedback": "C'est déjà important. Cela va bénéficier à toute la classe.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Aucun officiellement",
+          "feedback": "Attention, certains handicaps sont invisibles. De toute façon, l'accessibilité profite à tous!",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Connaissances en accessibilité",
+      "description": "Connaissez-vous les standards d'accessibilité numérique (WCAG)?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, je les applique régulièrement",
+          "feedback": "Excellent! Vous êtes un modèle.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je connais le concept mais pas les détails",
+          "feedback": "Bon début! C'est une courbe d'apprentissage intéressante.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, je n'en ai jamais entendu parler",
+          "feedback": "C'est l'occasion d'en apprendre plus!",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Outils accessibles",
+      "description": "Utilisez-vous des outils numériques accessible en classe?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, j'utilise LibreOffice, Google Docs avec mode sombre, etc.",
+          "feedback": "Bravo! Vous mettez la pratique en place.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Parfois, mais je pourrais améliorer",
+          "feedback": "Excellent d'avoir cette conscience! C'est le chemin.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, je n'y avais pas vraiment pensé",
+          "feedback": "Pas de souci! Vous allez découvrir de nouvelles possibilités.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Adaptation pédagogique",
+      "description": "Comment adaptez-vous votre enseignement à différents profils?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Vous fournissez des alternatives: texte/vidéo, oral/écrit, etc.",
+          "feedback": "Excellent! C'est l'essence de l'accessibilité.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Vous gardez un seul format standard",
+          "feedback": "Cela exclut involontairement certains élèves. Réfléchissez à diversifier.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Vous adaptez au cas par cas",
+          "feedback": "Bon! Mais une approche systématique serait plus inclusive.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Formation et ressources",
+      "description": "Avez-vous reçu une formation à l'accessibilité?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, régulièrement",
+          "feedback": "Fantastique! Vous vous mettez à jour constamment.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Quelques fois au cours de ma carrière",
+          "feedback": "Bien! Vous avez des bases. Continuons!",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, jamais",
+          "feedback": "C'est normal! NIRD peut être votre premier contact systématique.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Lab inclusif concret",
+      "description": "Que voulez-vous faire dans votre 'lab numérique inclusif'?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Former mes collègues à l'accessibilité",
+          "feedback": "Magique! Vous devenez ambassadeur.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Créer des ressources pédagogiques accessibles",
+          "feedback": "Parfait! Vous laissez un héritage pédagogique.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Auditer mon matériel numérique",
+          "feedback": "Bon début! Identifiez les problèmes avant d'agir.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Créer un groupe d'élèves 'testeurs d'accessibilité'",
+          "feedback": "Brillant! Impliquez vos élèves comme acteurs.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        }
+      ]
+    }
+  ]
+}

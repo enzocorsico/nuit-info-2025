@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mission-collectivite-1",
+    "title": "Territoire numérique inclusif",
+    "description": "Réduire la fracture numérique dans votre commune",
+    "difficulty": "difficile",
+    "duration": "8h",
+    "participants": 23,
+    "reward": 700,
+    "objectives": [
+      "Cartographier les zones blanches",
+      "Créer des espaces publics numériques",
+      "Former les populations éloignées"
+    ]
+  },
+  {
+    "id": "mission-collectivite-2",
+    "title": "Smart city responsable",
+    "description": "Développer une ville intelligente respectueuse des citoyens",
+    "difficulty": "difficile",
+    "duration": "10h",
+    "participants": 18,
+    "reward": 900,
+    "objectives": [
+      "Audit des données collectées",
+      "Garantir la transparence",
+      "Impliquer les citoyens dans les décisions"
+    ]
+  },
+  {
+    "id": "mission-collectivite-3",
+    "title": "Programme d'équipement des écoles",
+    "description": "Équiper les établissements en matériel numérique durable",
+    "difficulty": "moyen",
+    "duration": "6h",
+    "participants": 34,
+    "reward": 500,
+    "objectives": [
+      "Évaluer les besoins réels",
+      "Privilégier le reconditionné",
+      "Créer un plan de maintenance"
+    ]
+  },
+  {
+    "id": "mission-collectivite-4",
+    "title": "Open data citoyen",
+    "description": "Ouvrir les données publiques de façon responsable et utile",
+    "difficulty": "moyen",
+    "duration": "5h",
+    "participants": 41,
+    "reward": 450,
+    "objectives": [
+      "Identifier les données pertinentes",
+      "Anonymiser et sécuriser",
+      "Créer des visualisations accessibles"
+    ]
+  },
+  {
+    "id": "mission-collectivite-5",
+    "title": "Démocratie participative numérique",
+    "description": "Mettre en place des outils de consultation citoyenne en ligne",
+    "difficulty": "difficile",
+    "duration": "7h",
+    "participants": 27,
+    "reward": 600,
+    "objectives": [
+      "Choisir des outils libres et accessibles",
+      "Former les agents territoriaux",
+      "Animer les consultations"
+    ]
+  },
+  {
+    "id": "mission-collectivite-6",
+    "title": "Réseau territorial NIRD",
+    "description": "Créer un réseau d'acteurs du numérique responsable sur le territoire",
+    "difficulty": "moyen",
+    "duration": "4h",
+    "participants": 56,
+    "reward": 400,
+    "objectives": [
+      "Identifier les acteurs locaux",
+      "Organiser des événements",
+      "Mutualiser les ressources"
+    ]
+  }
+]

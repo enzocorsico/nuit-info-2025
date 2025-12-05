@@ -1,0 +1,250 @@
+{
+  "id": "mission-prof-4",
+  "title": "Sobriété numérique en classe",
+  "description": "Réduire l'impact environnemental de vos pratiques pédagogiques numériques",
+  "theme": "environnement",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Audit de votre pratique",
+      "description": "Combien de fois par jour utilisez-vous le vidéoprojecteur/TNI?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Toute la journée, c'est indispensable",
+          "feedback": "Réfléchissez: le papier, le tableau blanc, ou l'oral ne sont pas morts!",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "3-4 heures par jour",
+          "feedback": "C'est beaucoup. Où pourrlez-vous réduire?",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "1-2 heures par jour, pour ce qui le nécessite",
+          "feedback": "Bon équilibre! Vous êtes conscient de l'impact.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Selon le besoin, pas de règle fixe",
+          "feedback": "Excellent! Vous adaptez votre usage.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Usages numériques évitables",
+      "description": "Avez-vous des pratiques numériques 'par habitude' plutôt que par nécessité?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, je fais la même chose chaque année",
+          "feedback": "C'est normal! Mais c'est l'occasion de questionner.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "J'utilise la technologie que si nécessaire",
+          "feedback": "Excellent! Vous êtes critique sur vos usages.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je préfère utiliser les supports papier quand possible",
+          "feedback": "Intéressant! À condition de gérer l'impact papier.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 20,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Formation des élèves",
+      "description": "Sensibilisez-vous vos élèves à la sobriété numérique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, c'est un sujet de cours",
+          "feedback": "Excellent! Vous transmettez les valeurs.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Implicitement à travers mon exemple",
+          "feedback": "Bon! L'exemplarité a de la valeur.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, je ne le fais pas",
+          "feedback": "C'est une occasion d'éducation citoyenne!",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Alternatives créatives",
+      "description": "Avez-vous testé des approches non-numériques en classe?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, le débat, la discussion, le sketch",
+          "feedback": "Fantastique! C'est engageant et bas-carbone.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, les jeux éducatifs, les mises en scène",
+          "feedback": "Excellent! Pédagogie active sans électricité.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, je ne sais pas par où commencer",
+          "feedback": "NIRD vous inspirera avec des exemples concrets!",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Matériel obsolète",
+      "description": "Que faites-vous de votre ancien matériel informatique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je le jette à la poubelle",
+          "feedback": "Grave! C'est du déchet électronique toxique. Trouvez un circuit de recyclage.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": -10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Le laisser à l'établissement pour entretien",
+          "feedback": "Bon! Vous prolongez son usage.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je le donne ou le fais recycler",
+          "feedback": "Excellent! Seconde vie ou recyclage responsable.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Plan d'action",
+      "description": "Quel sera votre premier geste de sobriété numérique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Éteindre les appareils quand ils ne servent pas",
+          "feedback": "Simple et efficace! C'est 10-15% d'économie d'énergie.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Remplacer une activité numérique par une sans écran",
+          "feedback": "Courageux! Vous bousculez vos habitudes.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Former mes collègues à la sobriété numérique",
+          "feedback": "Magnifique! L'impact sera multiplié.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Tout ce qui précède!",
+          "feedback": "Wow! Vous êtes vraiment engagé.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 45
+          }
+        }
+      ]
+    }
+  ]
+}

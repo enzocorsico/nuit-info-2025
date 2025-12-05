@@ -98,12 +98,19 @@ export default function Home() {
             Rejoignez la communauté NIRD et découvrez comment développer une stratégie numérique responsable, inclusive et durable pour votre établissement.
           </p>
 
-          {/* CTA Button */}
-          <Link href="/roles">
-            <button className="inline-block px-10 py-4 md:px-12 md:py-5 bg-linear-to-r from-blue-500 via-pink-500 to-yellow-400 text-slate-900 font-bold text-lg md:text-xl rounded-full hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105 active:scale-95 cursor-pointer">
-              Entrer dans le village
-            </button>
-          </Link>
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link href="/roles">
+              <button className="inline-block px-10 py-4 md:px-12 md:py-5 bg-linear-to-r from-blue-500 via-pink-500 to-yellow-400 text-slate-900 font-bold text-lg md:text-xl rounded-full hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105 active:scale-95 cursor-pointer">
+                Entrer dans le village
+              </button>
+            </Link>
+            <Link href="/rse">
+              <button className="inline-block px-10 py-4 md:px-12 md:py-5 bg-green-600/90 backdrop-blur-sm text-white font-bold text-lg md:text-xl rounded-full hover:bg-green-500 hover:shadow-2xl hover:shadow-green-500/50 transition-all duration-300 transform hover:scale-105 active:scale-95 cursor-pointer border-2 border-green-400/50">
+                🌱 RSE by Design
+              </button>
+            </Link>
+          </div>
 
           {/* Values Pills */}
           <div className="mt-16 flex flex-wrap gap-4 justify-center">

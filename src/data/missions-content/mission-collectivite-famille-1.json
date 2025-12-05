@@ -1,0 +1,46 @@
+{
+  "id": "mission-collectivite-famille-1",
+  "title": "Numérique en famille : ateliers bienveillants",
+  "description": "Créer un espace où les familles découvrent les outils numériques sans stress",
+  "theme": "family-digital",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Créer une atmosphère accueillante",
+      "description": "Comment aborder les familles en fracture numérique ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Atmosphère sérieuse 'éducation' pour montrer la rigueur",
+          "feedback": "Rebutant ! La peur paralyse plutôt que d'engager.",
+          "scores": {"inclusion": -20, "responsabilité": 10, "durabilité": 0}
+        },
+        {
+          "id": "choice-2",
+          "text": "Atelier bienveillant, ludique, sans jugement - c'est OK de ne pas savoir",
+          "feedback": "Parfait ! Vous créez un espace safe pour apprendre.",
+          "scores": {"inclusion": 50, "responsabilité": 40, "durabilité": 30}
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Adapter aux différents âges",
+      "description": "Comment couvrir tous les niveaux ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Un atelier pour tous, à un rythme moyen",
+          "feedback": "Partiel. Les seniors et enfants ont besoin d'approches différentes.",
+          "scores": {"inclusion": 25, "responsabilité": 25, "durabilité": 15}
+        },
+        {
+          "id": "choice-2",
+          "text": "Ateliers spécifiques par âge + binômes intergénérationnels",
+          "feedback": "Excellent ! Vous adaptez et créez des liens.",
+          "scores": {"inclusion": 50, "responsabilité": 45, "durabilité": 40}
+        }
+      ]
+    }
+  ]
+}

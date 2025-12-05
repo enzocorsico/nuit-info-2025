@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-tech-1",
+    "title": "Décision informatique",
+    "description": "Support IT à direction pour décisions technologiques. Avis expert.",
+    "difficulty": "moyen",
+    "duration": "4-6h",
+    "participants": 19,
+    "reward": 400,
+    "objectives": [
+      "Analyser impacts tecnico-opérationnels",
+      "Proposer alternatives",
+      "Évaluer risques et opportunités",
+      "Présent avis en langage direction",
+      "Advising stratégique IT"
+    ]
+  },
+  {
+    "id": "mission-tech-2",
+    "title": "Transformation numérique",
+    "description": "Piloter transformation numérique établissement. Outils, processus, compétences.",
+    "difficulty": "avancé",
+    "duration": "15-20h",
+    "participants": 17,
+    "reward": 800,
+    "objectives": [
+      "Auditer maturité numérique",
+      "Planifier roadmap transformation",
+      "Former et accompagner users",
+      "Gérer change résistances",
+      "Mesurer ROI transformation"
+    ]
+  },
+  {
+    "id": "mission-tech-3",
+    "title": "Cybersécurité établissement",
+    "description": "Sécuriser école contre menaces cyber. Sensibilisation et architecture.",
+    "difficulty": "avancé",
+    "duration": "12-15h",
+    "participants": 16,
+    "reward": 750,
+    "objectives": [
+      "Audit complet sécurité",
+      "Former tous utilisateurs",
+      "Implémenter MFA et contrôle accès",
+      "Plan incident et backup",
+      "Conformité RGPD complète"
+    ]
+  },
+  {
+    "id": "mission-tech-4",
+    "title": "Plateforme pédagogique école",
+    "description": "Mettre en place plateforme Learning Management System. Moodle ou autre.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 20,
+    "reward": 650,
+    "objectives": [
+      "Installer et configurer LMS",
+      "Intégrer avec systèmes existants",
+      "Former profs et élèves",
+      "Créer contenus exemple",
+      "Support et assistance"
+    ]
+  },
+  {
+    "id": "mission-tech-5",
+    "title": "Infrastructure IT résiliente",
+    "description": "Assurer infrastructure robuste et disponible. Zero-downtime.",
+    "difficulty": "avancé",
+    "duration": "15-20h",
+    "participants": 18,
+    "reward": 800,
+    "objectives": [
+      "Auditer infrastructure IT",
+      "Planifier haute disponibilité",
+      "Déployer redundancy",
+      "Monitoring 24/7",
+      "Plan continuité disaster"
+    ]
+  }
+]

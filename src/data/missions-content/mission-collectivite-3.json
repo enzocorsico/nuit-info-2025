@@ -1,0 +1,230 @@
+{
+  "id": "mission-collectivite-3",
+  "title": "Équipement numérique des écoles",
+  "description": "Doter les écoles d'outils appropriés et durables",
+  "theme": "equipement",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Diagnostic d'équipement",
+      "description": "Connaissez-vous l'état du parc informatique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on n'a pas de vision claire",
+          "feedback": "Première étape: inventaire détaillé.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, inventaire manuel, pas à jour",
+          "feedback": "Mieux. Systématisez avec outil de gestion.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, outil de gestion complet avec historique",
+          "feedback": "Excellent! Données précises pour décider.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Besoins pédagogiques",
+      "description": "Écoutez-vous les enseignants?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on décide en haut",
+          "feedback": "Erreur! Les enseignants connaissent leurs besoins.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, sondage occasionnel",
+          "feedback": "Bon! Continuez avec forum ou groupe de travail.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, groupe de travail récurrent avec profs",
+          "feedback": "Excellent! Co-construction pédagogique.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Équité entre écoles",
+      "description": "Comment assurez-vous l'équité territoriale?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Chaque école se débrouille",
+          "feedback": "Les riches s'équipent, les pauvres restent en retard!",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Budget égal par école",
+          "feedback": "Équitable! Mais à adapter à la taille.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Budget adapté aux besoins, priorité REP+",
+          "feedback": "Excellent! Équité et justice sociale.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Choix de la technologie",
+      "description": "Quel type d'équipement privilégiez-vous?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Propriétaire (Apple, Microsoft, Google)",
+          "feedback": "Pratique mais enfermement et coûts élevés.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Mix propriétaire + open-source",
+          "feedback": "Équilibre! Vous gardez flexibilité.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Priorité open-source pour souveraineté",
+          "feedback": "Excellent! Liberté et économies.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Durabilité et recyclage",
+      "description": "Comment gérez-vous la fin de vie?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Poubelle quand c'est cassé",
+          "feedback": "Polluant! Cherchez des solutions circulaires.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Reconditionnement ou dons",
+          "feedback": "Bon! Vous prolongez la durée de vie.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Plan circulaire: reconditionnement + recyclage agréé",
+          "feedback": "Excellent! Économie circulaire complète.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Support et maintenance",
+      "description": "Pouvez-vous assurer la maintenance?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, matériel acheminé à l'état d'abandon",
+          "feedback": "Grave! Pas de support = investissement inutile.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, support technique de base interne",
+          "feedback": "Bon! Vous gardez le matériel opérationnel.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Support technique + formation + plan de renouvellement",
+          "feedback": "Excellent! Approche complète et durable.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

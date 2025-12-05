@@ -1,0 +1,280 @@
+{
+  "id": "mission-prof-1",
+  "title": "Enseigner le numérique responsable",
+  "description": "Intégrer NIRD dans votre curriculum pédagogique",
+  "theme": "éducation",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Votre contexte pédagogique",
+      "description": "Quel niveau/matière enseignez-vous?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Informatique / Technologie",
+          "feedback": "Excellent! C'est le contexte idéal pour NIRD.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Français / Lettres",
+          "feedback": "Vous pouvez aborder NIRD via l'analyse critique des discours numériques.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Histoire / Géographie / ESC",
+          "feedback": "Parfait pour contextualiser l'impact sociétal et environnemental!",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Autre matière",
+          "feedback": "NIRD est transversal! Trouvez comment l'intégrer.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Expérience avec le numérique responsable",
+      "description": "Avez-vous déjà abordé ces thèmes en classe?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, régulièrement",
+          "feedback": "Bravo! Vous êtes pionnier dans votre établissement.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Quelques fois occasionnellement",
+          "feedback": "Bien! Vous avez des points d'appui. NIRD peut structurer vos initiatives.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, c'est nouveau pour moi",
+          "feedback": "Parfait! Vous allez découvrir une pédagogie engagée.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Principaux défis pédagogiques",
+      "description": "Quel est votre plus grand défi en abordant le numérique responsable?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Trouver des ressources adaptées",
+          "feedback": "NIRD vous fournira des matériaux pédagogiques structurés!",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Créer du contenu pertinent pour mes élèves",
+          "feedback": "Ensemble, vous créerez une pédagogie participative.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Engager les élèves sur ces sujets",
+          "feedback": "Les défis et projets ludiques fonctionnent bien!",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Je n'ai pas de défi particulier",
+          "feedback": "Excellent! Vous êtes prêt à intégrer NIRD.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Approche pédagogique",
+      "description": "Quelle approche vous convient le mieux?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Cours magistral avec débats",
+          "feedback": "Classique mais utile pour la théorie.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Projets pratiques et créatifs",
+          "feedback": "Excellent! Le faire, c'est apprendre.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Études de cas et simulations",
+          "feedback": "Très efficace pour l'engagement!",
+          "scores": {
+            "inclusion": 28,
+            "responsabilité": 28,
+            "durabilité": 28
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Mélange de tout",
+          "feedback": "Parfait! Variété = meilleur apprentissage.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Intégration curriculum",
+      "description": "Comment allez-vous intégrer NIRD dans votre curriculum?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "1-2 séquences dédiées par trimestre",
+          "feedback": "Raisonnable! Un équilibre entre intégration et profondeur.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Approche transversale intégrée aux thèmes existants",
+          "feedback": "Excellent! NIRD devient naturel dans vos cours.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Club ou atelier optionnel",
+          "feedback": "Bonne approche pour les intéressés, mais attention à ne pas limiter l'accès.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Projet interdisciplinaire avec collègues",
+          "feedback": "Fantastique! Vous fédérez l'établissement.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Évaluation et impact",
+      "description": "Comment évaluerez-vous l'impact pédagogique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Tests et contrôles traditionnels",
+          "feedback": "Valable mais incomplete. Pensez aussi au développement des valeurs.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Projets créatifs et présentations",
+          "feedback": "Excellent pour évaluer la compréhension et l'engagement!",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Changements de comportements et d'attitudes",
+          "feedback": "Très important! C'est l'objectif ultime de NIRD.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Tout ce qui précède",
+          "feedback": "Parfait! Une évaluation holistique.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    }
+  ]
+}

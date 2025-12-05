@@ -1,0 +1,260 @@
+{
+  "id": "mission-eleve-6",
+  "title": "L'IA à l'école : ami ou ennemi?",
+  "description": "Explorer l'utilisation éthique de l'intelligence artificielle dans vos études",
+  "theme": "ia-ethique",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Votre expérience avec l'IA",
+      "description": "Avez-vous déjà utilisé une IA comme ChatGPT, Gemini ou Claude?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, régulièrement pour mes devoirs",
+          "feedback": "Intéressant! Comment l'utilisez-vous?",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Une fois ou deux par curiosité",
+          "feedback": "Normal à l'ère numérique. L'expérience est importante.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, je préfère faire mes devoirs seul",
+          "feedback": "Respectable! C'est une bonne approche pour l'apprentissage.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Non, je m'en méfie",
+          "feedback": "Compréhensible! Les questions éthiques sont légitimes.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 25,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Utilisation éthique vs malhonnête",
+      "description": "Selon vous, est-ce éthique d'utiliser une IA pour faire entièrement ses devoirs?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, c'est juste une aide comme une autre",
+          "feedback": "À réfléchir: faire ses devoirs c'est apprendre. Laisser l'IA faire annule cet apprentissage.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 5,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Non, c'est une forme de triche",
+          "feedback": "Excellente analyse! C'est une bonne compréhension éthique.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Ça dépend, c'est gris",
+          "feedback": "Vous avez raison! Il y a une zone grise intéressante à explorer.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Usages responsables de l'IA",
+      "description": "Quel usage de l'IA vous semble éthique et bénéfique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "L'utiliser pour comprendre un concept difficile",
+          "feedback": "Excellent! C'est pédagogique et responsable.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Vérifier si ma réponse est correcte après avoir travaillé",
+          "feedback": "Parfait! C'est une utilisation réfléchie comme feedback.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "L'utiliser pour brainstormer des idées",
+          "feedback": "Créatif et responsable! Vous gardez le contrôle.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Tout ce qui précède",
+          "feedback": "Excellent! Vous avez une vision nuancée et responsable.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Les biais de l'IA",
+      "description": "Savez-vous que les IA peuvent avoir des biais discriminatoires?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, je pensais que les IA étaient objectives",
+          "feedback": "Faux! Les IA apprennent de nos données historiques, souvent biaisées.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, j'ai entendu parler de cela",
+          "feedback": "Bien! C'est un enjeu éthique important à connaître.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, et je suis vigilant quand j'utilise l'IA",
+          "feedback": "Excellent! Une vigilance critique est la bonne attitude.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Impact environnemental",
+      "description": "Connaissiez-vous que l'IA consomme énormément d'énergie?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, je pensais que c'était immatériel",
+          "feedback": "Surprise! Chaque requête à une IA nécessite du calcul et donc de l'électricité.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, un peu",
+          "feedback": "Vous commencez à comprendre l'impact écologique.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, et ça m'inquiète",
+          "feedback": "Bonne conscience écologique! C'est un enjeu RSE majeur.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Votre positionnement",
+      "description": "Quelle est votre position globale sur l'IA à l'école?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "L'interdire complètement",
+          "feedback": "Peut-être trop strict. L'IA peut avoir des usages pédagogiques.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "L'encadrer avec des règles claires",
+          "feedback": "Sage! Régulation + pédagogie c'est la bonne approche.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "L'utiliser sans restriction",
+          "feedback": "Attention au risque de dépendance et de déresponsabilisation.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 5,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Apprendre à l'utiliser de façon responsable",
+          "feedback": "Parfait! Vous voulez maîtriser la technologie plutôt que de vous y laisser dominer.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "mission-collectivite-6",
+  "title": "Réseau territorial NIRD",
+  "description": "Créer un écosystème territorial engagé dans le numérique responsable",
+  "theme": "reseau-territorial",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Acteurs à mobiliser",
+      "description": "Avez-vous identifié les partenaires locaux?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on agit en silo",
+          "feedback": "Manquée! L'impact se multiplie en réseau.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, quelques partenaires",
+          "feedback": "Bon début. Élargissez progressivement.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, cartographie complète: écoles + associations + entreprises + état",
+          "feedback": "Excellent! Vous voyez l'écosystème.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Gouvernance du réseau",
+      "description": "Comment pilotez-vous le réseau?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Une personne décide tout",
+          "feedback": "Non-collaboratif. Partagez le pouvoir.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Comité de direction avec représentants",
+          "feedback": "Bon! Gouvernance collective.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Assemblée plénière + groupes travail + rotation leadership",
+          "feedback": "Excellent! Gouvernance véritablement inclusive.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Axes d'intervention",
+      "description": "Quels sont vos piliers NIRD?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Un seul axe (ex: éducation)",
+          "feedback": "Trop étroit. NIRD c'est multidimensionnel.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Deux axes (ex: éduc + inclusion)",
+          "feedback": "Mieux! Continuez à enrichir.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Tous les piliers: éducation + inclusion + écologie + sécurité",
+          "feedback": "Excellent! Approche systémique complète.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Ressources partagées",
+      "description": "Mutualizer-vous les outils et savoirs?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, chacun pour soi",
+          "feedback": "Inefficace! Mutualisation = levier d'impact.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, partage informel occasion",
+          "feedback": "Bien! Formalisez pour durabilité.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, plateforme commune + ressources + formations",
+          "feedback": "Excellent! Écosystème puissant.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Plaidoyer politique",
+      "description": "Influencez-vous les décisions publiques?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ce n'est pas notre rôle",
+          "feedback": "Vous avez une voix! Utilisez-la.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, demandes occasionnelles à l'état",
+          "feedback": "Bon! Continuez le plaidoyer.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, stratégie de plaidoyer coordonnée long-terme",
+          "feedback": "Excellent! Vous façonnez les politiques publiques.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Essaimage et déploiement",
+      "description": "Exportez-vous le modèle ailleurs?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, juste local",
+          "feedback": "Dommage! D'autres pourraient en bénéficier.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, documenté et partagé",
+          "feedback": "Bien! Vous générez de l'impact régional.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, essaimage actif + formation + accompagnement",
+          "feedback": "Magnifique! Vous créez un mouvement national.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    }
+  ]
+}

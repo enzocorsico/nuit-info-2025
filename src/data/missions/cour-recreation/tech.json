@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-tech-1",
+    "title": "Infrastructure verte",
+    "description": "Optimiser l'infrastructure IT pour réduire la consommation énergétique et l'empreinte carbone. Passer au vert.",
+    "difficulty": "avancé",
+    "duration": "8-12h (mise en place sur 6 mois)",
+    "participants": 24,
+    "reward": 600,
+    "objectives": [
+      "Installer des outils de monitoring énergétique complets",
+      "Virtualiser et consolider les serveurs (gain 20-30%)",
+      "Évaluer une migration vers datacenter vert ou cloud vert",
+      "Optimiser refroidissement (air econome vs climatisation)",
+      "Implémenter contrat énergie renouvelable ou panneaux solaires"
+    ]
+  },
+  {
+    "id": "mission-tech-2",
+    "title": "Recyclage et seconde vie du matériel",
+    "description": "Mettre en place un programme complet d'économie circulaire pour le matériel obsolète.",
+    "difficulty": "moyen",
+    "duration": "4-6h",
+    "participants": 31,
+    "reward": 350,
+    "objectives": [
+      "Auditer le parc IT obsolète et créer inventaire détaillé",
+      "Créer processus de diagnostic et tri du matériel",
+      "Nouer partenariats avec prestataires de reconditionnement",
+      "Redistribuer matériel reconditionné (interne, associations, écoles)",
+      "Recycler responsablement via filière agréée"
+    ]
+  },
+  {
+    "id": "mission-tech-3",
+    "title": "Sécurité et confidentialité informatique",
+    "description": "Construire une infrastructure sécurisée, conforme et résiliente. Protéger données et services.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 28,
+    "reward": 700,
+    "objectives": [
+      "Audit complet sécurité par expert externe",
+      "Implémenter 2FA et authentification forte",
+      "Chiffrer données sensibles (AES + TLS)",
+      "Mettre en place sauvegarde robuste (3-2-1)",
+      "Créer plan incident et le tester régulièrement"
+    ]
+  },
+  {
+    "id": "mission-tech-4",
+    "title": "Migration progressiste vers open-source",
+    "description": "Passer d'outils propriétaires à des solutions open-source. Gagner en liberté et économies.",
+    "difficulty": "avancé",
+    "duration": "12-20h (migration sur 1 an)",
+    "participants": 33,
+    "reward": 650,
+    "objectives": [
+      "Auditer les licences logicielles et coûts actuels",
+      "Évaluer alternatives open-source pour chaque outil",
+      "Planifier migration progressive par modules",
+      "Former utilisateurs pendant période de transition",
+      "Mesurer économies et gains en souveraineté"
+    ]
+  },
+  {
+    "id": "mission-tech-5",
+    "title": "Accessibilité numérique universelle",
+    "description": "Garantir que tous peuvent utiliser services et ressources numériques. WCAG 2.1 AA minimum.",
+    "difficulty": "avancé",
+    "duration": "8-12h",
+    "participants": 26,
+    "reward": 550,
+    "objectives": [
+      "Audit complet d'accessibilité (technique + utilisateurs handicapés)",
+      "Rendre conforme WCAG 2.1 niveau AA minimum",
+      "Mettre en place tests automatisés dans CI/CD",
+      "Former équipe design et développement aux bonnes pratiques",
+      "Créer groupe consultation avec utilisateurs en situation de handicap"
+    ]
+  },
+  {
+    "id": "mission-tech-6",
+    "title": "Documentation collaborative",
+    "description": "Mettre en place une connaissance partagée, durable et accessible. Le savoir ne dépend plus d'une personne.",
+    "difficulty": "moyen",
+    "duration": "4-8h",
+    "participants": 29,
+    "reward": 400,
+    "objectives": [
+      "Centraliser documentation dispersée en plateforme unique",
+      "Adopter markdown + git pour versioning et transparence",
+      "Créer processus de contribution et review",
+      "Onboarder via documentation et évaluer sa qualité",
+      "Maintenir à jour via révisions trimestrielles"
+    ]
+  }
+]

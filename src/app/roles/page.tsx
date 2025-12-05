@@ -58,6 +58,43 @@ const roles = [
 export default function RolesPage() {
   return (
     <main className="min-h-screen w-full bg-linear-to-br from-slate-50 to-slate-100 py-12 md:py-20 px-4 md:px-6">
+      {/* RSE Badge - Conception éthique */}
+      <div className="max-w-6xl mx-auto mb-8">
+        <div className="bg-linear-to-r from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-6 shadow-lg">
+          <div className="flex items-start gap-4">
+            <div className="shrink-0 bg-green-500 rounded-full p-3">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div className="grow">
+              <h3 className="text-lg font-bold text-green-900 mb-2">🌱 Plateforme RSE by Design</h3>
+              <p className="text-sm text-green-800 mb-3">
+                Cette plateforme a été conçue selon les principes du <strong>RSE by design</strong> : éthique, inclusive, accessible et durable dès la conception.
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+                <div className="bg-white/70 rounded-lg p-2 border border-green-200">
+                  <span className="font-semibold text-green-900">♻️ Éco-conception</span>
+                  <p className="text-green-700 mt-1">Code optimisé, images compressées</p>
+                </div>
+                <div className="bg-white/70 rounded-lg p-2 border border-green-200">
+                  <span className="font-semibold text-green-900">🌍 Accessibilité</span>
+                  <p className="text-green-700 mt-1">WCAG 2.1, navigation au clavier</p>
+                </div>
+                <div className="bg-white/70 rounded-lg p-2 border border-green-200">
+                  <span className="font-semibold text-green-900">🔒 Privacy</span>
+                  <p className="text-green-700 mt-1">Données locales, pas de tracking</p>
+                </div>
+                <div className="bg-white/70 rounded-lg p-2 border border-green-200">
+                  <span className="font-semibold text-green-900">🤝 Inclusif</span>
+                  <p className="text-green-700 mt-1">6 profils, parcours adaptés</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Header */}
       <div className="max-w-6xl mx-auto mb-16 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-4">

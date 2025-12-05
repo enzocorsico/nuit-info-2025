@@ -1,0 +1,230 @@
+{
+  "id": "mission-direction-3",
+  "title": "Charte numérique co-construite",
+  "description": "Élaborer ensemble un cadre éthique et inclusif",
+  "theme": "charte",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Diagnostic des besoins",
+      "description": "Avez-vous consulté les stakeholders avant de créer?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, sondage complet + ateliers multi-publics",
+          "feedback": "Parfait! La charte aura l'adhésion de tous.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 45
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, réunions avec quelques représentants",
+          "feedback": "Bon début. Pouvez-vous élargir la consultation?",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, c'est la direction qui décide",
+          "feedback": "Top-down = risque de rejet. Inclusivité = clé.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Piliers de la charte",
+      "description": "Quels thèmes incluez-vous dans la charte?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Juste respect des règles IT de base",
+          "feedback": "Trop étroit. Une charte doit être holistique.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Respect + sécurité + environnement",
+          "feedback": "Bon! Les trois dimensions de NIRD.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Respect + sécu + écologie + accessibilité + démocratie",
+          "feedback": "Magnifique! Charte riche et inclusive.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Format et langage",
+      "description": "Quel ton et accessibilité pour la charte?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Jargon technique, très formal et long",
+          "feedback": "Beaucoup ne la liront jamais. Simplifiez!",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Langage clair avec exemples concrets",
+          "feedback": "Bon! Compréhensible par tous.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Accessible (multilingue, facile lecture, illustrations)",
+          "feedback": "Excellent! Vraiment inclusif.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 45,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Sanctions et bienveillance",
+      "description": "Comment appliquez-vous la charte?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Punition stricte (exclusion, renvoi)",
+          "feedback": "Autoritaire. Risque de rejet et de clandestinité.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Sanctions progressives + dialogue",
+          "feedback": "Bon! Équilibre entre limite et éducation.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Réparation + apprentissage. Sanctions = dernier recours",
+          "feedback": "Excellent! Approche réstaurative et éducative.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Révision et adaptation",
+      "description": "Comment reste-t-elle vivante?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Une fois écrite, elle dure plusieurs années",
+          "feedback": "Problème! Le numérique évolue vite, la charte aussi.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Révision annuelle avec consultation",
+          "feedback": "Bon! Elle reste pertinente et légitime.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Révision permanente: feedback + ajustements rapides",
+          "feedback": "Magnifique! Charte organique et participative.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Dissémination et culture",
+      "description": "Comment enracinez-vous la charte?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Distribution/affichage, c'est tout",
+          "feedback": "Passif. La charte devient du papier oublié.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Formation + intégration dans les cours",
+          "feedback": "Bien! La charte devient connaissance active.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Débats réguliers, projets d'étudiants, célébrations",
+          "feedback": "Magnifique! La charte vit et grandit avec la communauté.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

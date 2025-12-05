@@ -1,0 +1,119 @@
+{
+  "id": "mission-tech-3",
+  "title": "Sécurité & vie privée by design",
+  "description": "Renforcer la sécurité tout en respectant la vie privée des utilisateurs",
+  "theme": "sécurité-privacy",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Audit de sécurité",
+      "description": "Vous découvrez que des mots de passe sont stockés en clair. Que faites-vous ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je mets en place un système de hachage (bcrypt) immédiatement",
+          "feedback": "Indispensable ! Le stockage en clair est une faille critique.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 35,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je chiffre les mots de passe avec AES",
+          "feedback": "Attention : le chiffrement n'est pas adapté pour les mots de passe. Utilisez du hachage !",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je force une réinitialisation + authentification à deux facteurs",
+          "feedback": "Parfait ! Double sécurité : vous corrigez ET vous renforcez l'authentification.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 40,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Collecte de données minimale",
+      "description": "Une application demande trop de données personnelles. Comment réagissez-vous ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "J'applique le principe de minimisation RGPD : seulement le strict nécessaire",
+          "feedback": "Excellent ! Privacy by design = collecter uniquement ce qui est indispensable.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 35,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je garde tout mais je sécurise mieux le stockage",
+          "feedback": "Insuffisant : moins de données = moins de risques. La meilleure sécurité est de ne pas stocker.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je rends les données anonymes et je supprime après usage",
+          "feedback": "Parfait ! Anonymisation + suppression = double protection de la vie privée.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 40,
+            "durabilité": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Formation des utilisateurs",
+      "description": "Comment sensibiliser les utilisateurs sans être anxiogène ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Ateliers ludiques sur les bonnes pratiques de sécurité",
+          "feedback": "Excellente approche ! La gamification rend l'apprentissage accessible et mémorable.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Emails d'alerte sur tous les risques possibles",
+          "feedback": "Trop anxiogène : vous risquez la lassitude et l'ignorance des messages.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Intégration de conseils contextuels dans les outils",
+          "feedback": "Intelligent ! Le bon conseil au bon moment = meilleure efficacité.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        }
+      ]
+    }
+  ]
+}

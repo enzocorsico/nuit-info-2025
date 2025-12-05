@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-direction-1",
+    "title": "Continuité de service IT",
+    "description": "Assurer absence de downtime. Plan de continuité et sauvegarde.",
+    "difficulty": "avancé",
+    "duration": "12-15h",
+    "participants": 25,
+    "reward": 700,
+    "objectives": [
+      "Auditer RTO/RPO actuels",
+      "Planifier redondance serveurs",
+      "Mettre en place sauvegarde incrémentale",
+      "Tester récupération régulièrement",
+      "Documenter procédures crisis"
+    ]
+  },
+  {
+    "id": "mission-direction-2",
+    "title": "Infrastructure cloud école",
+    "description": "Migrer vers cloud pour scalabilité et économies. Public vs privé vs hybride.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 28,
+    "reward": 650,
+    "objectives": [
+      "Évaluer besoin cloud réel",
+      "Comparer AWS, Azure, Google Cloud",
+      "Calculer TCO cloud vs on-premise",
+      "Planifier migration progressif",
+      "Assurer conformité RGPD cloud"
+    ]
+  },
+  {
+    "id": "mission-direction-3",
+    "title": "Governance IT et ITIL",
+    "description": "Implémenter gouvernance IT professionnelle. Tickets, changes, incidents.",
+    "difficulty": "moyen",
+    "duration": "6-10h",
+    "participants": 31,
+    "reward": 500,
+    "objectives": [
+      "Mettre en place ticketing système",
+      "Définir processus change management",
+      "Implémenter SLA service",
+      "Former équipe IT processus",
+      "Mesurer KPI IT"
+    ]
+  },
+  {
+    "id": "mission-direction-4",
+    "title": "Budget infrastructure IT",
+    "description": "Planifier investissements IT stratégiquement. Renouvellement serveurs et switch.",
+    "difficulty": "moyen",
+    "duration": "5-8h",
+    "participants": 34,
+    "reward": 400,
+    "objectives": [
+      "Analyser amortissement matériel",
+      "Planifier cycle renouvellement",
+      "Évaluer investissements prioritaires",
+      "Négocier contrats fournisseurs",
+      "Rendre compte à gouvernance"
+    ]
+  },
+  {
+    "id": "mission-direction-5",
+    "title": "Conformité RGPD infrastructure",
+    "description": "Assurer conformité légale RGPD complète. Données élèves et personnel sécurisées.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 29,
+    "reward": 750,
+    "objectives": [
+      "Audit complet conformité RGPD",
+      "Implémenter Privacy by Design",
+      "Chiffrer données sensibles",
+      "Contrats DPA avec fournisseurs",
+      "Plan gestion des données obsolètes"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-eleve-1",
+    "title": "Découvrir les serveurs",
+    "description": "Comprendre ce qu'est un serveur et comment fonctionne Internet. Visite virtuelle du serveur de l'école.",
+    "difficulty": "facile",
+    "duration": "1-2h",
+    "participants": 201,
+    "reward": 150,
+    "objectives": [
+      "Découvrir où vivent les sites web",
+      "Comprendre client-serveur",
+      "Suivre un paquet réseau",
+      "Explorer architecture matérielle",
+      "Visiter la salle serveur (vidéo/visite)"
+    ]
+  },
+  {
+    "id": "mission-eleve-2",
+    "title": "Adresses IP et DNS",
+    "description": "Naviguer Internet comprendre les adresses. Les secrets derrière les noms de domaine.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 167,
+    "reward": 200,
+    "objectives": [
+      "Comprendre IPv4 et IPv6",
+      "Voir son adresse IP publique/privée",
+      "Utiliser nslookup pour requêtes DNS",
+      "Tracer une route vers un serveur",
+      "Configurer serveur DNS personnalisé"
+    ]
+  },
+  {
+    "id": "mission-eleve-3",
+    "title": "Sécurité des données école",
+    "description": "Protéger les données de l'école contre les cybermenaces. Responsabilité collective.",
+    "difficulty": "moyen",
+    "duration": "3-4h",
+    "participants": 134,
+    "reward": 250,
+    "objectives": [
+      "Reconnaître attaques (phishing, ransomware)",
+      "Bonnes pratiques mots de passe",
+      "Comprendre chiffrement données",
+      "Sauvegarde et récupération",
+      "Reporter incident de sécurité"
+    ]
+  },
+  {
+    "id": "mission-eleve-4",
+    "title": "Bande passante et débit",
+    "description": "Mesurer et optimiser sa connexion. Pourquoi Internet ralentit parfois à l'école.",
+    "difficulty": "facile",
+    "duration": "1-2h",
+    "participants": 178,
+    "reward": 120,
+    "objectives": [
+      "Tester débit internet (speedtest)",
+      "Comprendre bande passante et latence",
+      "Identifier ce qui consomme bande passante",
+      "Optimiser sa connexion",
+      "Partage équitable de ressources réseau"
+    ]
+  },
+  {
+    "id": "mission-eleve-5",
+    "title": "Cloud et stockage à distance",
+    "description": "Utiliser le cloud en toute sécurité. Stocker données à distance de façon responsable.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 145,
+    "reward": 220,
+    "objectives": [
+      "Configurer sync de fichiers sécurisé",
+      "Comprendre différence cloud public/privé",
+      "Gérer quotas et permissions",
+      "Sauvegarder données sensibles",
+      "Sécuriser partage de fichiers"
+    ]
+  },
+  {
+    "id": "mission-eleve-6",
+    "title": "Résilience infrastructure",
+    "description": "Comprendre redondance et continuité de service. Comment ne pas perdre les données.",
+    "difficulty": "avancé",
+    "duration": "3-5h",
+    "participants": 98,
+    "reward": 300,
+    "objectives": [
+      "Découvrir RAID et redondance",
+      "Planifier plan de continuité",
+      "Tester récupération après sinistre",
+      "Comprendre RTO et RPO",
+      "Architecturer pour la résilience"
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "id": "mission-collectivite-2",
+  "title": "Smart city responsable",
+  "description": "Développer une ville intelligente respectueuse des citoyens",
+  "theme": "smart-city",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Capteurs et vie privée",
+      "description": "Vous voulez installer des capteurs IoT pour optimiser l'éclairage public. Comment garantir la vie privée ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Capteurs de luminosité uniquement, pas de caméras",
+          "feedback": "Bon début ! Vous limitez la collecte de données au strict nécessaire.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Caméras avec reconnaissance faciale pour plus d'efficacité",
+          "feedback": "Dangereux ! La surveillance de masse n'est pas compatible avec une ville responsable.",
+          "scores": {
+            "inclusion": -10,
+            "responsabilité": -15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Capteurs anonymisés + consultation citoyenne sur leur usage",
+          "feedback": "Parfait ! Privacy by design + démocratie participative = smart city responsable.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Transparence des données",
+      "description": "Que faites-vous des données collectées par la ville ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Open data : publication anonymisée accessible à tous",
+          "feedback": "Excellent ! La transparence renforce la confiance et permet l'innovation citoyenne.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Usage interne uniquement pour des raisons de sécurité",
+          "feedback": "Trop fermé. L'open data peut coexister avec la sécurité via l'anonymisation.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Plateforme open data + ateliers citoyens pour exploiter les données",
+          "feedback": "Parfait ! Vous allez au-delà de la simple publication : vous engagez les citoyens.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Inclusion numérique",
+      "description": "Comment s'assurer que tous les citoyens bénéficient de la smart city ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Applications mobiles + bornes physiques + guichets",
+          "feedback": "Excellent ! Multi-canal = accessibilité pour tous les profils.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Tout en ligne, c'est plus moderne",
+          "feedback": "Attention à la fracture numérique ! Vous excluez les personnes non connectées.",
+          "scores": {
+            "inclusion": -10,
+            "responsabilité": -10,
+            "durabilité": -5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Services hybrides + formation numérique dans les quartiers",
+          "feedback": "Parfait ! Vous accompagnez la transformation plutôt que de l'imposer.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        }
+      ]
+    }
+  ]
+}

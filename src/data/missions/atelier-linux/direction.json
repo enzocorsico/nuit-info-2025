@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-direction-1",
+    "title": "Stratégie open-source école",
+    "description": "Migrer vers open-source pour réduire coûts de licence. Indépendance technologique et éthique.",
+    "difficulty": "avancé",
+    "duration": "10-15h (sur 3 mois)",
+    "participants": 28,
+    "reward": 600,
+    "objectives": [
+      "Auditer dépendances aux logiciels propriétaires",
+      "Évaluer alternatives open-source pertinentes",
+      "Planifier migration progressive sans rupture",
+      "Former IT et utilisateurs",
+      "Mesurer économies et gains"
+    ]
+  },
+  {
+    "id": "mission-direction-2",
+    "title": "Infrastructure IT responsable",
+    "description": "Réduire empreinte carbone IT de l'école. Serveurs efficaces, énergie verte.",
+    "difficulty": "moyen",
+    "duration": "6-10h",
+    "participants": 31,
+    "reward": 450,
+    "objectives": [
+      "Auditer consommation énergétique IT actuels",
+      "Évaluer efficacité énergétique",
+      "Déployer virtualisation pour consolider",
+      "Migrer vers cloud vert si pertinent",
+      "Mettre en place politique eco-IT"
+    ]
+  },
+  {
+    "id": "mission-direction-3",
+    "title": "Gouvernance données",
+    "description": "Protéger données élèves et personnel. Conformité RGPD et sécurité.",
+    "difficulty": "avancé",
+    "duration": "12-18h",
+    "participants": 26,
+    "reward": 700,
+    "objectives": [
+      "Auditer données collectées et stockage",
+      "Assurer conformité RGPD stricte",
+      "Chiffrer données sensibles",
+      "Former personnel à sécurité",
+      "Créer politique données transparente"
+    ]
+  },
+  {
+    "id": "mission-direction-4",
+    "title": "Charte numérique établissement",
+    "description": "Co-construire charte numérique avec tous les acteurs. Règles claires et acceptées.",
+    "difficulty": "moyen",
+    "duration": "5-8h",
+    "participants": 35,
+    "reward": 350,
+    "objectives": [
+      "Consulter élèves, profs, parents, IT",
+      "Définir usage responsable des outils",
+      "Établir règles screen-time à l'école",
+      "Créer formation sur bon usage",
+      "Communiquer et faire adhérer"
+    ]
+  },
+  {
+    "id": "mission-direction-5",
+    "title": "Budget informatique optimisé",
+    "description": "Réduire budget IT sans sacrifier qualité. Logiciels libres, reconditionnement, cloud.",
+    "difficulty": "moyen",
+    "duration": "4-6h",
+    "participants": 38,
+    "reward": 300,
+    "objectives": [
+      "Analyser dépenses IT actuelles",
+      "Identifier licences inutiles",
+      "Évaluer reconditionnement vs neuf",
+      "Calculer coûts totaux open-source",
+      "Négocier contrats intelligents"
+    ]
+  }
+]

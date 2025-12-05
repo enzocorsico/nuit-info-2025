@@ -1,0 +1,240 @@
+{
+  "id": "mission-direction-1",
+  "title": "Gouvernance numérique responsable",
+  "description": "Mettre en place une politique numérique inclusive et durable",
+  "theme": "gouvernance",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "État des lieux",
+      "description": "Avez-vous actuellement une politique numérique formalisée?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, complète et actualisée",
+          "feedback": "Excellent! Vous pouvez l'enrichir avec NIRD.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, mais obsolète ou incompète",
+          "feedback": "C'est l'occasion de la réformer!",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, on fonctionne sans",
+          "feedback": "C'est un besoin urgent. NIRD vous offre un cadre.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Piliers de gouvernance",
+      "description": "Quels sont vos principaux enjeux numériques actuels?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Sécurité et protection des données",
+          "feedback": "Fondamental! RGPD et cybersécurité sont essentiels.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Fracture numérique et accès équitable",
+          "feedback": "Social! Garantir que personne n'est exclu.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Impact environnemental",
+          "feedback": "Très important! L'écologie numérique est souvent ignorée.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Tous les éléments ci-dessus",
+          "feedback": "Vision holistique et responsable!",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Acteurs impliqués",
+      "description": "Qui participera à la co-construction de cette gouvernance?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Seulement la direction",
+          "feedback": "Non collaboratif. Vous risquez de manquer des perspectives.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Direction + professeurs + tech",
+          "feedback": "Bon! Représentation des principaux acteurs.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Direction + profs + tech + élèves + familles",
+          "feedback": "Excellent! Gouvernance inclusive et participative.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Outils et infrastructure",
+      "description": "Quelle approche pour vos outils informatiques?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "GAFAM (Google, Microsoft, Apple, Facebook, Amazon)",
+          "feedback": "Confortable mais questionnable en termes de souveraineté.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 5,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Mélange: GAFAM + open-source progressif",
+          "feedback": "Transition pragmatique et progressive.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Priorité open-source et souveraineté",
+          "feedback": "Courageux et responsable!",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Mise en œuvre",
+      "description": "Quel est votre premier pas concret?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Audit des pratiques actuelles",
+          "feedback": "Bon! Vous partez de faits, pas de suppositions.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Formation des équipes",
+          "feedback": "Essentiel! L'éducation change les comportements.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Charte co-construite et validée",
+          "feedback": "Excellent! Participation = adhésion.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Vision long terme",
+      "description": "Quel est votre objectif pour 3-5 ans?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Conformité réglementaire (RGPD, etc.)",
+          "feedback": "Minimum légal. Mais on peut viser plus haut!",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Excellence NIRD avec label ou certification",
+          "feedback": "Ambitieux! Vous transformez l'établissement.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Être modèle et ressource pour d'autres établissements",
+          "feedback": "Magnifique! Vous créez un mouvement.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 45
+          }
+        }
+      ]
+    }
+  ]
+}

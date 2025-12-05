@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mission-eleve-1",
+    "title": "Les données collectées : qui en profite?",
+    "description": "Analyser comment vos données personnelles sont utilisées par les grandes tech",
+    "difficulty": "facile",
+    "duration": "30 min",
+    "participants": 245,
+    "reward": 100,
+    "objectives": [
+      "Comprendre le modèle économique des GAFAM",
+      "Identifier les données personnelles",
+      "Évaluer l'impact sur la vie privée"
+    ]
+  },
+  {
+    "id": "mission-eleve-2",
+    "title": "Créer une stratégie numérique responsable",
+    "description": "Proposer des alternatives éthiques aux outils numériques classiques",
+    "difficulty": "moyen",
+    "duration": "1h30",
+    "participants": 156,
+    "reward": 250,
+    "objectives": [
+      "Rechercher des alternatives open-source",
+      "Comparer les outils",
+      "Présenter votre proposition"
+    ]
+  },
+  {
+    "id": "mission-eleve-3",
+    "title": "Le défi du déconnexion",
+    "description": "Relever des défis pour réduire votre consommation numérique",
+    "difficulty": "difficile",
+    "duration": "1 semaine",
+    "participants": 89,
+    "reward": 500,
+    "objectives": [
+      "Suivre votre consommation",
+      "Relever les défis proposés",
+      "Partager votre expérience"
+    ]
+  },
+  {
+    "id": "mission-eleve-4",
+    "title": "Enquête sur l'empreinte carbone numérique",
+    "description": "Mesurer l'impact environnemental de vos usages numériques quotidiens",
+    "difficulty": "facile",
+    "duration": "45 min",
+    "participants": 312,
+    "reward": 150,
+    "objectives": [
+      "Calculer votre empreinte carbone numérique",
+      "Identifier les postes les plus polluants",
+      "Proposer 3 actions concrètes de réduction"
+    ]
+  },
+  {
+    "id": "mission-eleve-5",
+    "title": "Cyberharcèlement : agir et prévenir",
+    "description": "Comprendre le cyberharcèlement et devenir un acteur de prévention",
+    "difficulty": "moyen",
+    "duration": "2h",
+    "participants": 198,
+    "reward": 300,
+    "objectives": [
+      "Reconnaître les signes de cyberharcèlement",
+      "Connaître les recours légaux",
+      "Créer une campagne de sensibilisation"
+    ]
+  },
+  {
+    "id": "mission-eleve-6",
+    "title": "L'IA à l'école : ami ou ennemi?",
+    "description": "Explorer l'utilisation éthique de l'intelligence artificielle dans vos études",
+    "difficulty": "moyen",
+    "duration": "1h",
+    "participants": 267,
+    "reward": 200,
+    "objectives": [
+      "Comprendre le fonctionnement d'une IA",
+      "Identifier les biais algorithmiques",
+      "Utiliser l'IA de façon responsable"
+    ]
+  }
+]

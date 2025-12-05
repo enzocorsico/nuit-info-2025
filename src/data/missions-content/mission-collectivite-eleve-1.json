@@ -1,0 +1,193 @@
+{
+  "id": "mission-collectivite-eleve-1",
+  "title": "Numériser les services publics locaux",
+  "description": "Aider les habitants à accéder aux services de la commune en ligne",
+  "theme": "e-services",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "État des lieux des services actuels",
+      "description": "Vous analysez les services municipaux. Comment les adapter au numérique ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Copier les grands portails centralisés (France Connect, Docaposte)",
+          "feedback": "Pratique mais vous acceptez la dépendance aux géants du numérique.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": -10,
+            "durabilité": -5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Créer une plateforme locale souveraine avec open-source",
+          "feedback": "Excellent ! Vous gardez la maîtrise de vos données et services.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Proposer une approche hybride : local + partenaires éthiques",
+          "feedback": "Très bien ! Vous trouvez un équilibre entre efficacité et souveraineté.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Accessibilité pour tous les habitants",
+      "description": "Vos services en ligne doivent être accessibles. Que prioritizez-vous ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Confier à une agence web classique, rapide mais coûteux",
+          "feedback": "Efficace mais pas centré sur l'accessibilité réelle.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 5,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Ignorer l'accessibilité pour les seniors et handicapés",
+          "feedback": "Mauvaise décision ! Vous excluez une part importante de vos citoyens.",
+          "scores": {
+            "inclusion": -25,
+            "responsabilité": -30,
+            "durabilité": -10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Intégrer norme WCAG et impliquer directement les citoyens en situation de handicap",
+          "feedback": "Parfait ! Vous pratiquez la véritable inclusion numérique.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Protection des données des citoyens",
+      "description": "Vous gérez des données sensibles. Comment les protéger ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Les stocker sur un cloud commercial sans chiffrement supplémentaire",
+          "feedback": "Dangereux ! Vous exposez vos citoyens à des risques majeurs.",
+          "scores": {
+            "inclusion": -20,
+            "responsabilité": -35,
+            "durabilité": -15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Implémenter chiffrement, audit de sécurité et conformité RGPD stricte",
+          "feedback": "Excellent ! Vous protégez vraiment vos citoyens et leur confiance.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Créer un serveur municipal sécurisé avec audit régulier",
+          "feedback": "Très responsable ! Vous gardez les données sous votre contrôle.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Formation des agents municipaux",
+      "description": "Vos agents doivent utiliser ces nouveaux outils. Comment les former ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Formation rapide en ligne, chacun se débrouille",
+          "feedback": "Risqué ! Vos agents ne maîtriseront pas les outils.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Ignorer la formation et imposer le nouveau système",
+          "feedback": "Catastrophique ! Vous créez de la résistance au changement.",
+          "scores": {
+            "inclusion": -20,
+            "responsabilité": -25,
+            "durabilité": -10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Formations progressives en petit groupe avec support continu",
+          "feedback": "Parfait ! Vous accompagnez le changement de manière inclusive.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Évaluation de l'impact",
+      "description": "Après 6 mois, comment mesurez-vous le succès ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Juste par le nombre de connexions en ligne",
+          "feedback": "Incomplet ! Vous ne mesurez pas la satisfaction réelle.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Sondage citoyens, étude du taux de satisfaction, évaluation de l'accessibilité",
+          "feedback": "Excellent ! Vous mesurez l'impact réel sur tous les citoyens.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Ignorer les retours, c'est déjà mis en place",
+          "feedback": "Mauvais ! Sans feedback, vous ne pourrez pas améliorer.",
+          "scores": {
+            "inclusion": -15,
+            "responsabilité": -20,
+            "durabilité": -10
+          }
+        }
+      ]
+    }
+  ]
+}

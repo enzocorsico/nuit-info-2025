@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-tech-1",
+    "title": "Architecture réseau moderne",
+    "description": "Concevoir et déployer architecture réseau complète. DMZ, VLAN, redondance.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 23,
+    "reward": 750,
+    "objectives": [
+      "Concevoir architecture sécurisée",
+      "Configurer VLAN et segmentation",
+      "Déployer DMZ pour services publics",
+      "Setup load balancing et failover",
+      "Documenter architecture complète"
+    ]
+  },
+  {
+    "id": "mission-tech-2",
+    "title": "Virtualisation serveurs",
+    "description": "Consolider serveurs physiques. Hyperviseurs ESXi, KVM, Hyper-V.",
+    "difficulty": "avancé",
+    "duration": "8-12h",
+    "participants": 20,
+    "reward": 650,
+    "objectives": [
+      "Installer hyperviseur de choix",
+      "Migrer serveurs physiques→virtuels",
+      "Gérer ressources et allocation",
+      "Snapshots et backup VMs",
+      "High availability cluster"
+    ]
+  },
+  {
+    "id": "mission-tech-3",
+    "title": "Monitoring et observabilité",
+    "description": "Surveiller santé infrastructure. Alertes, logs, métriques centralisées.",
+    "difficulty": "avancé",
+    "duration": "8-10h",
+    "participants": 21,
+    "reward": 600,
+    "objectives": [
+      "Installer Prometheus ou Grafana",
+      "Configurer agents monitoring",
+      "Créer dashboards observabilité",
+      "Alertes automatiques seuils",
+      "Logs centralisés ELK stack"
+    ]
+  },
+  {
+    "id": "mission-tech-4",
+    "title": "Backup et disaster recovery",
+    "description": "Stratégie sauvegarde résiliente. RTO<4h, RPO<1h pour données critiques.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 19,
+    "reward": 800,
+    "objectives": [
+      "Planifier stratégie 3-2-1 backup",
+      "Outils backup (Veeam, Bacula, etc)",
+      "Chiffrer backups en transit et rest",
+      "Tester restauration régulièrement",
+      "Site de secours géographique"
+    ]
+  },
+  {
+    "id": "mission-tech-5",
+    "title": "Infrastructure vert",
+    "description": "Réduire empreinte carbone data center. Efficacité énergétique serveurs.",
+    "difficulty": "moyen",
+    "duration": "6-8h",
+    "participants": 24,
+    "reward": 500,
+    "objectives": [
+      "Auditer consommation énergétique",
+      "Optimiser refroidissement",
+      "Virtualisation et consolidation",
+      "Énergie renouvelable data center",
+      "Carbon offset strategy"
+    ]
+  },
+  {
+    "id": "mission-tech-6",
+    "title": "Infrastructure as Code",
+    "description": "Automatiser provisioning infrastructure. Terraform, Ansible, code réproductible.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 22,
+    "reward": 700,
+    "objectives": [
+      "Définir infrastructure en code",
+      "Automation provisioning serveurs",
+      "Version control infra",
+      "Staging et production identiques",
+      "CI/CD infrastructure pipelines"
+    ]
+  }
+]

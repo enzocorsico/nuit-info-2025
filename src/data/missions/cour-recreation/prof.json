@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-prof-1",
+    "title": "Enseigner le numérique responsable",
+    "description": "Intégrer NIRD dans votre pédagogie. Créer des séquences interdisciplinaires et engageantes pour former des citoyens numériques.",
+    "difficulty": "moyen",
+    "duration": "4-6h (+ mise en place en classe)",
+    "participants": 89,
+    "reward": 300,
+    "objectives": [
+      "Concevoir 5 séquences pédagogiques NIRD interdisciplinaires",
+      "Former vos élèves à l'esprit critique face aux données",
+      "Intégrer NIRD dans votre discipline (français, maths, histoire, etc)",
+      "Évaluer les compétences numériques responsables",
+      "Animer des débats et projets collaboratifs"
+    ]
+  },
+  {
+    "id": "mission-prof-2",
+    "title": "Éducation aux médias et infodémie",
+    "description": "Donner aux élèves les outils pour détecter les fakes news et analyser les sources. Résister à la manipulation informationnelle.",
+    "difficulty": "moyen",
+    "duration": "3-5h (+ ateliers continus)",
+    "participants": 145,
+    "reward": 250,
+    "objectives": [
+      "Enseigner la hiérarchie des sources et du fact-checking",
+      "Montrer comment les algorithmes créent des bulles informationnelles",
+      "Former à la vérification des images et deepfakes",
+      "Analyser ensemble les infobulles locales et nationales",
+      "Créer des projets de journalisme scolaire responsable"
+    ]
+  },
+  {
+    "id": "mission-prof-3",
+    "title": "Lab numérique inclusif",
+    "description": "Créer un espace où tous les élèves (y compris handicapés) peuvent apprendre et créer avec les technologies.",
+    "difficulty": "avancé",
+    "duration": "5-8h (mise en place progressive)",
+    "participants": 67,
+    "reward": 400,
+    "objectives": [
+      "Auditer l'accessibilité physique et numérique de vos ressources",
+      "Former-vous à WCAG et critères d'accessibilité",
+      "Adapter votre pédagogie pour élèves dyslexiques, non-voyants, sourds",
+      "Mettre en place des technos d'accessibilité (lecteurs d'écran, etc)",
+      "Créer une culture d'inclusion numérique durable"
+    ]
+  },
+  {
+    "id": "mission-prof-4",
+    "title": "Sobriété numérique en classe",
+    "description": "Réduire l'impact environnemental de vos pratiques numériques. Interroger l'utilité réelle des technologies en classe.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 112,
+    "reward": 200,
+    "objectives": [
+      "Auditer votre consommation énergétique (serveurs, streaming vidéo, etc)",
+      "Identifier les usages numériques inutiles ou remplaçables",
+      "Sensibiliser les élèves à l'empreinte carbone numérique",
+      "Mettre en place des pratiques sobres (pas de streaming 4K, etc)",
+      "Créer des alternatives non-numériques plus efficaces"
+    ]
+  },
+  {
+    "id": "mission-prof-5",
+    "title": "Projet collaboratif inter-classes",
+    "description": "Organiser un projet qui croise plusieurs disciplines, classes ou écoles pour explorer un enjeu NIRD ensemble.",
+    "difficulty": "avancé",
+    "duration": "6-10h (+ suivi sur 3 mois)",
+    "participants": 98,
+    "reward": 450,
+    "objectives": [
+      "Identifier un enjeu NIRD local ou global pertinent",
+      "Créer une équipe pluridisciplinaire d'enseignants",
+      "Organiser des rôles et responsabilités des élèves",
+      "Documenter et communiquer les progrès et résultats",
+      "Pérenniser le projet pour les années suivantes"
+    ]
+  }
+]

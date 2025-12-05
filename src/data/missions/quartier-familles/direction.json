@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-direction-1",
+    "title": "Politique familiale numérique",
+    "description": "Créer politique école famille sur bien-être numérique. Charte signée.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 19,
+    "reward": 700,
+    "objectives": [
+      "Consulter tous stakeholders",
+      "Définir règles communes",
+      "Conséquences cohérentes",
+      "Communication parents-école",
+      "Révision annuelle adaptée"
+    ]
+  },
+  {
+    "id": "mission-direction-2",
+    "title": "Partenariat services jeunesse",
+    "description": "Coordonner avec services jeunesse local. Soutien enfants en difficulté.",
+    "difficulty": "moyen",
+    "duration": "6-10h",
+    "participants": 22,
+    "reward": 500,
+    "objectives": [
+      "Identifier services locaux",
+      "Créer protocoles partenariat",
+      "Signaler enfants à risque",
+      "Suivi coordonné action",
+      "Eval efficacité partenariat"
+    ]
+  },
+  {
+    "id": "mission-direction-3",
+    "title": "Parentalité positive école",
+    "description": "Programme école parental complète. Support quotidien parents.",
+    "difficulty": "avancé",
+    "duration": "15-20h",
+    "participants": 17,
+    "reward": 800,
+    "objectives": [
+      "Recruter animateur parentalité",
+      "Créer programme annuel",
+      "Ateliers réguliers gratuits",
+      "Ressources en ligne parents",
+      "Impact enfants mesurable"
+    ]
+  },
+  {
+    "id": "mission-direction-4",
+    "title": "Inclusion familles vulnérables",
+    "description": "Assurer accès égal famille école. Pas d'exclusion numérique.",
+    "difficulty": "moyen",
+    "duration": "8-12h",
+    "participants": 21,
+    "reward": 600,
+    "objectives": [
+      "Audit fracture numérique",
+      "Équiper familles chômage",
+      "Formation informatique mère",
+      "Signaler besoins spécifiques",
+      "Évaluer résultats inclusion"
+    ]
+  },
+  {
+    "id": "mission-direction-5",
+    "title": "Leadership communautaire",
+    "description": "Créer écosystème numérique bienveillant. Tout le village apprend ensemble.",
+    "difficulty": "avancé",
+    "duration": "20-30h",
+    "participants": 15,
+    "reward": 1000,
+    "objectives": [
+      "Vision long terme communauté",
+      "Mobiliser ressources locales",
+      "Projets intergénérationnels",
+      "Mesurer impact social",
+      "Modèle reproductible autre écoles"
+    ]
+  }
+]

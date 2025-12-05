@@ -1,0 +1,119 @@
+{
+  "id": "mission-prof-2",
+  "title": "Créer un atelier d'éducation aux médias",
+  "description": "Développer l'esprit critique face aux fake news et désinformation",
+  "theme": "éducation-médias",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Détecter une fake news",
+      "description": "Un élève vous montre une vidéo virale sur les réseaux sociaux. Comment l'aborder ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je lui apprends à vérifier les sources et croiser les informations",
+          "feedback": "Parfait ! Vous développez son esprit critique plutôt que de juste dire vrai/faux.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je lui dis que c'est faux et je passe à autre chose",
+          "feedback": "Dommage, c'était l'occasion de lui apprendre la méthodologie de vérification.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "J'organise un atelier collectif sur la désinformation",
+          "feedback": "Excellent ! Vous transformez un cas particulier en apprentissage collectif.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Les biais algorithmiques",
+      "description": "Comment expliquer les bulles de filtre aux élèves ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Par une expérience pratique : comparer leurs fils d'actualité",
+          "feedback": "Brillant ! L'expérience concrète est plus marquante qu'un cours théorique.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Par un cours magistral sur les algorithmes de recommandation",
+          "feedback": "Informatif, mais peut-être trop abstrait pour certains élèves.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "En créant une simulation d'algorithme de recommandation",
+          "feedback": "Génial ! Ils comprennent mieux en créant eux-mêmes le mécanisme.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Diffuser les bonnes pratiques",
+      "description": "Comment pérenniser cet apprentissage au-delà de votre cours ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Les élèves créent un guide de fact-checking pour le CDI",
+          "feedback": "Excellente idée ! Ils deviennent acteurs et partagent leurs connaissances.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je donne un contrôle pour valider les acquis",
+          "feedback": "Classique mais limité. L'évaluation seule ne garantit pas l'application.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "On lance un projet inter-classes de lutte contre la désinformation",
+          "feedback": "Fantastique ! Vous créez une dynamique d'établissement et multipliez l'impact.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        }
+      ]
+    }
+  ]
+}

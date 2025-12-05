@@ -1,0 +1,230 @@
+{
+  "id": "mission-collectivite-1",
+  "title": "Territoire numérique inclusif",
+  "description": "Réduire la fracture numérique et assurer l'accès pour tous",
+  "theme": "inclusion-territoriale",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Diagnostic de la fracture",
+      "description": "Avez-vous évalué la fracture numérique locale?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ce n'est pas notre rôle",
+          "feedback": "Grave! C'est une mission d'intérêt public.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, sondage / étude partielle",
+          "feedback": "Bon début. Approfondissez le diagnostic.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, étude complète: accès, compétences, usages",
+          "feedback": "Excellent! Base solide pour une politique.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Accès à la connectivité",
+      "description": "Comment aidez-vous à l'accès internet?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "On ne fait rien, c'est privé",
+          "feedback": "Problème public! Sans connexion, pas d'inclusion.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Points d'accès publics (mairie, bibliothèque)",
+          "feedback": "Bon! C'est un début.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Aide à l'équipement + points publics + formations",
+          "feedback": "Excellent! Approche globale.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Formation et littératie",
+      "description": "Formez-vous les citoyens aux usages?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, chacun se débrouille",
+          "feedback": "Les exclus restent exclus sans soutien.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, quelques ateliers occasionnels",
+          "feedback": "Bon début. Structurez et pérennisez.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Programme régulier multiâges, gratuit, accessible",
+          "feedback": "Excellent! Vous montez en puissance.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Accessibilité universelle",
+      "description": "Votre offre est-elle accessible à tous?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on pense qu'on ne peut pas faire pour tout le monde",
+          "feedback": "Fatalisme! L'accessibilité est possible.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, locaux accessibles, horaires flexibles",
+          "feedback": "Bon! Vous faites l'effort.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, plein accès: physique, numérique (WCAG), langue",
+          "feedback": "Excellent! Vraiment inclusif.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Partenariats et ressources",
+      "description": "Avec qui travaillez-vous?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Seuls, budgets municipaux",
+          "feedback": "Limité. Diversifiez les ressources.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Associations + entreprises + État",
+          "feedback": "Bien! Écosystème collaboratif.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Réseau territorial: écoles + santé + associations + état",
+          "feedback": "Excellent! Vous créez une masse critique.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Évaluation et pérennité",
+      "description": "Comment mesurez-vous votre impact?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pas de mesure, c'est du bénévolat",
+          "feedback": "L'évaluation guide l'amélioration.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Nombre de participants formés",
+          "feedback": "Utile mais incomplet. Mesurez aussi l'impact.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Impact social mesuré + pérennisation budgétaire",
+          "feedback": "Excellent! Approche robuste et durable.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

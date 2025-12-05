@@ -1,0 +1,270 @@
+{
+  "id": "mission-direction-2",
+  "title": "Budget numérique éco-responsable",
+  "description": "Optimiser les dépenses tech tout en réduisant l'impact environnemental",
+  "theme": "budget-eco",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Situation actuelle",
+      "description": "Connaissez-vous le coût total de votre infrastructure IT?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, je l'ai audité récemment",
+          "feedback": "Excellent! Vous avez la base pour optimiser.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Approximativement, mais pas en détail",
+          "feedback": "Un audit détaillé pourrait révéler des économies.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, c'est mal documenté",
+          "feedback": "C'est votre premier diagnostic à faire!",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Coût du Cycle de Vie (TCO)",
+      "description": "Comment évaluez-vous le coût réel du matériel?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Prix d'achat seulement",
+          "feedback": "Incomplet! C'est 30% du coût total. Oubliez maintenance, énergie...",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Achat + maintenance + consommation électrique",
+          "feedback": "Mieux! Vous approchez du TCO réel.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Achat + maintenance + énergie + fin de vie",
+          "feedback": "Excellent! C'est le vrai coût total incluant l'impact écologique.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Achat et équipement",
+      "description": "Quelle stratégie d'achat adopter?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Renouvellement complet tous les 3-4 ans",
+          "feedback": "Cher et polluant. Pourquoi remplacer du matériel qui fonctionne?",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Privilégier le matériel reconditionné",
+          "feedback": "Excellent! Économies massives et impact réduit.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Allonger la durée de vie avec réparation/upgrade",
+          "feedback": "Sage! Chaque année gagnée = économies significatives.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Combiner reconditionné + réparation + location",
+          "feedback": "Stratégie complète et intelligente!",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Réduction de la consommation",
+      "description": "Comment réduire votre facture énergétique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Installer des serveurs plus efficaces",
+          "feedback": "Technique mais effectif. 20-30% d'économie possible.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Éteindre appareils inutilisés, mode veille",
+          "feedback": "Simple et puissant! 10-15% d'économies immédiates.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Passer à une énergie renouvelable pour l'établissement",
+          "feedback": "Long terme! Zéro émission carbone potentielles.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 45
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Tout ce qui précède + former les utilisateurs",
+          "feedback": "Approche systémique et durable!",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Partenariats et financements",
+      "description": "Cherchez-vous des sources de financement alternatives?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Subventions de collectivités (région, département)",
+          "feedback": "Bon! Beaucoup de fonds existent pour le numérique responsable.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partenariats avec acteurs de l'économie circulaire",
+          "feedback": "Créatif! Vous créez du lien tout en économisant.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Crowdfunding ou implication de l'école/familles",
+          "feedback": "Participatif et transparence budgétaire!",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Toutes les options ci-dessus en combinaison",
+          "feedback": "Excellent! Diversification des ressources.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Objectifs financiers",
+      "description": "Quel est votre cible de réduction budgétaire?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pas d'objectif, on verra bien",
+          "feedback": "Un plan sans target reste imprécis. Fixez un but!",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Réduire de 10-15% en 2 ans",
+          "feedback": "Réaliste et ambitieux. C'est possible!",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Réduire de 25-30% en 3 ans",
+          "feedback": "Très ambitieux! Nécessite une vraie transformation.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Carbon-neutral en 3-5 ans",
+          "feedback": "Objectif zéro carbone! C'est la vision du futur.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 45,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

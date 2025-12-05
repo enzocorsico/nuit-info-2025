@@ -1,0 +1,230 @@
+{
+  "id": "mission-collectivite-5",
+  "title": "Démocratie participative numérique",
+  "description": "Renforcer l'engagement citoyen grâce au numérique",
+  "theme": "democratie",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Outils de participation",
+      "description": "Avez-vous des plateformes participatives?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, décision en haut du gouvernement",
+          "feedback": "Centralisme. La démocratie c'est la parole collective.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, consultation en ligne occasionnelle",
+          "feedback": "Bon! Vous consultez, bien que sporadiquement.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, plateforme robuste avec budget participatif",
+          "feedback": "Excellent! Démocratie vivante et inclusive.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Accessibilité et inclusivité",
+      "description": "Qui peut participer sur votre plateforme?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Que les habitants avec internet et savoir-faire",
+          "feedback": "Exclure est facile. Inclure demande effort.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "On essaie mais 'digital native' surtout",
+          "feedback": "Bon! Amélioration continue requise.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, numérique + formations + alternatives hors-ligne",
+          "feedback": "Excellent! Vrai inclusion de tous.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Débat et délibération",
+      "description": "Comment gérez-vous les discussions?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Libre pour tous, n'importe quoi s'écrit",
+          "feedback": "Risque de toxicité. Modération bienveillante requise.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 10,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Modération basique + code de conduite",
+          "feedback": "Bon! Vous protégez de la toxicité.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Modération + facilitation + espaces thématiques",
+          "feedback": "Excellent! Débat constructif et organisé.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Transparence des décisions",
+      "description": "Comment expliquez-vous les décisions finales?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "On ne revient pas après consultation",
+          "feedback": "Fatigue participative! Expliquez vos choix.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on explique quoi a été retenu",
+          "feedback": "Bon! Vous fermer la boucle.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, raisons + impact + feedback sur contributions",
+          "feedback": "Excellent! Respect et apprentissage mutuel.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Impact réel des participations",
+      "description": "La parole des citoyens change-t-elle vraiment?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, c'est décoratif",
+          "feedback": "Pire que pas de consultation: ça tue la confiance.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Parfois, quand c'est pratique politiquement",
+          "feedback": "Mieux que rien. Mais c'est du spectacle.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui régulièrement, décisions changent selon participation",
+          "feedback": "Magnifique! Démocratie réelle.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Pérennisation du système",
+      "description": "La participation est-elle pérenne?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Projet ponctuel avec bénévoles",
+          "feedback": "Fragile. La démocratie c'est permanent.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Budget municipal dédié + responsable",
+          "feedback": "Bon! Vous formalisez la participation.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Infrastructure pérenne + formations + culture participative",
+          "feedback": "Excellent! Participation devient mode de gouvernance.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    }
+  ]
+}

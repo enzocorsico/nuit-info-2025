@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mission-collectivite-collectivite-1",
+    "title": "Gouvernance participative numérique",
+    "description": "Mettre en place une plateforme de budgétisation participative en ligne pour les citoyens",
+    "difficulty": "moyen",
+    "duration": "2 mois",
+    "participants": 267,
+    "reward": 600,
+    "objectives": [
+      "Concevoir la plateforme",
+      "Impliquer les citoyens",
+      "Analyser les résultats"
+    ]
+  },
+  {
+    "id": "mission-collectivite-collectivite-2",
+    "title": "Transition écologique : monitoring digital",
+    "description": "Créer un tableau de bord pour suivre les objectifs climatiques de la commune",
+    "difficulty": "difficile",
+    "duration": "3 mois",
+    "participants": 189,
+    "reward": 900,
+    "objectives": [
+      "Collecter les données environnementales",
+      "Visualiser les progrès",
+      "Impliquer la communauté"
+    ]
+  },
+  {
+    "id": "mission-collectivite-collectivite-3",
+    "title": "Économie locale et plateformes alternatives",
+    "description": "Développer une plateforme pour soutenir les commerces locaux face aux géants du e-commerce",
+    "difficulty": "difficile",
+    "duration": "4 mois",
+    "participants": 156,
+    "reward": 1100,
+    "objectives": [
+      "Auditer les besoins des commerçants",
+      "Concevoir la plateforme",
+      "Recruter les vendeurs locaux"
+    ]
+  },
+  {
+    "id": "mission-collectivite-collectivite-4",
+    "title": "Citoyenneté numérique responsable",
+    "description": "Former les citoyens à utiliser les outils numériques de manière éthique et sécurisée",
+    "difficulty": "moyen",
+    "duration": "2 mois",
+    "participants": 234,
+    "reward": 700,
+    "objectives": [
+      "Créer le curriculum",
+      "Animer les formations",
+      "Évaluer les apprentissages"
+    ]
+  },
+  {
+    "id": "mission-collectivite-collectivite-5",
+    "title": "Communauté des makers et innovateurs",
+    "description": "Créer des espaces (fab lab, maker space) pour l'innovation locale autour du numérique responsable",
+    "difficulty": "difficile",
+    "duration": "5 mois",
+    "participants": 145,
+    "reward": 1300,
+    "objectives": [
+      "Identifier les espaces potentiels",
+      "Recruter des animateurs",
+      "Définir les projets communautaires"
+    ]
+  },
+  {
+    "id": "mission-collectivite-collectivite-6",
+    "title": "Réseau régional d'échanges numériques",
+    "description": "Coopérer avec d'autres collectivités pour partager les bonnes pratiques et les solutions",
+    "difficulty": "difficile",
+    "duration": "6 mois",
+    "participants": 112,
+    "reward": 1400,
+    "objectives": [
+      "Identifier les partenaires régionaux",
+      "Élaborer un cadre de coopération",
+      "Mutualiser les ressources"
+    ]
+  }
+]

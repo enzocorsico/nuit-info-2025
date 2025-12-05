@@ -1,0 +1,240 @@
+{
+  "id": "mission-tech-2",
+  "title": "Recyclage et seconde vie du matériel",
+  "description": "Mettre en place un programme de reconditionnement et recyclage",
+  "theme": "economie-circulaire",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Audit du parc obsolète",
+      "description": "Avez-vous un inventaire du matériel à fin de vie?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, régulièrement mis à jour",
+          "feedback": "Excellent! Vous savez exactement ce que vous avez.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, on fait le tri manuellement",
+          "feedback": "Processus fragile. Automatisez si possible.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, on jette quand c'est cassé",
+          "feedback": "C'est dommage! Il y a potentiellement de la valeur à exploiter.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Diagnostic d'état",
+      "description": "Que faites-vous du vieux matériel?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Poubelle / déchèterie classique",
+          "feedback": "Grave! Vous créez de la pollution électronique toxique.",
+          "scores": {
+            "inclusion": 0,
+            "responsabilité": 0,
+            "durabilité": -15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Stock en cave, on verra plus tard",
+          "feedback": "Mieux que la poubelle, mais ce n'est pas durable.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Évaluation: réparable / reconditionnable / récyclable",
+          "feedback": "Parfait! Vous triez par potentiel.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Reconditionnement",
+      "description": "Faites-vous reconditionnez du matériel?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, en interne ou via partenaires",
+          "feedback": "Excellent! Vous prolongez la durée de vie.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 45
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Non, c'est trop technique ou coûteux",
+          "feedback": "À reconsidérer! Il existe des prestataires spécialisés.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, et je réinsère ce matériel dans l'établissement",
+          "feedback": "Brilliant! Cercle vertueux interne.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Circuits de réutilisation",
+      "description": "Où allez-vous réutiliser le matériel reconditionné?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Intra-établissement: zones moins critiques",
+          "feedback": "Bon! Réutilisation interne.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Associations, écoles moins équipées, familles",
+          "feedback": "Magnifique! Vous réduisez la fracture numérique.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Vente / troc pour financer d'autres projets",
+          "feedback": "Économiquement intelligent et durable.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Tous les chemins ci-dessus",
+          "feedback": "Approche systémique de l'économie circulaire!",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Recyclage responsable",
+      "description": "Votre filière de recyclage pour le déchet électronique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Éco-organisme agréé (DEEE, WEEE)",
+          "feedback": "Correct! Réseau de recyclage officiel.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Entreprise de recycling locale certificée",
+          "feedback": "Excellent! Support local + traçabilité.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Partenariat équitable avec récup'ateurs du Sud",
+          "feedback": "Responsable! Évite la contrefaçon et l'exploitation.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 50,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Pérennité du programme",
+      "description": "Comment institutionnaliser cette démarche?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Projet ponctuel avec bénévoles",
+          "feedback": "Utile mais fragile sans institutionnalisation.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Budget dédié et rôle de responsable",
+          "feedback": "Bon! Vous créez une fonction pérenne.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Processus intégré dans la gestion IT standard",
+          "feedback": "Excellent! C'est devenu normal, pas exceptionnel.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

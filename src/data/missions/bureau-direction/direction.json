@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-direction-1",
+    "title": "Projet établissement",
+    "description": "Co-construire projet établissement stratégique. Feuille route 4 ans vision partagée.",
+    "difficulty": "avancé",
+    "duration": "15-20h",
+    "participants": 22,
+    "reward": 800,
+    "objectives": [
+      "Consulter tous acteurs",
+      "Analyser contexte et enjeux",
+      "Définir axes stratégiques",
+      "Fixe objectifs SMART",
+      "Plan action et ressources"
+    ]
+  },
+  {
+    "id": "mission-direction-2",
+    "title": "Pilotage pédagogique",
+    "description": "Piloter amélioration continue pédagogique. Résultats et bien-être élèves.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 25,
+    "reward": 700,
+    "objectives": [
+      "Analyser résultats élèves",
+      "Identifier points faibles",
+      "Mettre en place plans action",
+      "Suivre indicateurs",
+      "Capitaliser bonnes pratiques"
+    ]
+  },
+  {
+    "id": "mission-direction-3",
+    "title": "Gestion ressources humaines",
+    "description": "Gérer équipe de 40-100 agents. Recrutement, formation, bien-être.",
+    "difficulty": "avancé",
+    "duration": "12-18h",
+    "participants": 20,
+    "reward": 750,
+    "objectives": [
+      "Planifier besoins RH futurs",
+      "Recruter et intégrer talent",
+      "Accompagner professionnel",
+      "Gestion carrière équipe",
+      "Climat travail bienveillant"
+    ]
+  },
+  {
+    "id": "mission-direction-4",
+    "title": "Partenariats et ouverture",
+    "description": "Développer partenariats locaux. Université, entreprises, associations.",
+    "difficulty": "moyen",
+    "duration": "6-10h",
+    "participants": 28,
+    "reward": 500,
+    "objectives": [
+      "Identifier opportunités partenariat",
+      "Construire relations durables",
+      "Créer projets collaboratifs",
+      "Enrichissement pédago",
+      "Favoriser insertion élèves"
+    ]
+  },
+  {
+    "id": "mission-direction-5",
+    "title": "Leadership changemaker",
+    "description": "Inspirer change positive. Vision à long terme, action courageuse.",
+    "difficulty": "avancé",
+    "duration": "20-30h",
+    "participants": 18,
+    "reward": 1000,
+    "objectives": [
+      "Définir vision transformatrice",
+      "Créer urgence et mobilisation",
+      "Gérer résistance au change",
+      "Stabiliser et pérenniser",
+      "Inspirer autres écoles"
+    ]
+  }
+]

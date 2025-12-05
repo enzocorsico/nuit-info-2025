@@ -1,0 +1,230 @@
+{
+  "id": "mission-famille-5",
+  "title": "Transmission intergénérationnelle du numérique",
+  "description": "Créer un pont entre générations face aux technologies",
+  "theme": "intergenerationnel",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Diagnostic générationnel",
+      "description": "Quel est le fossé numérique dans votre famille?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Grand fossé, les aînés ne s'intéressent pas",
+          "feedback": "Courant. Mais c'est à combler ensemble.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Modéré, certains apprennent",
+          "feedback": "Bon! Vous créez du lien.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Faible fossé, on apprend ensemble",
+          "feedback": "Excellent! Apprentissage réciproque.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Rôle des aînés",
+      "description": "Écoutez-vous les aînés sur le numérique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ils ne comprennent rien",
+          "feedback": "Préjugé! Les aînés ont sagesse, expérience, perspective.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, mais surtout pour mettre en garde",
+          "feedback": "Bon! Ils apportent prudence justifiée.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, on valorise leurs peurs ET on les forme",
+          "feedback": "Excellent! Respect mutuel et apprentissage.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Apprentissage des aînés",
+      "description": "Aidez-vous les grands-parents?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ce serait trop compliqué",
+          "feedback": "Manquée! Les aînés veulent apprendre.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, de manière occasionnelle",
+          "feedback": "Bon! Continuez régulièrement.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, formation régulière plus patience plus apprentissage au rythme",
+          "feedback": "Magnifique! Inclusion réelle des aînés.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Sécurité des aînés en ligne",
+      "description": "Les protégez-vous des arnaces numériques?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, c'est leur responsabilité",
+          "feedback": "Ils sont cibles privilégiées. Vous avez un rôle.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on les avertit des arnaques",
+          "feedback": "Bon! Conscience de la menace.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, formation antifrauде plus vérification régulière plus support",
+          "feedback": "Excellent! Protection active et continue.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Valeurs partagées",
+      "description": "Transmettez-vous des valeurs numériques?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, chacun ses pratiques",
+          "feedback": "Dommage. Les valeurs unissent les générations.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, quelques règles de base",
+          "feedback": "Bon! Vous créez un cadre commun.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, charte familiale sur temps écran, données, civisme",
+          "feedback": "Magnifique! Valeurs explicites et partagées.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Richesse intergénérationnelle",
+      "description": "Comment valorisez-vous les différences?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Jeunes digital natifs. Aînés dépassés",
+          "feedback": "Faux! Chacun apporte. Les aînés réflexion, histoire, humilité.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on apprend les uns des autres",
+          "feedback": "Bon! Complémentarité reconnue.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, projets conjoints où chacun apporte ses talents",
+          "feedback": "Excellent! Respect mutuel et collaboration.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 55
+          }
+        }
+      ]
+    }
+  ]
+}

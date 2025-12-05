@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mission-tech-1",
+    "title": "Infrastructure verte",
+    "description": "Optimiser l'infrastructure IT pour réduire la consommation énergétique",
+    "difficulty": "difficile",
+    "duration": "5h",
+    "participants": 45,
+    "reward": 500,
+    "objectives": [
+      "Mesurer la consommation actuelle",
+      "Identifier les points d'optimisation",
+      "Mettre en place des solutions d'économie d'énergie"
+    ]
+  },
+  {
+    "id": "mission-tech-2",
+    "title": "Recyclage et seconde vie du matériel",
+    "description": "Mettre en place un programme de reconditionnement et recyclage",
+    "difficulty": "moyen",
+    "duration": "3h",
+    "participants": 72,
+    "reward": 350,
+    "objectives": [
+      "Auditer le matériel obsolète",
+      "Organiser le reconditionnement",
+      "Créer une filière de recyclage"
+    ]
+  },
+  {
+    "id": "mission-tech-3",
+    "title": "Sécurité & vie privée by design",
+    "description": "Renforcer la sécurité tout en respectant la vie privée des utilisateurs",
+    "difficulty": "difficile",
+    "duration": "6h",
+    "participants": 33,
+    "reward": 600,
+    "objectives": [
+      "Effectuer un audit de sécurité",
+      "Implémenter le chiffrement des données",
+      "Former les utilisateurs aux bonnes pratiques"
+    ]
+  },
+  {
+    "id": "mission-tech-4",
+    "title": "Migration vers l'open-source",
+    "description": "Remplacer les logiciels propriétaires par des alternatives libres",
+    "difficulty": "difficile",
+    "duration": "10h",
+    "participants": 21,
+    "reward": 800,
+    "objectives": [
+      "Identifier les alternatives open-source",
+      "Planifier la migration",
+      "Former les utilisateurs"
+    ]
+  },
+  {
+    "id": "mission-tech-5",
+    "title": "Accessibilité numérique universelle",
+    "description": "Rendre tous les outils numériques accessibles aux personnes en situation de handicap",
+    "difficulty": "moyen",
+    "duration": "4h",
+    "participants": 58,
+    "reward": 400,
+    "objectives": [
+      "Audit WCAG 2.1 des plateformes",
+      "Corriger les problèmes d'accessibilité",
+      "Tester avec des utilisateurs concernés"
+    ]
+  },
+  {
+    "id": "mission-tech-6",
+    "title": "Documentation technique collaborative",
+    "description": "Créer une documentation open-source pour partager vos solutions NIRD",
+    "difficulty": "facile",
+    "duration": "2h",
+    "participants": 89,
+    "reward": 250,
+    "objectives": [
+      "Documenter vos configurations",
+      "Créer des tutoriels",
+      "Contribuer à la communauté"
+    ]
+  }
+]

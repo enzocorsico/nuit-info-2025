@@ -1,0 +1,46 @@
+{
+  "id": "mission-collectivite-tech-1",
+  "title": "Infrastructure cloud responsable",
+  "description": "Migrer vers une infrastructure numérique durable et souveraine",
+  "theme": "cloud-infrastructure",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Évaluer les options cloud",
+      "description": "Quels sont vos critères de sélection ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Choisir le plus pas cher (AWS, Azure, Google Cloud)",
+          "feedback": "Coût faible mais dépendance technologique et impact carbone.",
+          "scores": {"inclusion": 10, "responsabilité": -10, "durabilité": -15}
+        },
+        {
+          "id": "choice-2",
+          "text": "Cloud français/européen souverain + certifications écologiques",
+          "feedback": "Parfait ! Vous gardez le contrôle et réduisez l'impact.",
+          "scores": {"inclusion": 45, "responsabilité": 50, "durabilité": 50}
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Plan de migration",
+      "description": "Comment procéder ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Migration rapide et risquée",
+          "feedback": "Danger ! Risque de perte de données.",
+          "scores": {"inclusion": -20, "responsabilité": -30, "durabilité": 0}
+        },
+        {
+          "id": "choice-2",
+          "text": "Plan progressif : test, formation, basculement par phase",
+          "feedback": "Excellent ! Vous minimisez les risques.",
+          "scores": {"inclusion": 50, "responsabilité": 50, "durabilité": 40}
+        }
+      ]
+    }
+  ]
+}

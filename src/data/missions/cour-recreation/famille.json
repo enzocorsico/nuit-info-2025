@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-famille-1",
+    "title": "Contrôle parental bienveillant",
+    "description": "Mettre en place un équilibre numérique sain et respectueux. Poser des limites tout en gardant confiance et dialogue.",
+    "difficulty": "moyen",
+    "duration": "3-4h",
+    "participants": 178,
+    "reward": 250,
+    "objectives": [
+      "Mesurer le temps d'écran réel de vos enfants",
+      "Identifier les triggers et dépendances (réseaux, jeux, etc)",
+      "Mettre en place limites claires, expliquées et acceptées",
+      "Configurer contrôle parental technique (filtre, limite temps)",
+      "Maintenir dialogue ouvert sur les usages et les émotions"
+    ]
+  },
+  {
+    "id": "mission-famille-2",
+    "title": "Budget numérique responsable",
+    "description": "Maîtriser les dépenses technologiques familiales. Économiser tout en faisant des choix responsables.",
+    "difficulty": "facile",
+    "duration": "2-3h",
+    "participants": 156,
+    "reward": 200,
+    "objectives": [
+      "Auditer un an de dépenses tech (matériel, abonnements)",
+      "Identifier les services inutilisés ou en doublon",
+      "Calculer coût réel (achat, maintenance, fin de vie)",
+      "Fixer budget annuel réaliste et transparent",
+      "Impliquer enfants dans décisions d'achat tech"
+    ]
+  },
+  {
+    "id": "mission-famille-3",
+    "title": "Temps d'écran équilibré",
+    "description": "Créer des zones sans écran et des moments en famille. Préserver le lien et la santé.",
+    "difficulty": "moyen",
+    "duration": "2-4h (+ suivi)",
+    "participants": 189,
+    "reward": 220,
+    "objectives": [
+      "Identifier les moment sans écran (repas, coucher, jeu)",
+      "Créer des rituels alternatifs (jeu de société, cuisine, sport)",
+      "Protéger le sommeil (pas d'écran 1h avant coucher)",
+      "Surveiller impacts (santé, relation, concentration)",
+      "Adapter progressivement si résistance"
+    ]
+  },
+  {
+    "id": "mission-famille-4",
+    "title": "Protection des enfants en ligne",
+    "description": "Sécuriser la présence numérique et l'identité des enfants. Les protéger des prédateurs et arnaqueurs.",
+    "difficulty": "moyen",
+    "duration": "3-5h",
+    "participants": 167,
+    "reward": 300,
+    "objectives": [
+      "Éduquer sur données perso, identité, localisation",
+      "Reconnaître les signes de prédateurs et cyberharcèlement",
+      "Configurer profils privés et paramètres de sécurité",
+      "Mettre en place accès parent sans être intrusif",
+      "Créer plan d'action clair en cas de problème"
+    ]
+  },
+  {
+    "id": "mission-famille-5",
+    "title": "Parentalité numérique positive",
+    "description": "Équilibrer contrôle et liberté. Être un modèle et un guide responsable.",
+    "difficulty": "moyen",
+    "duration": "3-4h",
+    "participants": 142,
+    "reward": 280,
+    "objectives": [
+      "Auditer votre propre relation aux écrans",
+      "Enseigner littératie numérique (sécurité, créativité, esprit critique)",
+      "Dialoguer plutôt que commander ou interdire",
+      "Adapter progressivement liberté avec l'âge et la maturité",
+      "Créer charte familiale numérique ensemble"
+    ]
+  },
+  {
+    "id": "mission-famille-6",
+    "title": "Transmission intergénérationnelle",
+    "description": "Créer un pont entre générations. Grands-parents, parents, enfants apprennent ensemble.",
+    "difficulty": "facile",
+    "duration": "4-6h",
+    "participants": 134,
+    "reward": 350,
+    "objectives": [
+      "Évaluer fossé numérique et préjugés intergénérationnels",
+      "Former les aînés aux usages courants (email, SMS, appels vidéo)",
+      "Sensibiliser aux arnagues ciblant les seniors",
+      "Créer projets conjoints (partage photos, vidéos, histoires)",
+      "Valoriser savoirs de chacun: expérience vs digital natifs"
+    ]
+  }
+]

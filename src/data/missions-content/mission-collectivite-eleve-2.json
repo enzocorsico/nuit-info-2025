@@ -1,0 +1,156 @@
+{
+  "id": "mission-collectivite-eleve-2",
+  "title": "Campagne de sensibilisation au numérique responsable",
+  "description": "Créer une campagne pour sensibiliser les citoyens aux usages durables du numérique",
+  "theme": "sensibilisation",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Identifier le public cible",
+      "description": "Qui voulez-vous sensibiliser en priorité ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Uniquement les jeunes tech-savvy",
+          "feedback": "Trop restrictif ! Vous laissez de côté les plus vulnérables.",
+          "scores": {
+            "inclusion": -15,
+            "responsabilité": -10,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Tous les citoyens de la commune sans distinction",
+          "feedback": "Très bien ! L'inclusion est la clé.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Approche progressive: d'abord seniors, familles, puis entreprises",
+          "feedback": "Excellent ! Vous adaptez la sensibilisation à chaque groupe.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Choisir les canaux de communication",
+      "description": "Comment diffuser votre campagne ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Uniquement sur les réseaux sociaux (Facebook, Instagram)",
+          "feedback": "Efficace mais vous excluez ceux sans smartphones ou en fracture numérique.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 10,
+            "durabilité": -10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Combinaison: réseaux sociaux + affichages en mairie + newsletters papier",
+          "feedback": "Parfait ! Vous incluez tous les canaux pour atteindre tout le monde.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 30,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Uniquement des affiches papier et dépliants (pas d'énergie numérique)",
+          "feedback": "Bon mais limité en portée. Le numérique responsable c'est aussi l'utiliser à bon escient.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 20,
+            "durabilité": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Contenu de la sensibilisation",
+      "description": "Quel message mettre en avant ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Faire peur avec les dangers du numérique",
+          "feedback": "Contre-productif ! La peur paralyse plutôt que d'engager.",
+          "scores": {
+            "inclusion": -20,
+            "responsabilité": -10,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Montrer les opportunités et solutions pratiques du numérique responsable",
+          "feedback": "Excellent ! Vous motivez et proposez des actions concrètes.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Juste informer sur les risques sans proposer de solutions",
+          "feedback": "Insuffisant ! L'information sans action crée de la frustration.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Organiser des ateliers pratiques",
+      "description": "Comment impliquer les citoyens concrètement ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Attendre que les gens viennent d'eux-mêmes",
+          "feedback": "Peu efficace ! La majorité ne prendra pas l'initiative.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Aller au-devant des citoyens : ateliers mobiles dans les quartiers",
+          "feedback": "Magnifique ! Vous descendez de l'esplanade pour être au plus proche.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Faire une formation en ligne, c'est moins coûteux",
+          "feedback": "Contradictoire ! Vous proposez du numérique responsable via un écran.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 10,
+            "durabilité": -5
+          }
+        }
+      ]
+    }
+  ]
+}

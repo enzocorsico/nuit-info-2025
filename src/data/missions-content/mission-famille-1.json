@@ -1,0 +1,240 @@
+{
+  "id": "mission-famille-1",
+  "title": "Contrôle parental bienveillant",
+  "description": "Mettre en place un équilibre numérique sain et respectueux",
+  "theme": "controle-parental",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Diagnostic du temps d'écran",
+      "description": "Combien de temps vos enfants passent-ils sur les écrans?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Moins d'1h30 par jour (école + maison)",
+          "feedback": "Excellent équilibre! Vous avez le contrôle.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "1h30 à 3h par jour",
+          "feedback": "Raisonnable. Peut-on optimiser davantage?",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Plus de 3-4h par jour",
+          "feedback": "À risque! La santé et le développement peuvent pâtir.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Qualité du contenu",
+      "description": "Savez-vous ce que consomment vos enfants?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, je regarde avec eux régulièrement",
+          "feedback": "Parfait! Co-visionnage et dialogue créent du lien.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, on discute parfois",
+          "feedback": "Bon! Continuez à dialoguer et à écouter.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, ils regardent seuls sans supervision",
+          "feedback": "Risqué! Il y a plein de contenus toxiques ou inadaptés.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Outils de contrôle",
+      "description": "Utilisez-vous des outils de contrôle parental?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, je fais confiance à mes enfants",
+          "feedback": "La confiance est importante, mais la maturation aussi.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, filtrage de contenu + limite de temps",
+          "feedback": "Bon! Technologie au service de l'équilibre.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui + absence de réseau dans chambres la nuit",
+          "feedback": "Excellent! Hygiène de vie + sommeil protégé.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Oui + dialogue sur les limites et les raisons",
+          "feedback": "Magnifique! Les limites sont expliquées, pas imposées.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Gestion des données personnelles",
+      "description": "Parlez-vous de sécurité/données avec vos enfants?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ils n'en ont pas besoin (trop jeunes)",
+          "feedback": "C'est une croyance dangereuse. Éduquez DÈS le départ.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, règles de base (pas partager identifiants)",
+          "feedback": "Bon! Le minimum pour la sécurité.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, digital literacy complète (droits, RGPD, traces)",
+          "feedback": "Excellent! Vous formez des citoyens numériques.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 50,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Alternatives saines",
+      "description": "Proposez-vous des activités hors écran?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Sport, jeu dehors, loisirs créatifs réguliers",
+          "feedback": "Excellent! Équilibre de vie complète.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Quelques activités, mais aléatoire",
+          "feedback": "À structurer davantage pour que ce soit durable.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Pas vraiment, c'est surtout écrans par défaut",
+          "feedback": "Risque de dépendance! Créez des alternatives attractives.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Modèle familial",
+      "description": "Quel exemple donnez-vous personnellement?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je suis accro aux écrans (téléphone constant)",
+          "feedback": "Problème! Les enfants imitent leurs parents.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "J'utilise les écrans de manière raisonnée",
+          "feedback": "Bon modèle! Vous montrez l'équilibre.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je pratique les zones sans écran et les moments famille",
+          "feedback": "Magnifique! Vous instillez les valeurs par l'exemple.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

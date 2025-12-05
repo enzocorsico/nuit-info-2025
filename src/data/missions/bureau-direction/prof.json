@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-prof-1",
+    "title": "Élèves en difficulté",
+    "description": "Identifier et soutenir élèves en difficulté. Bienveillance et inclusion.",
+    "difficulty": "moyen",
+    "duration": "4-6h",
+    "participants": 71,
+    "reward": 320,
+    "objectives": [
+      "Reconnaître signaux alerte",
+      "Communiquer avec direction/psy",
+      "Adapter pédagogie",
+      "Soutien parents et services",
+      "Suivre progression élève"
+    ]
+  },
+  {
+    "id": "mission-prof-2",
+    "title": "Parcours éducatif",
+    "description": "Co-construire parcours personnalisé élèves. Orientation et projets.",
+    "difficulty": "moyen",
+    "duration": "3-5h",
+    "participants": 58,
+    "reward": 280,
+    "objectives": [
+      "Rencontrer élèves sur aspirations",
+      "Identifier points forts/faibles",
+      "Proposer options adaptées",
+      "Connecter avec métiers",
+      "Faire liens avec parcours supérieur"
+    ]
+  },
+  {
+    "id": "mission-prof-3",
+    "title": "Parentalité et école",
+    "description": "Renforcer partenariat parents-école. Communication positive et inclusive.",
+    "difficulty": "moyen",
+    "duration": "4-6h",
+    "participants": 45,
+    "reward": 290,
+    "objectives": [
+      "Rencontres parents bienveillantes",
+      "Explique progrès et défis",
+      "Travail collaboratif enfant-maison-école",
+      "Détecte besoin soutien familial",
+      "Canaliser énergie parents"
+    ]
+  },
+  {
+    "id": "mission-prof-4",
+    "title": "Évaluation et feedback",
+    "description": "Évaluer pour apprendre, pas pour noter. Feedback formateur et bienveillant.",
+    "difficulty": "moyen",
+    "duration": "3-4h",
+    "participants": 63,
+    "reward": 250,
+    "objectives": [
+      "Différencier évaluation-notation",
+      "Donner feedback constructif",
+      "Impliquer élèves dans évaluation",
+      "Portfolio et auto-évaluation",
+      "Réduire anxiété scolaire"
+    ]
+  },
+  {
+    "id": "mission-prof-5",
+    "title": "Gouvernance établissement",
+    "description": "Participer à gouvernance école. Voix enseignants dans décisions.",
+    "difficulty": "avancé",
+    "duration": "5-8h",
+    "participants": 38,
+    "reward": 400,
+    "objectives": [
+      "Participer conseils établissement",
+      "Représenter corps enseignant",
+      "Proposer amélioration projet",
+      "Donner avis expertise pédago",
+      "Impliquer collègues participatif"
+    ]
+  }
+]

@@ -1,0 +1,230 @@
+{
+  "id": "mission-famille-4",
+  "title": "Protection des enfants en ligne",
+  "description": "Sécuriser la présence numérique et l'identité des enfants",
+  "theme": "protection-securite",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Sensibilisation des risques",
+      "description": "Avez-vous parlé des dangers en ligne avec vos enfants?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ils sont trop jeunes",
+          "feedback": "Erreur! Les risques existent dès le plus jeune âge.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, quelques mises en garde générales",
+          "feedback": "Bon début. Soyez plus concret et régulier.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, discussions régulières sur données, identité, prédateurs",
+          "feedback": "Excellent! Une vraie culture de sécurité.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Identité numérique",
+      "description": "Avez-vous une stratégie pour la présence en ligne?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ils font ce qu'ils veulent sur les réseaux",
+          "feedback": "Danger! L'identité numérique est permanente.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on en discute, profil 'privé' par défaut",
+          "feedback": "Bon! Confidentialité par défaut.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, nous avons une charte famille sur la présence online",
+          "feedback": "Excellent! Règles explicites et partagées.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Données personnelles",
+      "description": "Parlez-vous de sécurité des données?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on n'y pense pas vraiment",
+          "feedback": "Urgent! Les enfants partagent inconsciemment leurs données.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, règle simple: ne pas partager identité/localisation",
+          "feedback": "Bon! Le minimum vital.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, complet: données perso/scolaires/localisation/photos",
+          "feedback": "Excellent! Vous protégez vraiment les données.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Prédateurs et cyberharcèlement",
+      "description": "Pouvez-vous reconnaître les signes d'alerte?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ce sont des problèmes lointains",
+          "feedback": "C'est plus proche que vous ne le croyez.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on surveille mais pas trop intrusif",
+          "feedback": "Bon équilibre! Confiance et vigilance.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, on connaît les signes et on a un plan d'action",
+          "feedback": "Excellent! Prévention et réaction.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Mots de passe et authentification",
+      "description": "Comment gérez-vous les accès numériques?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Mots de passe simples, partagés entre enfants",
+          "feedback": "Dangereux! Pas de traçabilité, facile à pirater.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Mots de passe forts, individuels, gestionnaire",
+          "feedback": "Bon! Vous prenez la sécurité au sérieux.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Mots de passe + 2FA + enseignement du protocole",
+          "feedback": "Excellent! Sécurité de haut niveau + éducation.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Communication et confiance",
+      "description": "Vos enfants se confient-ils sur les problèmes en ligne?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on n'en parle pas ou ça les blesse",
+          "feedback": "Problème! Vous devez créer un climat de confiance.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, mais avec du jugement, pas toujours à l'aise",
+          "feedback": "Travaillez la bienveillance sans jugement.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, ils me racontent tout. Je réagis sans panique",
+          "feedback": "Magnifique! Confiance et sécurité émotionnelle.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

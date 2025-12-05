@@ -1,0 +1,230 @@
+{
+  "id": "mission-famille-2",
+  "title": "Budget numérique responsable",
+  "description": "Maîtriser les dépenses technologiques familiales",
+  "theme": "budget-familial",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Dépenses actuelles",
+      "description": "Connaissez-vous votre budget annuel 'tech'?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, je l'ai audité",
+          "feedback": "Excellent! Vous avez une vision claire.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Approximativement, mais pas en détail",
+          "feedback": "Commencez par noter chaque dépense pendant 1 mois.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, je dépense sans vraiment compter",
+          "feedback": "Risqué! Les petites dépenses s'accumulent.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Durée de vie du matériel",
+      "description": "Combien de temps gardez-vous votre matériel?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je change tous les ans (dernier modèle)",
+          "feedback": "Très cher ET polluant! Reconsidérez.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Tous les 2-3 ans (panne ou obsolescence)",
+          "feedback": "Raisonnable. Allongez si possible.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "4-5 ans ou plus, tant qu'il fonctionne",
+          "feedback": "Sage! Vous économisez et polluez moins.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Choix d'achat",
+      "description": "Quand vous achetez, quelle est votre priorité?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Dernier modèle, marque prestigieuse",
+          "feedback": "Coûteux et pas nécessairement meilleur.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Bon rapport prix/qualité, neuf classique",
+          "feedback": "Équilibré! Durable et budgétisé.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Matériel reconditionné, garantie",
+          "feedback": "Excellent! Économies massives + écologique.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Abonnements et services",
+      "description": "Comment gérez-vous les abonnements numériques?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Beaucoup d'abonnements (Netflix, Spotify, cloud, etc.)",
+          "feedback": "Attention! Les abonnements s'empilent rapidement.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Quelques abonnements essentiels",
+          "feedback": "Bon! Vous limitez mais gardez les vraiment utiles.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Partage d'abonnements familiaux, gratuit quand possible",
+          "feedback": "Malin! Vous économisez collectivement.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Impliquer les enfants",
+      "description": "Parlez-vous d'argent et budget tech avec les enfants?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, c'est un sujet d'adulte",
+          "feedback": "Dommage! Éducation financière = compétence cruciale.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, en leur montrant nos dépenses",
+          "feedback": "Bon! La transparence enseigne.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, et ils doivent justifier leurs demandes tech",
+          "feedback": "Excellent! Responsabilité dès le plus jeune âge.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Réduction budgétaire",
+      "description": "Quelle est votre cible de réduction?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pas d'objectif, je dépense ce que je peux",
+          "feedback": "Vous subissez vos dépenses au lieu de les piloter.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Réduire de 10-15% en un an",
+          "feedback": "Réaliste! Des ajustements graduels.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Réduire de 25-30% via reconditionné + partage",
+          "feedback": "Ambitieux et possible! Vous changerez de paradigme.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

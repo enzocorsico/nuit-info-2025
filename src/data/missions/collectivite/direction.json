@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mission-collectivite-direction-1",
+    "title": "Stratégie numérique durable 2025-2027",
+    "description": "Définir la vision numérique de la collectivité pour les 3 prochaines années",
+    "difficulty": "difficile",
+    "duration": "1 mois",
+    "participants": 142,
+    "reward": 1000,
+    "objectives": [
+      "Auditer l'existant numérique",
+      "Consulter les stakeholders",
+      "Rédiger un document stratégique"
+    ]
+  },
+  {
+    "id": "mission-collectivite-direction-2",
+    "title": "Budget numérique responsable",
+    "description": "Allouer les ressources pour favoriser des solutions éthiques et durables",
+    "difficulty": "difficile",
+    "duration": "2 mois",
+    "participants": 108,
+    "reward": 1200,
+    "objectives": [
+      "Évaluer les coûts environnementaux",
+      "Comparer les solutions open-source",
+      "Justifier les choix aux élus"
+    ]
+  },
+  {
+    "id": "mission-collectivite-direction-3",
+    "title": "Gouvernance des données publiques",
+    "description": "Mettre en place une politique de gouvernance des données municipales",
+    "difficulty": "difficile",
+    "duration": "1 mois",
+    "participants": 95,
+    "reward": 950,
+    "objectives": [
+      "Cartographier les données existantes",
+      "Définir les standards de qualité",
+      "Instaurer la transparence"
+    ]
+  },
+  {
+    "id": "mission-collectivite-direction-4",
+    "title": "Partenariat avec les étudiants",
+    "description": "Créer un programme de collaboration avec les établissements d'enseignement",
+    "difficulty": "moyen",
+    "duration": "3 mois",
+    "participants": 121,
+    "reward": 850,
+    "objectives": [
+      "Identifier les besoins de formation",
+      "Proposer des stages et alternances",
+      "Mutualiser les compétences"
+    ]
+  },
+  {
+    "id": "mission-collectivite-direction-5",
+    "title": "Résilience numérique et continuité de service",
+    "description": "Garantir la continuité des services publics en cas de crise numérique",
+    "difficulty": "difficile",
+    "duration": "2 mois",
+    "participants": 78,
+    "reward": 1100,
+    "objectives": [
+      "Analyser les risques potentiels",
+      "Planifier les mesures de secours",
+      "Tester les procédures d'urgence"
+    ]
+  }
+]

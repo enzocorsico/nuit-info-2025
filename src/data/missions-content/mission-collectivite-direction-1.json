@@ -1,0 +1,52 @@
+{
+  "id": "mission-collectivite-direction-1",
+  "title": "Stratégie numérique durable 2025-2027",
+  "description": "Définir la vision numérique de la collectivité pour les 3 prochaines années",
+  "theme": "strategy",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Analyser la situation actuelle",
+      "description": "Comment diagnostiquer votre maturité numérique ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Utiliser un audit externe coûteux",
+          "feedback": "Efficace mais cher. Combinez avec une expertise interne.",
+          "scores": {"inclusion": 20, "responsabilité": 20, "durabilité": 10}
+        },
+        {
+          "id": "choice-2",
+          "text": "Audit collaboratif interne + consultation citoyens + benchmarking pairs",
+          "feedback": "Parfait ! Connaissance profonde et perspective démocratique.",
+          "scores": {"inclusion": 50, "responsabilité": 50, "durabilité": 45}
+        },
+        {
+          "id": "choice-3",
+          "text": "Ne pas faire d'audit, continuer comme avant",
+          "feedback": "Risqué ! Sans diagnostic, la stratégie est aveugle.",
+          "scores": {"inclusion": -30, "responsabilité": -40, "durabilité": -35}
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Définir les priorités",
+      "description": "Quels sont les 3-4 enjeux clés ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Réduction des coûts IT en priorité",
+          "feedback": "Valide mais incomplet. L'impact social et environnemental compte.",
+          "scores": {"inclusion": 20, "responsabilité": 15, "durabilité": 10}
+        },
+        {
+          "id": "choice-2",
+          "text": "Inclusions, responsabilité, durabilité et efficacité équilibrés",
+          "feedback": "Excellent ! Vous alignez profit et purpose.",
+          "scores": {"inclusion": 50, "responsabilité": 50, "durabilité": 50}
+        }
+      ]
+    }
+  ]
+}

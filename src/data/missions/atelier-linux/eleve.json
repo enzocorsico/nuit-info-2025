@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-eleve-1",
+    "title": "Premier boot Linux",
+    "description": "Démarrer Linux en live et découvrir un système d'exploitation libre. Première expérience sans risque.",
+    "difficulty": "facile",
+    "duration": "1-2h",
+    "participants": 178,
+    "reward": 150,
+    "objectives": [
+      "Créer une clé USB bootable avec Linux",
+      "Démarrer l'ordinateur en mode live",
+      "Naviguer l'interface graphique de base",
+      "Découvrir les apps pré-installées (navigateur, office, etc)",
+      "Comprendre les différences avec Windows/Mac"
+    ]
+  },
+  {
+    "id": "mission-eleve-2",
+    "title": "Installation Linux",
+    "description": "Installer Linux sur sa machine. Prendre le contrôle total de son ordinateur.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 145,
+    "reward": 200,
+    "objectives": [
+      "Partitionner le disque dur en toute sécurité",
+      "Installer une distribution Linux (Ubuntu, Fedora)",
+      "Configurer les paramètres de base (langue, clavier, réseau)",
+      "Installer les drivers nécessaires",
+      "Faire une sauvegarde de ses données"
+    ]
+  },
+  {
+    "id": "mission-eleve-3",
+    "title": "Terminal et commandes",
+    "description": "Maîtriser le terminal Linux. Comprendre la puissance de la ligne de commande.",
+    "difficulty": "moyen",
+    "duration": "3-4h",
+    "participants": 112,
+    "reward": 250,
+    "objectives": [
+      "Naviguer le système de fichiers avec cd, ls, pwd",
+      "Manipuler fichiers: cp, mv, rm, mkdir",
+      "Lire et éditer fichiers (cat, nano, vim)",
+      "Comprendre permissions et propriétaires (chmod, chown)",
+      "Automatiser tâches avec scripts shell"
+    ]
+  },
+  {
+    "id": "mission-eleve-4",
+    "title": "Logiciels libres",
+    "description": "Découvrir des alternatives libres à tous les logiciels propriétaires. Entièrement gratuit et éthique.",
+    "difficulty": "facile",
+    "duration": "2-3h",
+    "participants": 189,
+    "reward": 180,
+    "objectives": [
+      "Installer des applications via le gestionnaire de paquets",
+      "Découvrir GIMP (Photoshop), LibreOffice (Office), Blender (3D)",
+      "Comprendre les licences open-source (GPL, MIT, Apache)",
+      "Configurer alternatives par défaut",
+      "Créer un document avec logiciel libre"
+    ]
+  },
+  {
+    "id": "mission-eleve-5",
+    "title": "Sécurité Linux",
+    "description": "Sécuriser son système Linux. Protéger ses données et sa vie privée.",
+    "difficulty": "moyen",
+    "duration": "3-5h",
+    "participants": 134,
+    "reward": 300,
+    "objectives": [
+      "Configurer firewall et règles de sécurité",
+      "Gérer les utilisateurs et mots de passe forts",
+      "Mettre à jour le système régulièrement",
+      "Installer et configurer VPN",
+      "Auditer les permissions des fichiers sensibles"
+    ]
+  },
+  {
+    "id": "mission-eleve-6",
+    "title": "Programmer en Linux",
+    "description": "Écrire et exécuter du code. Linux est l'environnement de développement par excellence.",
+    "difficulty": "avancé",
+    "duration": "4-6h",
+    "participants": 98,
+    "reward": 350,
+    "objectives": [
+      "Installer un compilateur/interpréteur (Python, C, Java)",
+      "Écrire un premier programme simple",
+      "Compiler et exécuter depuis le terminal",
+      "Utiliser git pour versionner le code",
+      "Contribuer à un projet open-source"
+    ]
+  }
+]

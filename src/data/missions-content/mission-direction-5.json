@@ -1,0 +1,230 @@
+{
+  "id": "mission-direction-5",
+  "title": "Label Numérique Responsable",
+  "description": "Obtenir une certification pour valider votre engagement",
+  "theme": "label-certification",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Évaluation des labels",
+      "description": "Connaissez-vous les labels NIRD disponibles?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, c'est la première fois que j'en entends parler",
+          "feedback": "Pas grave! C'est une opportunité de découverte.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, mais je ne sais pas laquelle choisir",
+          "feedback": "Analysez vos priorités actuelles.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, plusieurs labels et je suis décidé",
+          "feedback": "Excellent! Vous avez une vision claire.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Alignement stratégique",
+      "description": "Un label correspond-il à vos priorités?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "On cherche juste un label pour le prestige",
+          "feedback": "Non! Cela doit correspondre à vos valeurs.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Un label semble aligné, on va vérifier les critères",
+          "feedback": "Bon! Commencez par bien comprendrele cahier.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, le label prolonge naturellement notre charte",
+          "feedback": "Parfait! C'est une validation d'un chemin déjà tracé.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Préparation et audit interne",
+      "description": "Quel diagnostic faites-vous?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "On va directement candidater, on est prêt!",
+          "feedback": "Risqué! Un audit interne préalable est prudent.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "On audit en interne rapidement",
+          "feedback": "Bien! Vous identifiez les gaps.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Audit interne complet + appui d'un consultant externe",
+          "feedback": "Excellent! Diagnostic robuste et objectif.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Plan d'action correctif",
+      "description": "Identifiez-vous les points à améliorer?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Il n'y a pas de problème, on est parfait!",
+          "feedback": "Aucune organisation n'est parfaite. Cherchez les améliorations.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on a listé les manques, on va les adresser",
+          "feedback": "Bon! Un plan d'action précis sera crucial.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Plan d'action avec responsables, délais et budget",
+          "feedback": "Excellent! Plan concret et tracé.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Candidature et processus",
+      "description": "Êtes-vous prêt pour le dossier de candidature?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je ne sais pas quelle est la procédure",
+          "feedback": "Contactez l'organisme qui gère le label. Ils vont vous guider.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, dossier en cours de montage",
+          "feedback": "Bien! Assurez-vous que tout est complet.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, dossier prêt et candidature déposée",
+          "feedback": "Magnifique! Vous êtes en mouvement!",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Après le label",
+      "description": "Comment allez-vous entretenir cet engagement?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Une fois le label obtenu, mission accomplie",
+          "feedback": "Non! C'est le début, pas la fin. Il faut maintenir.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Audits annuels pour maintenir la certification",
+          "feedback": "Bon! Vous restez conforme.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Amélioration continue + communication + modèle pour autres",
+          "feedback": "Magnifique! Vous devenez champion NIRD.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mission-famille-1",
+    "title": "Contrôle parental bienveillant",
+    "description": "Accompagner vos enfants dans leur vie numérique sans surveiller",
+    "difficulty": "facile",
+    "duration": "1h",
+    "participants": 234,
+    "reward": 150,
+    "objectives": [
+      "Comprendre les usages de vos enfants",
+      "Établir un dialogue de confiance",
+      "Définir des règles ensemble"
+    ]
+  },
+  {
+    "id": "mission-famille-2",
+    "title": "Budget famille numérique responsable",
+    "description": "Optimiser vos dépenses tech en privilégiant la durabilité",
+    "difficulty": "facile",
+    "duration": "45 min",
+    "participants": 312,
+    "reward": 100,
+    "objectives": [
+      "Analyser vos dépenses numériques",
+      "Privilégier la réparation à l'achat",
+      "Choisir du matériel reconditionné"
+    ]
+  },
+  {
+    "id": "mission-famille-3",
+    "title": "Temps d'écran équilibré",
+    "description": "Créer des rituels familiaux pour un usage sain du numérique",
+    "difficulty": "moyen",
+    "duration": "2h",
+    "participants": 187,
+    "reward": 250,
+    "objectives": [
+      "Mesurer le temps d'écran familial",
+      "Créer des moments sans écran",
+      "Proposer des activités alternatives"
+    ]
+  },
+  {
+    "id": "mission-famille-4",
+    "title": "Protection des enfants en ligne",
+    "description": "Maîtriser les outils et bonnes pratiques pour protéger vos enfants",
+    "difficulty": "moyen",
+    "duration": "1h30",
+    "participants": 276,
+    "reward": 200,
+    "objectives": [
+      "Connaître les risques en ligne",
+      "Configurer les paramètres de confidentialité",
+      "Savoir réagir en cas de problème"
+    ]
+  },
+  {
+    "id": "mission-famille-5",
+    "title": "Parentalité numérique positive",
+    "description": "Utiliser le numérique comme outil d'apprentissage et de lien familial",
+    "difficulty": "facile",
+    "duration": "1h",
+    "participants": 198,
+    "reward": 150,
+    "objectives": [
+      "Découvrir des contenus éducatifs de qualité",
+      "Créer des projets numériques en famille",
+      "Partager vos expériences"
+    ]
+  },
+  {
+    "id": "mission-famille-6",
+    "title": "Transmission intergénérationnelle",
+    "description": "Apprendre le numérique avec vos enfants et grands-parents",
+    "difficulty": "moyen",
+    "duration": "3h",
+    "participants": 142,
+    "reward": 300,
+    "objectives": [
+      "Organiser des ateliers intergénérationnels",
+      "Valoriser les compétences de chacun",
+      "Créer des souvenirs numériques familiaux"
+    ]
+  }
+]

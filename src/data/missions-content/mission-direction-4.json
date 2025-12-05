@@ -1,0 +1,230 @@
+{
+  "id": "mission-direction-4",
+  "title": "Protection des données - RGPD",
+  "description": "Assurer la conformité légale et éthique de vos données",
+  "theme": "donnees-rgpd",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Audit de conformité",
+      "description": "Avez-vous audit RGPD récemment?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, par un cabinet spécialisé",
+          "feedback": "Excellent! Vous avez un diagnostic professionnel.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, auto-audit interne",
+          "feedback": "Bon début. Un audit externe apporterait plus.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, on pense qu'on est correct",
+          "feedback": "Risqué! Non-conformité = amandes + réputation.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Registre des traitements",
+      "description": "Avez-vous formalisé vos traitements de données?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, registre complet à jour",
+          "feedback": "Parfait! Transparence et responsabilité.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 45,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, on l'améliore",
+          "feedback": "En bonne direction. Finalisez rapidement.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, on traite les données sans formaliser",
+          "feedback": "Grave! Vous êtes non-conforme RGPD.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Consentement des données",
+      "description": "Comment gérez-vous le consentement?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Consentement implicite ou consentement une fois à l'inscription",
+          "feedback": "Non-conforme! Le RGPD demande consentement explicite.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Consentement explicite par case à cocher",
+          "feedback": "Meilleur! Mais reste-t-il facile de refuser?",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Consentement éclairé + facile à retirer",
+          "feedback": "Excellent! Contrôle réel des utilisateurs.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 50,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Droits des personnes",
+      "description": "Respectez-vous les droits individuels (accès, suppression)?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, trop compliqué à implémenter",
+          "feedback": "C'est une obligation légale, pas optionnel!",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, accès oui mais suppression difficile",
+          "feedback": "Améliorez! Les deux sont essentiels.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui complet: accès + rectification + suppression + portabilité",
+          "feedback": "Excellent! Respect total des droits fondamentaux.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Sécurité informatique",
+      "description": "Avez-vous sécurisé l'accès et le stockage?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pas vraiment, stockage standard",
+          "feedback": "Danger! Les données non-sécurisées peuvent être piratées.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Chiffrement basique + contrôle d'accès simple",
+          "feedback": "Début. Renforcez avec authentification forte.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Chiffrement fort + 2FA + audits de sécurité réguliers",
+          "feedback": "Excellent! Données bien protégées.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 50,
+            "durabilité": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Gouvernance des données",
+      "description": "Qui pilote la conformité dans votre établissement?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pas de rôle dédié, c'est 'au cas par cas'",
+          "feedback": "Risqué! Qui garantit la conformité continue?",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "DPO (Responsable Protection Données) en place",
+          "feedback": "Bon! Quelqu'un a ce rôle.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "DPO + formation régulière de tous les utilisateurs",
+          "feedback": "Excellent! Responsabilité diffusée et unifiée.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

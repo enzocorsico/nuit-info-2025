@@ -1,0 +1,46 @@
+{
+  "id": "mission-collectivite-collectivite-1",
+  "title": "Gouvernance participative numérique",
+  "description": "Mettre en place une plateforme de budgétisation participative en ligne pour les citoyens",
+  "theme": "participatory-governance",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Concevoir la plateforme",
+      "description": "Quels principes de design prioritaire ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Maximum de fonctionnalités, interface complexe mais riche",
+          "feedback": "Risque : les utilisateurs s'y perdent.",
+          "scores": {"inclusion": 10, "responsabilité": 15, "durabilité": 10}
+        },
+        {
+          "id": "choice-2",
+          "text": "Simplicité extrême, accessible à tous : enfants, seniors, peu tech-savvy",
+          "feedback": "Parfait ! La simplicité est la meilleure UX.",
+          "scores": {"inclusion": 50, "responsabilité": 45, "durabilité": 40}
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Motiver la participation",
+      "description": "Comment encourager les citoyens ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Promesse : 'Votre avis compte' mais implémentation molle",
+          "feedback": "Danger ! Les gens sentiront la supercherie.",
+          "scores": {"inclusion": -20, "responsabilité": -30, "durabilité": 0}
+        },
+        {
+          "id": "choice-2",
+          "text": "Implémentation réelle : débat public, transparence sur les résultats, budgets votés effectivement",
+          "feedback": "Excellent ! Vous pratiquez la vraie démocratie participative.",
+          "scores": {"inclusion": 50, "responsabilité": 50, "durabilité": 45}
+        }
+      ]
+    }
+  ]
+}

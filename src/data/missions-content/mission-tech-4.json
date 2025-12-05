@@ -1,0 +1,230 @@
+{
+  "id": "mission-tech-4",
+  "title": "Migration progressiste vers open-source",
+  "description": "Passer d'outils propriétaires à des solutions open-source",
+  "theme": "open-source",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Audit des licences actuelles",
+      "description": "Connaissez-vous le coût de vos licences?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, audit complet des dépenses logicielles",
+          "feedback": "Excellent! Vous avez la baseline.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, budgétisé mais pas détaillé",
+          "feedback": "Un audit précis révélera des économies potentielles.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, on n'a pas de vision claire",
+          "feedback": "Première étape cruciale: mappez vos logiciels.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Alternatives open-source",
+      "description": "Avez-vous évalué les équivalents open-source?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on pense que propriétaire c'est mieux",
+          "feedback": "Idée reçue! Open-source peut être meilleur ET moins cher.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on a identifié quelques alternatives",
+          "feedback": "Bon! Testez-les avant de migrer.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, plan de remplacement pour chaque outil",
+          "feedback": "Excellent! Approche méthodique.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Pilotage de migration",
+      "description": "Quelle est votre stratégie?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Remplacer tout du jour au lendemain",
+          "feedback": "Dangereux! Les équipes paniquent, les données se perdent.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Migration progressive: modules par modules",
+          "feedback": "Sage! Vous limitez les risques et formez progressivement.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Période de double-usage + formation avant cutover",
+          "feedback": "Excellent! Vous garantissez un succès sans rupture.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Formation et accompagnement",
+      "description": "Formez-vous les utilisateurs?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ils se débrouilleront",
+          "feedback": "Catastrophe! La migration échouera sans support.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Documentation + quelques formations ponctuelles",
+          "feedback": "Mieux. Plus de formation = plus de succès.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Formations régulières + support helpdesk dédié",
+          "feedback": "Excellent! Vous investissez dans la transition.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Interopérabilité et données",
+      "description": "Vos données sont-elles portables?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on risque de les perdre dans la migration",
+          "feedback": "Grave! Planifiez l'export/import AVANT de commencer.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "On essaie de migrer les données, c'est complexe",
+          "feedback": "Préparation technique insuffisante. Pilotez mieux.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Export testés + formats standards (CSV, JSON, etc)",
+          "feedback": "Excellent! Vous garantissez la continuité des données.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Bilan financier et impact",
+      "description": "Quel est le retour sur investissement?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pas de mesure, on verra bien",
+          "feedback": "Vous ne saurez jamais si c'était utile!",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Économies de licences mesurées",
+          "feedback": "Bon! C'est un gain quantifiable.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Économies + souveraineté + durabilité + engagement communautaire",
+          "feedback": "Magnifique! Vous avez mis en place le bon changement.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

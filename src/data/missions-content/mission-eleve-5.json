@@ -1,0 +1,260 @@
+{
+  "id": "mission-eleve-5",
+  "title": "Cyberharcèlement : agir et prévenir",
+  "description": "Comprendre le cyberharcèlement et devenir un acteur de prévention",
+  "theme": "sécurité-social",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Reconnaître le cyberharcèlement",
+      "description": "Quelqu'un poste régulièrement des commentaires méchants sur les photos d'une copine. C'est quoi pour vous?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "C'est du cyberharcèlement, c'est sérieux",
+          "feedback": "Exactement! C'est une forme de harcèlement à prendre au sérieux.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "C'est juste des blagues, elle devrait ignorer",
+          "feedback": "Attention! Ce que nous percevons comme une blague peut faire beaucoup de mal.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "C'est un conflit normal qu'on voit partout",
+          "feedback": "Non, c'est anormal. Les commentaires répétés et blessants constituent du harcèlement.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Différences avec le harcèlement classique",
+      "description": "Pourquoi le cyberharcèlement est-il particulièrement grave?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "C'est juste sur internet, ce n'est pas réel",
+          "feedback": "Faux! L'impact émotionnel est tout aussi réel et durable.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "C'est public, permanent et difficile à arrêter",
+          "feedback": "Excellent! Vous avez compris les éléments clés.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Les harceleurs se cachent derrière l'anonymat",
+          "feedback": "Vrai! L'anonymat facilite les comportements agressifs.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Tout ce qui précède",
+          "feedback": "Parfait! Vous maîtrisez bien la complexité du cyberharcèlement.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Réactions face au cyberharcèlement",
+      "description": "Si vous voyez quelqu'un se faire harceler en ligne, que faites-vous?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je ne fais rien, ce n'est pas mes affaires",
+          "feedback": "C'est malheureusement l'approche la plus fréquente mais elle laisse les victimes seules.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je signale le contenu aux modérateurs",
+          "feedback": "Bon! Vous utilisez les outils disponibles.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 25,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je soutiens la victime publiquement",
+          "feedback": "Excellent! Votre soutien compte énormément.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Signalement + soutien + information à un adulte",
+          "feedback": "Parfait! Vous agissez de manière responsable et complète.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Vos propres comportements",
+      "description": "Avez-vous parfois posté des commentaires méchants sans vraiment réfléchir?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, je suis très prudent",
+          "feedback": "Bien! Vous maîtrisez vos impulsions en ligne.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Peut-être une ou deux fois par inadvertance",
+          "feedback": "Honnête! C'est une opportunité pour réfléchir à vos impacts.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, parfois mais je pensais que c'était une blague",
+          "feedback": "Réfléchissez-y: même sans intention, les mots font mal.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Protection personnelle",
+      "description": "Comment vous protéger vous-même du cyberharcèlement?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Rendre mon compte privé et filtrer les commentaires",
+          "feedback": "Bien! C'est une première ligne de défense.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Ne pas partager d'informations personnelles",
+          "feedback": "Sage! Moins d'infos = moins de risques.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 25,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Bloquer et signaler rapidement",
+          "feedback": "Réactif et efficace!",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Faire toutes ces choses + parler à un adulte de confiance",
+          "feedback": "Excellent! Vous avez une stratégie d'autodéfense complète.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Campagne de sensibilisation",
+      "description": "Voulez-vous créer une campagne anti-cyberharcèlement à l'école?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, c'est important pour notre communauté",
+          "feedback": "Magnifique! Vous devenez un acteur du changement.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Peut-être avec du soutien",
+          "feedback": "Parlons-en! Ensemble c'est plus facile.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, ce n'est pas mon rôle",
+          "feedback": "Chacun peut contribuer à un internet plus sain.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-prof-1",
+    "title": "Parentalité numérique",
+    "description": "Former parents à numérique responsable. Ateliers à l'école pour familles.",
+    "difficulty": "moyen",
+    "duration": "4-6h",
+    "participants": 48,
+    "reward": 300,
+    "objectives": [
+      "Conception atelier pédago",
+      "Animer groupe parents",
+      "Répondre questions réelles",
+      "Matériel formation complet",
+      "Évaluation et feedback"
+    ]
+  },
+  {
+    "id": "mission-prof-2",
+    "title": "Communication école-famille",
+    "description": "Améliorer dialogue école-famille. Numérique pour rapprocher pas éloigner.",
+    "difficulty": "moyen",
+    "duration": "3-5h",
+    "participants": 42,
+    "reward": 280,
+    "objectives": [
+      "Plateforme communication moderne",
+      "Messages clairs et positifs",
+      "Répondre parents promptement",
+      "Traduire complexité pédago",
+      "Transparent en résultats"
+    ]
+  },
+  {
+    "id": "mission-prof-3",
+    "title": "Bien-être émotionnel élèves",
+    "description": "Soutenir santé mentale à l'école. Stress, anxiété, confiance.",
+    "difficulty": "avancé",
+    "duration": "6-10h",
+    "participants": 35,
+    "reward": 400,
+    "objectives": [
+      "Détecter signes détresse",
+      "Écoute empathique",
+      "Ressources santé mentale",
+      "Collaboration parents-psycho",
+      "Environnement classe bienveillant"
+    ]
+  },
+  {
+    "id": "mission-prof-4",
+    "title": "Éducation parentale numérique",
+    "description": "Créer programme éducation parentale. Module formation progressif.",
+    "difficulty": "avancé",
+    "duration": "8-12h",
+    "participants": 30,
+    "reward": 500,
+    "objectives": [
+      "Concevoir curriculum formation",
+      "Module 1: les bases Internet",
+      "Module 2: réseaux sociaux",
+      "Module 3: cybersécurité",
+      "Certification parents"
+    ]
+  },
+  {
+    "id": "mission-prof-5",
+    "title": "Communauté apprentissants",
+    "description": "Créer communauté apprenants. Parents enfants profs apprennent ensemble.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 25,
+    "reward": 600,
+    "objectives": [
+      "Créer forum discussion bienveillant",
+      "Animer événements famille",
+      "Partager bonne pratiques",
+      "Peer learning entre parents",
+      "Impact mesurable changements"
+    ]
+  }
+]

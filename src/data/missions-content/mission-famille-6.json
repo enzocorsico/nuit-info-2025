@@ -1,0 +1,230 @@
+{
+  "id": "mission-famille-5",
+  "title": "Parentalité numérique positive",
+  "description": "Équilibrer contrôle et liberté dans un monde connecté",
+  "theme": "parentalite",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Relation aux écrans",
+      "description": "Quel est votre rapport personnel aux écrans?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Accro, je suis tout le temps sur le téléphone",
+          "feedback": "Difficile de prêcher ce qu'on ne pratique pas!",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Équilibré, je suis un modèle raisonnable",
+          "feedback": "Bon! Vous donnez le ton.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Exemplaire, zones sans écran, sommeil protégé",
+          "feedback": "Excellent! Vous incarnez l'équilibre.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Communication plutôt que sanctions",
+      "description": "Votre style parental face aux usages numériques?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Strict, interdiction sans explication",
+          "feedback": "Risque de clandestinité. La parole renforce plus.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Dialogué, je pose des questions, on négocie",
+          "feedback": "Bon! Dialogue et limite.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Dialogué + implication enfant dans décision",
+          "feedback": "Excellent! Autonomie et co-responsabilité.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Activités partagées",
+      "description": "Faites-vous des activités numériques ensemble?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, chacun ses écrans",
+          "feedback": "Vous manquez une opportunité de lien.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on joue ensemble ou on regarde parfois",
+          "feedback": "Bien! Co-consommation crée du lien.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui régulièrement + on discute du contenu",
+          "feedback": "Excellent! Lien + apprentissage mutuel.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Compétences numériques",
+      "description": "Enseignez-vous la littératie numérique?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, l'école s'en charge",
+          "feedback": "Partage de responsabilité. Mais à la maison aussi!",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, règles de sécurité et bon usage",
+          "feedback": "Bon! Vous formez à la prudence.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, sécurité + création + esprit critique + coding",
+          "feedback": "Excellent! Vous formez des citoyens numériques.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Bien-être et santé",
+      "description": "Surveillez-vous les impacts sur la santé?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, c'est de la responsabilité de l'enfant",
+          "feedback": "Les enfants ne sont pas équipés pour s'autoréguler.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, on limite le temps. Attention au sommeil",
+          "feedback": "Bon! Vous protégez les besoins biologiques.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, bien-être global: sommeil + pause + sport + limite",
+          "feedback": "Excellent! Vous protégez vraiment leur santé.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Évolution et adaptation",
+      "description": "Comment gérez-vous la croissance de vos enfants?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Les mêmes règles du primaire au lycée",
+          "feedback": "Trop rigide! Les besoins évoluent.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "On assouplit progressivement, selon âge et maturité",
+          "feedback": "Bon! Vous vous adaptez.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Partenariat progressif: moins contrôle, plus autonomie",
+          "feedback": "Excellent! Vous les préparez à l'âge adulte.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

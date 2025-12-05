@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-collectivite-1",
+    "title": "Sensibiliser collectivité numérique responsable",
+    "description": "Former citoyens à usages numériques sains. Ateliers municipaux pour tous.",
+    "difficulty": "moyen",
+    "duration": "4-6h",
+    "participants": 89,
+    "reward": 350,
+    "objectives": [
+      "Concevoir atelier accessible",
+      "Animer pour diverse audience",
+      "Créer ressources pédago",
+      "Recueillir feedback",
+      "Capitaliser apprentissages"
+    ]
+  },
+  {
+    "id": "mission-collectivite-2",
+    "title": "Gouvernance données municipales",
+    "description": "Ouvrir données ville de manière responsable. Transparence et éthique.",
+    "difficulty": "avancé",
+    "duration": "8-12h",
+    "participants": 34,
+    "reward": 600,
+    "objectives": [
+      "Identifier données à ouvrir",
+      "Audit conformité RGPD",
+      "Créer portail open data",
+      "Engagement citoyens réutilisation",
+      "Mesurer impact innovation"
+    ]
+  },
+  {
+    "id": "mission-collectivite-3",
+    "title": "Inclusion numérique territoire",
+    "description": "Réduire fracture numérique zones rurales/urbaines. Accès égal Internet et compétences.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 28,
+    "reward": 700,
+    "objectives": [
+      "Cartographier besoins locaux",
+      "Points d'accès public partout",
+      "Formations gratuites multilingues",
+      "Financement accessible appareils",
+      "Suivi participation inclusivité"
+    ]
+  },
+  {
+    "id": "mission-collectivite-4",
+    "title": "Démocratie participative numérique",
+    "description": "Impliquer citoyens via plateforme numérique. Décisions collectives authentiques.",
+    "difficulty": "avancé",
+    "duration": "8-12h (6 mois)",
+    "participants": 41,
+    "reward": 650,
+    "objectives": [
+      "Plateforme participation robuste",
+      "Vrai impact sur décisions",
+      "Formation débat constructif",
+      "Transparence raisons finales",
+      "Évaluation satisfaction citoyens"
+    ]
+  },
+  {
+    "id": "mission-collectivite-5",
+    "title": "Territoriale numérique durable",
+    "description": "Stratégie transformation numérique ville. Inclusion, écologie, souveraineté.",
+    "difficulty": "avancé",
+    "duration": "15-20h",
+    "participants": 31,
+    "reward": 800,
+    "objectives": [
+      "Audit maturité numérique locale",
+      "Vision à 5 ans partagée",
+      "Roadmap par axes stratégiques",
+      "Budget et gouvernance clair",
+      "Plaidoyer régional/national"
+    ]
+  },
+  {
+    "id": "mission-collectivite-6",
+    "title": "Résilience numérique collective",
+    "description": "Préparer collectivité crises numériques. Plan continuité, sécurité, alternatives.",
+    "difficulty": "avancé",
+    "duration": "12-18h",
+    "participants": 26,
+    "reward": 750,
+    "objectives": [
+      "Audit vulnérabilités systèmes",
+      "Plan continuité catastrophe IT",
+      "Alternatives offline essentielles",
+      "Formation equipes critiques",
+      "Simulation et test réguliers"
+    ]
+  }
+]

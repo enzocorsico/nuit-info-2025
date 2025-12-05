@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-prof-1",
+    "title": "Enseigner Linux en classe",
+    "description": "Intégrer Linux et l'open-source dans le curriculum informatique. Pédagogie et apprentissage pratique.",
+    "difficulty": "moyen",
+    "duration": "4-6h (+ cours)",
+    "participants": 67,
+    "reward": 300,
+    "objectives": [
+      "Créer des VM/conteneurs pour les élèves",
+      "Concevoir des travaux pratiques progressifs",
+      "Motiver les élèves au logiciel libre",
+      "Gérer labo informatique avec Linux",
+      "Évaluer compétences terminales et scripting"
+    ]
+  },
+  {
+    "id": "mission-prof-2",
+    "title": "Formation Linux pour profs",
+    "description": "Se former à Linux pour bien l'enseigner. De débutant à intermédiaire en autonomie.",
+    "difficulty": "moyen",
+    "duration": "5-8h (intensive)",
+    "participants": 89,
+    "reward": 280,
+    "objectives": [
+      "Installer et configurer sa machine Linux personnelle",
+      "Maîtriser le terminal et les scripts shell",
+      "Comprendre architecture Linux (kernel, système de fichiers)",
+      "Gérer utilisateurs, permissions, sécurité",
+      "Dépanner problèmes courants"
+    ]
+  },
+  {
+    "id": "mission-prof-3",
+    "title": "Open-source dans l'éducation",
+    "description": "Promouvoir logiciels et ressources libres à l'école. Modèle durable et éthique.",
+    "difficulty": "avancé",
+    "duration": "6-10h (mise en place)",
+    "participants": 54,
+    "reward": 400,
+    "objectives": [
+      "Auditer logiciels propriétaires vs alternatives libres",
+      "Planifier migration progressif vers open-source",
+      "Former équipe IT et enseignants",
+      "Documenter processus et outils pédagogiques",
+      "Créer ressources éducatives libres pour la classe"
+    ]
+  },
+  {
+    "id": "mission-prof-4",
+    "title": "Scripting avancé",
+    "description": "Automatiser tâches répétitives avec bash. Gagner du temps pour enseigner.",
+    "difficulty": "moyen",
+    "duration": "3-4h",
+    "participants": 41,
+    "reward": 250,
+    "objectives": [
+      "Écrire scripts bash pratiques",
+      "Programmer avec variables, boucles, conditions",
+      "Traiter fichiers texte (grep, sed, awk)",
+      "Automatiser sauvegarde et maintenance",
+      "Documenter scripts pour équipe"
+    ]
+  },
+  {
+    "id": "mission-prof-5",
+    "title": "Serveur d'école Linux",
+    "description": "Installer et maintenir un serveur Linux pour l'école. Infrastructure légère et économe.",
+    "difficulty": "avancé",
+    "duration": "8-12h (déploiement)",
+    "participants": 35,
+    "reward": 500,
+    "objectives": [
+      "Installer Ubuntu Server ou Debian",
+      "Configurer réseau et accès VPN",
+      "Déployer services (web, email, fichiers)",
+      "Sécuriser avec firewall et certificats SSL",
+      "Monitorer et maintenir en continu"
+    ]
+  }
+]

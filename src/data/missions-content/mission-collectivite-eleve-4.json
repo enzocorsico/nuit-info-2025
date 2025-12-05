@@ -1,0 +1,119 @@
+{
+  "id": "mission-collectivite-eleve-4",
+  "title": "Création d'un guide d'e-inclusion",
+  "description": "Développer un guide pour aider les seniors et personnes en difficulté avec le numérique",
+  "theme": "inclusion",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Identifier les besoins",
+      "description": "Qui visez-vous et quels sont leurs besoins réels ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Créer un guide générique pour 'les autres'",
+          "feedback": "Peu efficace ! Chaque groupe a des besoins spécifiques.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Mener des entretiens avec les utilisateurs : seniors, handicapés, analphabètes",
+          "feedback": "Parfait ! Vous écoutez vraiment vos utilisateurs.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 40,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Demander à un expert de rédiger le guide",
+          "feedback": "Le risque : les experts oublient la complexité du point de vue des utilisateurs.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Format du guide",
+      "description": "Quel format choisir ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "PDF de 50 pages très technique",
+          "feedback": "Rebutant ! Vos utilisateurs ne liront jamais.",
+          "scores": {
+            "inclusion": -20,
+            "responsabilité": -15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Format multi-média : papier illustré + vidéos + ateliers en personne",
+          "feedback": "Excellent ! Vous adaptez à différents styles d'apprentissage.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 40,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Application web compliquée 'innovante'",
+          "feedback": "Vous ajoutez une barrière au lieu de la réduire !",
+          "scores": {
+            "inclusion": -30,
+            "responsabilité": -20,
+            "durabilité": -15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Tester auprès des utilisateurs",
+      "description": "Comment valider votre guide ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Valider uniquement avec d'autres experts",
+          "feedback": "Vous vous trompez de cible ! Les utilisateurs doivent être vos testeurs.",
+          "scores": {
+            "inclusion": -20,
+            "responsabilité": -10,
+            "durabilité": 0
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Tester avec les utilisateurs finaux et itérer selon leurs retours",
+          "feedback": "Parfait ! C'est le design inclusif en action.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 45,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Publier directement sans test",
+          "feedback": "Risqué ! Vous allez vers des corrections tardives et coûteuses.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 5,
+            "durabilité": 0
+          }
+        }
+      ]
+    }
+  ]
+}

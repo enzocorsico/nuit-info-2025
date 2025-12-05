@@ -1,0 +1,119 @@
+{
+  "id": "mission-collectivite-eleve-3",
+  "title": "Audit digital de la collectivité",
+  "description": "Analyser l'usage du numérique dans votre commune et proposer des optimisations",
+  "theme": "audit",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Évaluer l'infrastructure actuelle",
+      "description": "Comment abordez-vous l'audit technique ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Faire un audit simplement basé sur les coûts actuels",
+          "feedback": "Incomplet ! Il faut aussi considérer l'impact environnemental et les alternatives.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 5,
+            "durabilité": -10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Audit complet : coûts, efficacité, impact carbone, souveraineté des données",
+          "feedback": "Parfait ! Vous considérez tous les aspects d'une transformation responsable.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Ne pas auditer, laisser fonctionner le système actuel",
+          "feedback": "Dangereux ! Vous resterez bloqué dans des solutions obsolètes.",
+          "scores": {
+            "inclusion": -20,
+            "responsabilité": -20,
+            "durabilité": -25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Impliquer les parties prenantes",
+      "description": "Qui inclurez-vous dans le processus d'audit ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Juste le DSI (Directeur des Systèmes d'Information)",
+          "feedback": "Trop étroit ! Vous ratez des perspectives cruciales.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "DSI + élus + citoyens + associations locales",
+          "feedback": "Excellent ! L'audit collaboratif apporte une vision complète.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Demander un audit externe à un cabinet parisien",
+          "feedback": "Coûteux et éloigné de la réalité locale. Vous n'apprenez rien.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Proposer des solutions",
+      "description": "Comment recommander des alternatives ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Garder le statu quo pour simplifier",
+          "feedback": "Aucun changement = aucun progrès ! Les enjeux climatiques demandent de l'audace.",
+          "scores": {
+            "inclusion": -30,
+            "responsabilité": -40,
+            "durabilité": -35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Proposer un plan de transition réaliste : court, moyen et long terme",
+          "feedback": "Magnifique ! Vous balancez ambition et pragmatisme.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Demander le changement complet immédiatement",
+          "feedback": "Trop brutal ! Vous créerez une résistance organisationnelle.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 25,
+            "durabilité": 15
+          }
+        }
+      ]
+    }
+  ]
+}

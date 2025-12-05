@@ -1,0 +1,213 @@
+{
+  "id": "mission-eleve-2",
+  "title": "Créer une stratégie numérique responsable",
+  "description": "Proposer des alternatives éthiques aux outils numériques classiques",
+  "theme": "alternatives",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Audit des outils actuels",
+      "description": "Vous utilisez actuellement Google Drive, Gmail et YouTube. Connaissez-vous l'impact de ces outils sur votre vie privée?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, je trace complètement ma consommation de données",
+          "feedback": "Bien ! La prise de conscience est le premier pas.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 20,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Non, je n'y ai jamais vraiment pensé",
+          "feedback": "C'est normal, mais c'est l'occasion de vous informer sur ces enjeux.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Partiellement, je sais que c'est problématique",
+          "feedback": "Vous avez raison d'être prudent. Approfondissons cette réflexion.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Rechercher des alternatives",
+      "description": "Quel critère est le plus important pour vous lors du choix d'une alternative?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "La protection de ma vie privée avant tout",
+          "feedback": "Excellent choix ! C'est fondamental pour un numérique responsable.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 30,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "La facilité d'utilisation et la compatibilité",
+          "feedback": "Valable, mais pensez aussi à la vie privée et l'impact environnemental.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "L'impact environnemental et la durabilité",
+          "feedback": "Super perspective ! L'écologie numérique est souvent oubliée.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Tous les critères avec un équilibre",
+          "feedback": "Parfait ! Une vision holistique du numérique responsable.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Alternatives découvertes",
+      "description": "Avez-vous entendu parler de ces alternatives? NextCloud, Proton Mail, Peertube, LibreOffice...",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, je les utilise déjà",
+          "feedback": "Vous êtes un pionnnier du numérique responsable!",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "J'en ai entendu parler mais j'ose pas sauter le pas",
+          "feedback": "N'hésitez pas, la transition est progressive et c'est normal d'avoir des appréhensions.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "C'est la première fois que j'en entends parler",
+          "feedback": "Bienvenue dans le mouvement! Vous découvrez un univers d'outils fascinants.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Plan de transition",
+      "description": "Comment envisagez-vous de basculer progressivement vers des outils responsables?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Tout changer d'un coup, c'est plus rapide",
+          "feedback": "Courageux, mais attention au burnout. Une transition progressive est souvent plus durable.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 20,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Commencer par 1-2 outils et progresser",
+          "feedback": "Excellente stratégie! Small steps lead to big changes.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Attendre le moment idéal pour commencer",
+          "feedback": "Le moment idéal c'est maintenant! Ne restez pas bloqué par la procrastination.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Je vais créer un plan d'action avec des jalons",
+          "feedback": "Parfait! Vous structurez votre transition de manière responsable.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Partager votre stratégie",
+      "description": "Envisagez-vous de partager votre transition avec vos proches?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, je veux inspirer mon entourage",
+          "feedback": "Magnifique! Le partage crée un mouvement collectif.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Non, c'est personnel et j'aime garder mon quant-à-moi",
+          "feedback": "Respectable, mais sachez que vous pourriez inspirer d'autres.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Peut-être si on me pose des questions",
+          "feedback": "Bonne approche! Vous restez ouvert au partage naturel.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        }
+      ]
+    }
+  ]
+}

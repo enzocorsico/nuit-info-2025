@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-tech-1",
+    "title": "Plateforme communautaire",
+    "description": "Mettre en place plateforme communication école-famille. Forum, événements.",
+    "difficulty": "moyen",
+    "duration": "6-8h",
+    "participants": 18,
+    "reward": 500,
+    "objectives": [
+      "Installer forum / plateforme",
+      "Design interface intuitive",
+      "Modération et sécurité",
+      "Formation utilisateurs",
+      "Monitoring activité"
+    ]
+  },
+  {
+    "id": "mission-tech-2",
+    "title": "App mobile école-parents",
+    "description": "Développer app mobile communication école. Notifications, infos en temps réel.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 16,
+    "reward": 700,
+    "objectives": [
+      "Spécifications requirements",
+      "Design mobile intuitif",
+      "Développement iOS/Android",
+      "Push notifications intégrées",
+      "Analytics usage"
+    ]
+  },
+  {
+    "id": "mission-tech-3",
+    "title": "Cybersécurité données enfants",
+    "description": "Protéger données sensibles enfants. RGPD strict et confiance.",
+    "difficulty": "avancé",
+    "duration": "12-15h",
+    "participants": 14,
+    "reward": 800,
+    "objectives": [
+      "Audit complet RGPD",
+      "Chiffrement données enfants",
+      "Contrôle accès granulaire",
+      "Audit fournisseurs compliance",
+      "Notification incidents rigides"
+    ]
+  },
+  {
+    "id": "mission-tech-4",
+    "title": "Analytics et well-being",
+    "description": "Dashboard santé numérique communauté. Indicateurs bien-être mesurables.",
+    "difficulty": "moyen",
+    "duration": "6-10h",
+    "participants": 17,
+    "reward": 600,
+    "objectives": [
+      "Identifier KPI bien-être",
+      "Collecter données éthiquement",
+      "Dashboard visualisation",
+      "Tendances et alertes",
+      "Actions basée données"
+    ]
+  },
+  {
+    "id": "mission-tech-5",
+    "title": "Support IT communauté",
+    "description": "Aider familles techniquement. Formations, dépannage, soutien.",
+    "difficulty": "moyen",
+    "duration": "8-12h",
+    "participants": 19,
+    "reward": 550,
+    "objectives": [
+      "Hotline technique accessible",
+      "FAQ complète",
+      "Formations en groupe",
+      "Visites familles à domicile",
+      "Reconditionner ordi usagés"
+    ]
+  }
+]

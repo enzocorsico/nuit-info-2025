@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mission-direction-1",
+    "title": "Gouvernance numérique responsable",
+    "description": "Mettre en place une politique numérique inclusive et durable",
+    "difficulty": "difficile",
+    "duration": "3h",
+    "participants": 42,
+    "reward": 450,
+    "objectives": [
+      "Analyser les besoins de l'établissement",
+      "Définir les principes NIRD",
+      "Planifier l'implémentation"
+    ]
+  },
+  {
+    "id": "mission-direction-2",
+    "title": "Budget numérique éco-responsable",
+    "description": "Optimiser les dépenses tech tout en réduisant l'impact environnemental",
+    "difficulty": "difficile",
+    "duration": "4h",
+    "participants": 31,
+    "reward": 500,
+    "objectives": [
+      "Auditer le parc informatique existant",
+      "Évaluer le coût total de possession (TCO)",
+      "Proposer un plan d'investissement durable"
+    ]
+  },
+  {
+    "id": "mission-direction-3",
+    "title": "Charte numérique de l'établissement",
+    "description": "Créer une charte co-construite avec toute la communauté éducative",
+    "difficulty": "moyen",
+    "duration": "5h",
+    "participants": 67,
+    "reward": 400,
+    "objectives": [
+      "Organiser des ateliers participatifs",
+      "Rédiger la charte NIRD",
+      "Mettre en place le suivi"
+    ]
+  },
+  {
+    "id": "mission-direction-4",
+    "title": "Protection des données personnelles (RGPD)",
+    "description": "Assurer la conformité et la sécurité des données de l'établissement",
+    "difficulty": "difficile",
+    "duration": "6h",
+    "participants": 28,
+    "reward": 550,
+    "objectives": [
+      "Cartographier les traitements de données",
+      "Identifier les risques",
+      "Implémenter les mesures de protection"
+    ]
+  },
+  {
+    "id": "mission-direction-5",
+    "title": "Label numérique responsable",
+    "description": "Obtenir une certification ou label RSE pour votre établissement",
+    "difficulty": "difficile",
+    "duration": "8h",
+    "participants": 19,
+    "reward": 700,
+    "objectives": [
+      "Identifier les labels pertinents",
+      "Préparer le dossier de candidature",
+      "Mettre en œuvre les recommandations"
+    ]
+  }
+]

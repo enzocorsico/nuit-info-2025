@@ -1,0 +1,260 @@
+{
+  "id": "mission-prof-5",
+  "title": "Projet collaboratif inter-classes",
+  "description": "Organiser un projet numérique responsable avec d'autres enseignants",
+  "theme": "collaboration",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Thème du projet",
+      "description": "Quel thème NIRD vous intéresse le plus pour un projet collectif?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Données personnelles et vie privée",
+          "feedback": "Sujet universel! Tous les élèves sont concernés.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Impact environnemental du numérique",
+          "feedback": "Tangible et motivant! Les élèves voient l'urgence.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Désinformation et fake news",
+          "feedback": "Critique! Essential à l'ère des réseaux sociaux.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Accessibilité et inclusion numérique",
+          "feedback": "Fondamental! Bénéficie à la cohésion du groupe.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Format du projet",
+      "description": "Quel format de projet vous attire le plus?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Documentaire vidéo",
+          "feedback": "Excellent! Permet de montrer, d'émouvoir et de partager.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Podcast ou émission radio",
+          "feedback": "Accessible et créatif! Format en vogue chez les jeunes.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Blog collaboratif ou journal",
+          "feedback": "Durable! Une plateforme d'expression pérenne.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Exposition interactive ou événement",
+          "feedback": "Engageant! Crée un impact local réel.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Niveau de collaboration",
+      "description": "Avec combien de collègues envisagez-vous de collaborer?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "1-2 collègues de ma discipline",
+          "feedback": "Bon début! Manageable et cohérent disciplinairement.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "3-5 collègues de disciplines différentes",
+          "feedback": "Excellent! Richesse interdisciplinaire.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Toute l'équipe pédagogique",
+          "feedback": "Ambitieux! Un vrai projet d'établissement.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Implication des élèves",
+      "description": "Quel est le rôle des élèves dans ce projet?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Les élèves exécutent ce que nous concevons",
+          "feedback": "Classique mais limité. Manque d'engagement.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Les élèves proposent des idées et les réalisent",
+          "feedback": "Bon! Ils deviennent producteurs.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Les élèves co-conçoivent tout avec les profs",
+          "feedback": "Parfait! C'est une vraie pédagogie participative.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Ressources nécessaires",
+      "description": "Avez-vous identifié les ressources pour ce projet?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Matériel: caméra, micros, logiciels",
+          "feedback": "Important! Vérifiez ce que vous avez déjà.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Temps: heures de projet ou crédits horaires",
+          "feedback": "Essentiel! Demandez à la direction.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Expertise externe: intervenants, partenaires",
+          "feedback": "Excellent! Enrichit le projet et crée des liens.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Tout ce qui précède",
+          "feedback": "Approche complète et réaliste!",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Pérennité du projet",
+      "description": "Comment transformer ce projet en initiative durable?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Projet annuel récurrent",
+          "feedback": "Bon! Crée une tradition engageante.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Projets de courte durée itératifs",
+          "feedback": "Flexible! Adaptable selon les contextes.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Intégrer NIRD dans le curriculum régulier",
+          "feedback": "Excellent! C'est l'intégration ultime.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 40
+          }
+        }
+      ]
+    }
+  ]
+}

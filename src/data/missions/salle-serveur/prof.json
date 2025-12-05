@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mission-prof-1",
+    "title": "Infrastructure pédagogique",
+    "description": "Maîtriser serveurs école pour meilleur enseignement. Hébergement mails, sites, fichiers.",
+    "difficulty": "moyen",
+    "duration": "4-6h (+ cours)",
+    "participants": 61,
+    "reward": 320,
+    "objectives": [
+      "Installer serveur pour classe numérique",
+      "Configurer partage de fichiers sécurisé",
+      "Gérer accès et permissions élèves",
+      "Monitorer activité réseau classe",
+      "Dépanner problèmes connectivité"
+    ]
+  },
+  {
+    "id": "mission-prof-2",
+    "title": "Enseignement réseaux informatiques",
+    "description": "Enseigner protocoles réseaux et infrastructure. Theorie et pratique.",
+    "difficulty": "moyen",
+    "duration": "5-7h",
+    "participants": 48,
+    "reward": 300,
+    "objectives": [
+      "Créer labo réseau avec Cisco/GNS3",
+      "Enseigner TCP/IP et couches OSI",
+      "Configurer routeurs et switches virtuels",
+      "Élèves configurent leur propre réseau",
+      "Troubleshooting réseau collaboratif"
+    ]
+  },
+  {
+    "id": "mission-prof-3",
+    "title": "Sécurité réseau école",
+    "description": "Protéger réseau pédagogique des menaces. Firewall, VPN, intrusion detection.",
+    "difficulty": "avancé",
+    "duration": "6-10h (mise en place)",
+    "participants": 42,
+    "reward": 450,
+    "objectives": [
+      "Auditer vulnérabilités réseau actuelles",
+      "Implémenter firewall et IDS",
+      "Configurer VPN sécurisé pour accès distant",
+      "Segmenter réseau (DMZ, VLAN)",
+      "Monitorer trafic suspect"
+    ]
+  },
+  {
+    "id": "mission-prof-4",
+    "title": "Gestion bande passante classe",
+    "description": "Optimiser débit réseau pour tous les élèves. QoS et priorités.",
+    "difficulty": "moyen",
+    "duration": "3-4h",
+    "participants": 35,
+    "reward": 250,
+    "objectives": [
+      "Découvrir outils QoS (Quality of Service)",
+      "Configurer priorités par type trafic",
+      "Limiter bande passante par utilisateur",
+      "Tester charge réseau",
+      "Optimiser pour vidéo en classe"
+    ]
+  },
+  {
+    "id": "mission-prof-5",
+    "title": "Plateforme d'apprentissage en ligne",
+    "description": "Mettre en place serveur pédagogique (Moodle, Nextcloud). Accès cours 24/7.",
+    "difficulty": "avancé",
+    "duration": "8-12h (déploiement)",
+    "participants": 38,
+    "reward": 500,
+    "objectives": [
+      "Installer Moodle ou Nextcloud",
+      "Configurer authentification et permissions",
+      "Créer cours et ressources",
+      "Monitorer usage et performance",
+      "Sauvegarder et maintenir plateforme"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-eleve-1",
+    "title": "Les données collectées : qui en profite?",
+    "description": "Analyser comment vos données personnelles sont utilisées par les grandes tech. Comprendre le modèle économique des GAFAM et l'impact sur votre vie privée.",
+    "difficulty": "facile",
+    "duration": "2-3h",
+    "participants": 245,
+    "reward": 100,
+    "objectives": [
+      "Comprendre le modèle économique des GAFAM et comment ils monétisent les données",
+      "Identifier les 50+ données personnelles collectées chaque jour",
+      "Évaluer l'impact réel sur votre vie privée et votre liberté",
+      "Découvrir vos droits RGPD et comment les exercer",
+      "Créer votre propre stratégie de protection des données"
+    ]
+  },
+  {
+    "id": "mission-eleve-2",
+    "title": "Créer une stratégie numérique responsable",
+    "description": "Proposer des alternatives éthiques aux outils numériques classiques. Migrer progressivement vers des solutions open-source et respectueuses de la vie privée.",
+    "difficulty": "moyen",
+    "duration": "3-5h",
+    "participants": 156,
+    "reward": 250,
+    "objectives": [
+      "Rechercher et tester des alternatives open-source pour chaque outil GAFAM",
+      "Comparer les fonctionnalités, sécurité et impact environnemental",
+      "Planifier une migration progressive réaliste",
+      "Documenter votre transition et partager votre expérience",
+      "Convaincre 5 amis à adopter au moins une alternative"
+    ]
+  },
+  {
+    "id": "mission-eleve-3",
+    "title": "Le défi du déconnexion",
+    "description": "Réduire progressivement votre consommation numérique et découvrir les bénéfices du digital detox. Une semaine intensive pour reprendre le contrôle.",
+    "difficulty": "moyen",
+    "duration": "1 semaine intensive",
+    "participants": 123,
+    "reward": 300,
+    "objectives": [
+      "Mesurer votre temps d'écran réel avec des outils spécialisés",
+      "Identifier vos triggers et dépendances numériques",
+      "Faire un défi de réduction quotidienne de 1h",
+      "Remplacer le temps écran par des activités créatives/sportives",
+      "Tenir un journal de vos changements physiques et émotionnels"
+    ]
+  },
+  {
+    "id": "mission-eleve-4",
+    "title": "Empreinte carbone numérique",
+    "description": "Calculer et réduire votre impact environnemental lié au numérique. Comprendre que chaque clic a un coût écologique.",
+    "difficulty": "moyen",
+    "duration": "2-4h (+ suivi mensuel)",
+    "participants": 187,
+    "reward": 200,
+    "objectives": [
+      "Calculer votre empreinte carbone numérique annuelle (en kg CO2)",
+      "Comprendre l'énergie consommée par les datacenters et réseaux",
+      "Réduire votre consommation: streaming HD, téléchargements inutiles",
+      "Créer un plan d'action pour achats électroniques durables",
+      "Transformer vos appareils vieux en seconde vie"
+    ]
+  },
+  {
+    "id": "mission-eleve-5",
+    "title": "Cyberharcèlement : agir et prévenir",
+    "description": "Comprendre le cyberharcèlement, reconnaître les signes, et apprendre à réagir. Devenir défenseur dans votre communauté.",
+    "difficulty": "moyen",
+    "duration": "3-4h",
+    "participants": 234,
+    "reward": 280,
+    "objectives": [
+      "Distinguer taquinerie bénigne et harcèlement systématique",
+      "Reconnaître les types: mocking, doxing, revenge porn, deepfakes",
+      "Documenter et signaler le harcèlement correctement",
+      "Développer l'empathie et l'intervention de témoin",
+      "Créer un plan d'action personnel et collectif"
+    ]
+  },
+  {
+    "id": "mission-eleve-6",
+    "title": "L'IA à l'école : ami ou ennemi?",
+    "description": "Explorer l'intelligence artificielle de manière critique. Apprendre à l'utiliser responsablement tout en reconnaître ses biais et dangers.",
+    "difficulty": "avancé",
+    "duration": "4-6h",
+    "participants": 167,
+    "reward": 350,
+    "objectives": [
+      "Tester ChatGPT, Copilot et autres IA et comprendre leurs limites",
+      "Détecter les biais dans les réponses et dataset d'entrainement",
+      "Apprendre comment l'IA amplifie les discriminations",
+      "Calculer l'impact énergétique d'une requête IA",
+      "Créer une charte d'utilisation responsable de l'IA à l'école"
+    ]
+  }
+]

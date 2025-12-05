@@ -1,0 +1,230 @@
+{
+  "id": "mission-tech-5",
+  "title": "Accessibilité numérique universelle",
+  "description": "Garantir que tous peuvent utiliser vos services numériques",
+  "theme": "accessibilite",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Audit d'accessibilité",
+      "description": "Avez-vous testé l'accessibilité de vos services?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, ce n'est pas une priorité",
+          "feedback": "Grave! C'est une obligation légale (RGAA) ET une valeur.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, avec des outils d'audit automatiques",
+          "feedback": "Bon début. L'audit manuel par des utilisateurs est crucial.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, audit complet incluant utilisateurs en situation de handicap",
+          "feedback": "Excellent! C'est le gold standard.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Standards WCAG et RGAA",
+      "description": "Connaissez-vous les normes d'accessibilité?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, c'est trop technique",
+          "feedback": "À comprendre! WCAG est la base.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, nous visons au moins WCAG 2.1 niveau AA",
+          "feedback": "Bon! C'est l'objectif minimal en France.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, on vise WCAG 2.1 AAA et conformité RGAA complète",
+          "feedback": "Excellent! Vous cherchez l'excellence.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Responsabilités et rôles",
+      "description": "Qui pilote l'accessibilité dans l'équipe?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Personne, c'est 'au cas par cas'",
+          "feedback": "Problème! Sans responsable, c'est oublié.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Un rôle d'accessibilité part-time",
+          "feedback": "Bon début. Un rôle à temps plein serait mieux.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Responsable accessibilité dédié + formation transversale des équipes",
+          "feedback": "Excellent! L'accessibilité devient une culture.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Design inclusif en action",
+      "description": "Intégrez-vous l'accessibilité dès la conception?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, on améliore après si possible",
+          "feedback": "Coûteux! L'accessibilité doit être dès le départ.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, guidelines d'accessibilité dans notre design system",
+          "feedback": "Bien! Vous avez des patterns réutilisables.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, tests d'accessibilité intégrés dans CI/CD",
+          "feedback": "Excellent! L'accessibilité est testée automatiquement.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Outils et technologies",
+      "description": "Quels outils utilisez-vous?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pas d'outils spécifiques pour l'accessibilité",
+          "feedback": "Des outils existent! axe, Wave, Lighthouse...",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Outils d'audit (axe, Wave) + lecteurs d'écran pour test",
+          "feedback": "Bon! Vous mesurez et testez.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Suite complète: audit + tests + frameworks accessibles",
+          "feedback": "Excellent! Vous avez l'écosystème complet.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Implication des utilisateurs handicapés",
+      "description": "Impliquez-vous les personnes en situation de handicap?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Non, c'est trop compliqué à organiser",
+          "feedback": "Grave! Sans eux, vous ne saurez jamais si c'est vraiment accessible.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 5,
+            "durabilité": 5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Oui, groupe de testeurs occasionnels",
+          "feedback": "Bon! Leur feedback est inestimable.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Oui, co-conception et feedback régulier + compensation",
+          "feedback": "Magnifique! C'est inclusif et éthique.",
+          "scores": {
+            "inclusion": 55,
+            "responsabilité": 55,
+            "durabilité": 50
+          }
+        }
+      ]
+    }
+  ]
+}

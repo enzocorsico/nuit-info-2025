@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-eleve-1",
+    "title": "Sensibiliser parents écrans",
+    "description": "Aider parents comprendre temps d'écran sain pour enfants. Communication bienveillante.",
+    "difficulty": "facile",
+    "duration": "1-2h",
+    "participants": 156,
+    "reward": 150,
+    "objectives": [
+      "Comprendre développement enfant",
+      "Recommandations pédiatriques",
+      "Identifier signes addiction",
+      "Alternative saine activités",
+      "Communiquer sans culpabiliser"
+    ]
+  },
+  {
+    "id": "mission-eleve-2",
+    "title": "Cyberharcèlement prévention",
+    "description": "Sensibiliser aux risques cyber harcèlement. Prévention et soutien victimes.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 134,
+    "reward": 200,
+    "objectives": [
+      "Reconnaître harcèlement en ligne",
+      "Impacts psychologiques",
+      "Traces numériques",
+      "Signaler et bloquer",
+      "Soutenir jeune victime"
+    ]
+  },
+  {
+    "id": "mission-eleve-3",
+    "title": "Protéger enfants online",
+    "description": "Configurer contrôles parentaux bienveillants. Pas d'interdiction mais accompagnement.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 145,
+    "reward": 220,
+    "objectives": [
+      "Installer contrôle parental",
+      "Bloquer contenu inapproprié",
+      "Limiter temps écran smartly",
+      "Monitorer sans surveillance abusive",
+      "Dialogue ouvert confiance"
+    ]
+  },
+  {
+    "id": "mission-eleve-4",
+    "title": "Vie privée en famille",
+    "description": "Comprendre données personnelles enfants. Partages sur réseaux sociaux risqués.",
+    "difficulty": "facile",
+    "duration": "1-2h",
+    "participants": 167,
+    "reward": 130,
+    "objectives": [
+      "Sharenting et risques",
+      "Données collectionées apps",
+      "Paramètres privacy réseaux",
+      "Droits image enfant",
+      "Gérer empreinte numérique"
+    ]
+  },
+  {
+    "id": "mission-eleve-5",
+    "title": "Jeux vidéo équilibre",
+    "description": "Comprendre jeux vidéo santé psycho. Potentiel éducatif et risques.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 123,
+    "reward": 200,
+    "objectives": [
+      "Découvrir jeux éducatifs",
+      "Comprendre classifications (PEGI)",
+      "Identifier dépendance",
+      "Fixer limites saines",
+      "Jouer ensemble en famille"
+    ]
+  },
+  {
+    "id": "mission-eleve-6",
+    "title": "Modèle positif numérique",
+    "description": "Être parent exemplaire. Enfants imitent nos usages.",
+    "difficulty": "moyen",
+    "duration": "2-3h",
+    "participants": 112,
+    "reward": 180,
+    "objectives": [
+      "Auditer notre relation écrans",
+      "Phone-free moments famille",
+      "Montrer bon exemple",
+      "Conversation sans distractions",
+      "Activités sans technologie"
+    ]
+  }
+]

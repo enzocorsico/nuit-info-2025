@@ -1,0 +1,82 @@
+{
+  "id": "mission-collectivite-prof-1",
+  "title": "Intégrer NIRD dans l'éducation civique",
+  "description": "Adapter le programme NIRD pour sensibiliser les élèves aux enjeux numériques locaux",
+  "theme": "education",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Adapter NIRD au contexte local",
+      "description": "Comment localiser NIRD dans votre commune ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Utiliser NIRD tel quel, sans adaptation",
+          "feedback": "Partiel. Les élèves apprécient quand c'est proche de leur réalité.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Créer des études de cas locales : projets municipaux, entreprises, associations",
+          "feedback": "Parfait ! Vous rendez NIRD vivant et pertinent pour vos élèves.",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Ignorer NIRD, c'est trop compliqué à intégrer",
+          "feedback": "Dommage ! Vous loupez une opportunité pédagogique formidable.",
+          "scores": {
+            "inclusion": -20,
+            "responsabilité": -30,
+            "durabilité": -20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Créer un projet collaboratif",
+      "description": "Comment engager les élèves concrètement ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Cours magistral suivi d'un test",
+          "feedback": "Classique mais peu engageant. Les élèves oublient rapidement.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 20,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Projet collaboratif : proposer un projet numérique responsable à la mairie",
+          "feedback": "Magnifique ! Les élèves deviennent acteurs du changement.",
+          "scores": {
+            "inclusion": 50,
+            "responsabilité": 50,
+            "durabilité": 45
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Juste montrer des vidéos YouTube",
+          "feedback": "Passif. Les élèves ne s'approprient pas le sujet.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 10,
+            "durabilité": 5
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "mission-eleve-1",
+  "title": "Les données collectées : qui en profite?",
+  "description": "Analyser comment vos données personnelles sont utilisées par les grandes tech",
+  "theme": "données",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Première découverte",
+      "description": "Vous découvrez que vos données de navigation sont vendues à des annonceurs. Que faites-vous ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Je refuse et j'utilise un VPN + bloqueurs de publicités",
+          "feedback": "Excellente réaction ! Vous protégez votre vie privée de manière active.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 20,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je n'y fais pas attention, c'est normal maintenant",
+          "feedback": "Attention ! En ignorant cela, vous acceptez une surveillance massive de votre activité.",
+          "scores": {
+            "inclusion": -15,
+            "responsabilité": -20,
+            "durabilité": -10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Je cherche à comprendre ce qui se passe exactement",
+          "feedback": "Très bien ! Comprendre les enjeux est le premier pas vers une action responsable.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Le choix des outils",
+      "description": "Pour votre établissement, vous devez choisir entre Google Workspace (gratuit mais trace) et une suite bureautique open-source (payante mais souveraine).",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Google Workspace - facile et gratuit",
+          "feedback": "Pratique, mais vous acceptez la dépendance technologique aux GAFAM.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": -10,
+            "durabilité": -5
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Suite open-source - responsable mais complexe",
+          "feedback": "Excellent choix pour l'indépendance numérique ! Un peu de courbe d'apprentissage en vaut la peine.",
+          "scores": {
+            "inclusion": 20,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Hybrid : open-source avec formation pour tous",
+          "feedback": "Parfait ! Vous cherchez l'équilibre entre accessibilité et responsabilité.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "L'engagement collectif",
+      "description": "Vous proposez une campagne de sensibilisation sur la vie privée numérique. Comment l'organisez-vous ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Un atelier inclusif pour tous, du débutant à l'expert",
+          "feedback": "Parfait ! L'inclusion est la clé d'un numérique responsable pour tous.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 20,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Une conférence pour sensibiliser rapidement",
+          "feedback": "Bien, mais une approche plus participative serait plus efficace.",
+          "scores": {
+            "inclusion": -10,
+            "responsabilité": 5,
+            "durabilité": -5
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Des tutoriels vidéo accessibles en permanence",
+          "feedback": "Excellente idée ! Accessible et durable, chacun avance à son rythme.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        }
+      ]
+    }
+  ]
+}

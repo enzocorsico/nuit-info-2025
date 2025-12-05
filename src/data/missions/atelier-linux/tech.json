@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-tech-1",
+    "title": "Serveur web Linux",
+    "description": "Installer et configurer un serveur web complet (Apache/Nginx + PHP/Python). Application production-ready.",
+    "difficulty": "avancé",
+    "duration": "6-10h",
+    "participants": 24,
+    "reward": 600,
+    "objectives": [
+      "Installer Ubuntu Server en production",
+      "Configurer Nginx ou Apache optimisé",
+      "Deployer application web (PHP, Python, Node.js)",
+      "Configurer SSL/TLS avec certificats",
+      "Setup CI/CD et monitoring"
+    ]
+  },
+  {
+    "id": "mission-tech-2",
+    "title": "Administration système Linux",
+    "description": "Maîtriser l'administration système. Utilisateurs, paquets, services, logs.",
+    "difficulty": "avancé",
+    "duration": "8-12h",
+    "participants": 21,
+    "reward": 550,
+    "objectives": [
+      "Gérer utilisateurs, groupes, permissions avancées",
+      "Administrer paquets avec apt/yum",
+      "Lancer et superviser services systemd",
+      "Analyser logs pour diagnostiquer",
+      "Planifier tâches cron automatisées"
+    ]
+  },
+  {
+    "id": "mission-tech-3",
+    "title": "Sécurité Linux avancée",
+    "description": "Durcir un système Linux contre attaques. Firewall, SELinux, intrusion detection.",
+    "difficulty": "avancé",
+    "duration": "10-15h",
+    "participants": 19,
+    "reward": 700,
+    "objectives": [
+      "Configurer firewall (iptables, ufw) avancé",
+      "Implémenter SELinux ou AppArmor",
+      "Setup SSH keys et hardening",
+      "Auditer vulnérabilités avec outils",
+      "Mettre en place IDS/IPS"
+    ]
+  },
+  {
+    "id": "mission-tech-4",
+    "title": "Conteneurisation avec Docker",
+    "description": "Containeriser applications pour déploiement léger et reproductible. Infrastructure moderne.",
+    "difficulty": "avancé",
+    "duration": "8-12h",
+    "participants": 23,
+    "reward": 650,
+    "objectives": [
+      "Comprendre principes conteneurisation",
+      "Créer Dockerfiles optimisés",
+      "Gérer images et registries",
+      "Orchestrer avec docker-compose",
+      "Deployer en production"
+    ]
+  },
+  {
+    "id": "mission-tech-5",
+    "title": "Virtualisation KVM/QEMU",
+    "description": "Virtualiser serveurs avec KVM. Consolider infrastructure physique.",
+    "difficulty": "avancé",
+    "duration": "6-10h",
+    "participants": 20,
+    "reward": 500,
+    "objectives": [
+      "Installer KVM/QEMU sur Linux",
+      "Créer et gérer machines virtuelles",
+      "Allouer ressources (CPU, RAM, disque)",
+      "Configurer réseau virtuel",
+      "Snapshots et backup VMs"
+    ]
+  },
+  {
+    "id": "mission-tech-6",
+    "title": "DevOps avec Linux",
+    "description": "Automatiser déploiement et infrastructure. Approche moderne et scalable.",
+    "difficulty": "avancé",
+    "duration": "10-15h (mise en place)",
+    "participants": 22,
+    "reward": 750,
+    "objectives": [
+      "Maîtriser git et versionning",
+      "Setup CI/CD pipelines (Jenkins, GitLab CI)",
+      "Automatiser avec Ansible ou Terraform",
+      "Monitoring et logging centralisé",
+      "Infrastructure as Code complet"
+    ]
+  }
+]

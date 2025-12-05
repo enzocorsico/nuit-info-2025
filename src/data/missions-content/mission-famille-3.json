@@ -1,0 +1,119 @@
+{
+  "id": "mission-famille-3",
+  "title": "Temps d'écran équilibré",
+  "description": "Créer des rituels familiaux pour un usage sain du numérique",
+  "theme": "bien-être-numérique",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Mesurer avant d'agir",
+      "description": "Votre famille passe en moyenne 6h par jour sur les écrans. Comment aborder le sujet ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "On mesure ensemble notre temps d'écran pendant une semaine",
+          "feedback": "Parfait ! La prise de conscience collective est le premier pas.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 20
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "J'impose des limites strictes immédiatement",
+          "feedback": "Risqué : l'autoritarisme peut créer des conflits. Privilégiez le dialogue.",
+          "scores": {
+            "inclusion": 5,
+            "responsabilité": 10,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "On organise un conseil de famille pour en parler",
+          "feedback": "Excellent ! Chacun s'exprime et vous construisez ensemble les règles.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Créer des alternatives",
+      "description": "Comment proposer des activités sans écran attractives ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Jeux de société, sorties nature, activités manuelles",
+          "feedback": "Classique et efficace ! Variez les plaisirs pour que chacun trouve son bonheur.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 20,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Je laisse les enfants trouver eux-mêmes des alternatives",
+          "feedback": "Risqué s'ils manquent d'idées. Guidez-les tout en les impliquant.",
+          "scores": {
+            "inclusion": 10,
+            "responsabilité": 15,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "On crée un planning d'activités familiales variées ensemble",
+          "feedback": "Parfait ! Planifier ensemble garantit l'engagement de tous.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Rituels durables",
+      "description": "Comment ancrer ces changements dans la durée ?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Repas sans écran + soirées sans téléphone 2 fois par semaine",
+          "feedback": "Excellent équilibre ! Des règles claires mais pas trop contraignantes.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Interdiction totale des écrans après 20h",
+          "feedback": "Peut fonctionner mais attention à ne pas créer de frustration. Soyez flexible.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 20,
+            "durabilité": 25
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Chacun définit ses propres objectifs et on fait le point mensuellement",
+          "feedback": "Intelligent ! L'autonomie et le suivi régulier favorisent la réussite à long terme.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        }
+      ]
+    }
+  ]
+}

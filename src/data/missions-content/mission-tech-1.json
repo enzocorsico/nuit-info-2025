@@ -1,0 +1,240 @@
+{
+  "id": "mission-tech-1",
+  "title": "Infrastructure verte",
+  "description": "Optimiser l'infrastructure IT pour réduire la consommation énergétique",
+  "theme": "infrastructure",
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Mesure actuelle",
+      "description": "Mesurez-vous la consommation énergétique de votre infrastructure?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, régulièrement avec des outils de monitoring",
+          "feedback": "Excellent! Vous avez une base pour améliorer.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, avec factures électriques globales",
+          "feedback": "C'est un début. Un audit technique plus fin serait utile.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, je n'ai pas d'outils de mesure",
+          "feedback": "Premier pas: installer des outils de monitoring.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "title": "Virtualisation et consolidation",
+      "description": "Avez-vous virtualisé vos serveurs?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Oui, la plupart de nos serveurs sont virtuels",
+          "feedback": "Excellent! Gain d'espace et d'énergie significatif.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Partiellement, on migre progressivement",
+          "feedback": "Bon! Continuez la transition.",
+          "scores": {
+            "inclusion": 25,
+            "responsabilité": 25,
+            "durabilité": 30
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Non, on a une infrastructure physique classique",
+          "feedback": "C'est un gain d'efficacité énorme à explorer!",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "title": "Cloud et localité des données",
+      "description": "Quelle est votre approche du cloud?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Cloud public (Amazon, Microsoft, Google)",
+          "feedback": "Pratique mais à grande distance = plus de consommation réseau.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 10,
+            "durabilité": 15
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Serveurs locaux ou en nearby datacenter",
+          "feedback": "Meilleur pour la latence et l'empreinte carbone.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Mix hybrid: local + cloud pour la redondance",
+          "feedback": "Bon équilibre entre performance et durabilité.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "title": "Refroidissement et efficacité",
+      "description": "Comment refroidissez-vous votre infrastructure?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Climatisation classique (grosse facture énergie)",
+          "feedback": "Très consommateur! C'est 40% du coût énergétique.",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Refroidissement libre ou air économe",
+          "feedback": "Meilleur! Utilise la température extérieure.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Datacenter vert avec refroidissement par eau/air libre",
+          "feedback": "Excellent! Jusqu'à 80% d'économies possibles.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 40,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "title": "Alimentation électrique",
+      "description": "Quelle source d'énergie pour votre infrastructure?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Réseau électrique classique (mix fossile)",
+          "feedback": "C'est l'héritage, mais vous pouvez changer!",
+          "scores": {
+            "inclusion": 15,
+            "responsabilité": 15,
+            "durabilité": 10
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Contrat d'énergie renouvelable auprès du réseau",
+          "feedback": "Bon! Zéro carbone sans investissement lourd.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Panneaux solaires ou éoliennes propres",
+          "feedback": "Fantastique! Autonomie énergétique verte.",
+          "scores": {
+            "inclusion": 40,
+            "responsabilité": 45,
+            "durabilité": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "title": "Plan d'action green IT",
+      "description": "Quel est votre priorité immédiate?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Audit énergétique complet",
+          "feedback": "Excellent premier pas! Vous ne pouvez pas améliorer ce qu'on ne mesure pas.",
+          "scores": {
+            "inclusion": 30,
+            "responsabilité": 30,
+            "durabilité": 35
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": "Virtualiser et consolider les serveurs",
+          "feedback": "Action rapide avec ROI en 6-12 mois.",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 35,
+            "durabilité": 40
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": "Migrer vers énergie 100% renouvelable",
+          "feedback": "Vision long terme magnifique!",
+          "scores": {
+            "inclusion": 35,
+            "responsabilité": 40,
+            "durabilité": 50
+          }
+        },
+        {
+          "id": "choice-4",
+          "text": "Ensemble: audit + virtualisation + verte énergie",
+          "feedback": "Approche complète et systémique!",
+          "scores": {
+            "inclusion": 45,
+            "responsabilité": 45,
+            "durabilité": 55
+          }
+        }
+      ]
+    }
+  ]
+}

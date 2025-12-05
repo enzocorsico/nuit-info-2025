@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mission-collectivite-prof-1",
+    "title": "Intégrer NIRD dans l'éducation civique",
+    "description": "Adapter le programme NIRD pour sensibiliser les élèves aux enjeux numériques locaux",
+    "difficulty": "moyen",
+    "duration": "4h",
+    "participants": 189,
+    "reward": 350,
+    "objectives": [
+      "Comprendre les enjeux numériques de la collectivité",
+      "Adapter le contenu au niveau des élèves",
+      "Créer des projets interdisciplinaires"
+    ]
+  },
+  {
+    "id": "mission-collectivite-prof-2",
+    "title": "Former les citoyens à la cybersécurité",
+    "description": "Organiser des ateliers pour prévenir les arnagues numériques dans la commune",
+    "difficulty": "moyen",
+    "duration": "3h",
+    "participants": 156,
+    "reward": 300,
+    "objectives": [
+      "Comprendre les risques cybersécurité",
+      "Créer du contenu pédagogique",
+      "Animer des ateliers inclusifs"
+    ]
+  },
+  {
+    "id": "mission-collectivite-prof-3",
+    "title": "Projet collaboratif : média local numérique",
+    "description": "Créer avec d'autres un média d'information responsable sur les enjeux locaux",
+    "difficulty": "difficile",
+    "duration": "2 mois",
+    "participants": 78,
+    "reward": 800,
+    "objectives": [
+      "Former une équipe éditoriale",
+      "Établir des règles éthiques",
+      "Produire du contenu de qualité"
+    ]
+  },
+  {
+    "id": "mission-collectivite-prof-4",
+    "title": "Accessibilité numérique : formation des agents",
+    "description": "Former les agents municipaux à créer des services accessibles à tous",
+    "difficulty": "moyen",
+    "duration": "3h",
+    "participants": 142,
+    "reward": 320,
+    "objectives": [
+      "Maîtriser les normes d'accessibilité",
+      "Tester les services existants",
+      "Proposer des améliorations"
+    ]
+  },
+  {
+    "id": "mission-collectivite-prof-5",
+    "title": "Parcours pédagogique : souveraineté numérique",
+    "description": "Développer un programme d'enseignement sur l'indépendance technologique locale",
+    "difficulty": "difficile",
+    "duration": "1 mois",
+    "participants": 91,
+    "reward": 700,
+    "objectives": [
+      "Rechercher les enjeux de souveraineté locale",
+      "Créer du matériel pédagogique",
+      "Animer des débats citoyens"
+    ]
+  }
+]

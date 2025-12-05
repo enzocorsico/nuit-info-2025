@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mission-collectivite-famille-1",
+    "title": "Numérique en famille : ateliers bienveillants",
+    "description": "Créer un espace où les familles découvrent les outils numériques sans stress",
+    "difficulty": "facile",
+    "duration": "2h",
+    "participants": 289,
+    "reward": 250,
+    "objectives": [
+      "Comprendre les craintes des familles",
+      "Créer un environnement accueillant",
+      "Adapter l'apprentissage à chacun"
+    ]
+  },
+  {
+    "id": "mission-collectivite-famille-2",
+    "title": "Parentalité et digital : guide pratique",
+    "description": "Développer des conseils pour aider les parents à encadrer les usages numériques des enfants",
+    "difficulty": "moyen",
+    "duration": "3h",
+    "participants": 234,
+    "reward": 350,
+    "objectives": [
+      "Rechercher les bonnes pratiques",
+      "Créer des fiches pratiques",
+      "Animer des discussions de groupe"
+    ]
+  },
+  {
+    "id": "mission-collectivite-famille-3",
+    "title": "Intergénérationnel : seniors mentors du numérique",
+    "description": "Créer des binômes jeunes-seniors pour partager les compétences numériques",
+    "difficulty": "moyen",
+    "duration": "3 mois",
+    "participants": 156,
+    "reward": 500,
+    "objectives": [
+      "Recruter et former les mentors",
+      "Organiser les rencontres",
+      "Documenter les succès"
+    ]
+  },
+  {
+    "id": "mission-collectivite-famille-4",
+    "title": "Connecter les familles isolées",
+    "description": "Apporter l'accès numérique aux foyers les plus éloignés de la collectivité",
+    "difficulty": "difficile",
+    "duration": "6 mois",
+    "participants": 98,
+    "reward": 800,
+    "objectives": [
+      "Cartographier les zones à risque",
+      "Proposer des solutions d'accès",
+      "Former les habitants localement"
+    ]
+  },
+  {
+    "id": "mission-collectivite-famille-5",
+    "title": "Ludification du numérique responsable",
+    "description": "Créer des jeux et activités pour sensibiliser les enfants à des usages durables",
+    "difficulty": "moyen",
+    "duration": "1 mois",
+    "participants": 178,
+    "reward": 600,
+    "objectives": [
+      "Concevoir des jeux éducatifs",
+      "Tester avec les enfants",
+      "Diffuser librement les ressources"
+    ]
+  },
+  {
+    "id": "mission-collectivite-famille-6",
+    "title": "Festival du numérique inclusif",
+    "description": "Organiser un grand événement rassembleur autour du numérique responsable pour toutes les familles",
+    "difficulty": "difficile",
+    "duration": "2 mois",
+    "participants": 345,
+    "reward": 900,
+    "objectives": [
+      "Planifier l'événement",
+      "Recruter des exposants locaux",
+      "Assurer l'accessibilité pour tous"
+    ]
+  }
+]

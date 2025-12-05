@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mission-prof-1",
+    "title": "Enseigner le numérique responsable",
+    "description": "Intégrer NIRD dans votre curriculum pédagogique",
+    "difficulty": "moyen",
+    "duration": "2h",
+    "participants": 78,
+    "reward": 300,
+    "objectives": [
+      "Découvrir les ressources pédagogiques",
+      "Planifier une séquence",
+      "Adapter à votre niveau"
+    ]
+  },
+  {
+    "id": "mission-prof-2",
+    "title": "Créer un atelier d'éducation aux médias",
+    "description": "Développer l'esprit critique face aux fake news et désinformation",
+    "difficulty": "moyen",
+    "duration": "3h",
+    "participants": 94,
+    "reward": 350,
+    "objectives": [
+      "Concevoir des exercices pratiques",
+      "Créer une grille d'évaluation de l'information",
+      "Animer une session avec vos élèves"
+    ]
+  },
+  {
+    "id": "mission-prof-3",
+    "title": "Lab numérique inclusif",
+    "description": "Adapter vos cours numériques pour tous les profils d'apprenants",
+    "difficulty": "difficile",
+    "duration": "4h",
+    "participants": 56,
+    "reward": 450,
+    "objectives": [
+      "Identifier les besoins spécifiques",
+      "Adapter le contenu (dyslexie, handicap visuel, etc.)",
+      "Tester l'accessibilité"
+    ]
+  },
+  {
+    "id": "mission-prof-4",
+    "title": "Sobriété numérique en classe",
+    "description": "Réduire l'impact environnemental de vos pratiques pédagogiques numériques",
+    "difficulty": "facile",
+    "duration": "1h30",
+    "participants": 142,
+    "reward": 200,
+    "objectives": [
+      "Auditer vos outils numériques actuels",
+      "Choisir des alternatives éco-responsables",
+      "Former vos élèves aux gestes verts"
+    ]
+  },
+  {
+    "id": "mission-prof-5",
+    "title": "Projet collaboratif inter-classes",
+    "description": "Organiser un projet numérique responsable avec d'autres enseignants",
+    "difficulty": "difficile",
+    "duration": "6h",
+    "participants": 38,
+    "reward": 600,
+    "objectives": [
+      "Définir un projet commun NIRD",
+      "Coordonner les équipes pédagogiques",
+      "Présenter les résultats"
+    ]
+  }
+]
