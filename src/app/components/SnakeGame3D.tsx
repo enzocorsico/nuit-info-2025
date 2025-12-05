@@ -222,6 +222,7 @@ interface SnakeGame3DProps {
 }
 
 export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
+  const [gameStarted, setGameStarted] = useState(false);
   const [snake, setSnake] = useState<Position[]>([
     { x: 10, y: 10 },
     { x: 9, y: 10 },
@@ -270,7 +271,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
   }, []);
 
   const moveSnake = useCallback(() => {
-    if (gameOver || isPaused) return;
+    if (!gameStarted || gameOver || isPaused) return;
 
     setSnake((prevSnake) => {
       const head = prevSnake[0];
@@ -308,7 +309,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
           const newScore = prev + 20;
 
           // Trigger videos at intervals of 60 points
-          const videoInterval = 60;
+          const videoInterval = 150;
           const videoIndex = Math.floor(newScore / videoInterval);
 
           if (videoIndex > 0 && videoIndex <= videos.length && videoIndex > currentVideo) {
@@ -334,7 +335,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
 
       return newSnake;
     });
-  }, [gameOver, isPaused, food, checkCollision, generateFood, sound, currentVideo]);
+  }, [gameStarted, gameOver, isPaused, food, checkCollision, generateFood, sound, currentVideo]);
 
   useEffect(() => {
     let lastTime = 0;
@@ -347,7 +348,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       gameLoopRef.current = requestAnimationFrame(gameLoop);
     };
 
-    if (!gameOver && !isPaused) {
+    if (gameStarted && !gameOver && !isPaused) {
       gameLoopRef.current = requestAnimationFrame(gameLoop);
     }
 
@@ -356,7 +357,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
         cancelAnimationFrame(gameLoopRef.current);
       }
     };
-  }, [moveSnake, speed, gameOver, isPaused]);
+  }, [moveSnake, speed, gameOver, isPaused, gameStarted]);
 
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
@@ -462,48 +463,103 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
     generateFood();
   };
 
+  const handleStartGame = () => {
+    handleRestart();
+    setGameStarted(true);
+  };
+
   return (
     <div
       className="fixed inset-0 z-50 bg-black"
-      onTouchStart={handleTouchStart}
-      onTouchEnd={handleTouchEnd}
+      onTouchStart={!gameStarted ? undefined : handleTouchStart}
+      onTouchEnd={!gameStarted ? undefined : handleTouchEnd}
     >
-      {/* UI Header */}
-      <div className="absolute top-0 left-0 right-0 p-4 flex items-center justify-between z-10 bg-linear-to-b from-black/80 to-transparent">
-        <div className="flex items-center gap-6">
-          <div className="text-nird-blue font-bold text-2xl md:text-3xl tracking-wider animate-pulse">
-            SNAKE <span className="text-nird-pink">3D</span>
-          </div>
-          <div className="text-nird-yellow text-xl md:text-2xl font-mono">
-            Score: <span className="text-white font-bold">{score}</span>
+      {/* Menu Screen */}
+      {!gameStarted && (
+        <div className="absolute inset-0 bg-black/95 flex items-center justify-center z-30 backdrop-blur-sm">
+          <div className="text-center max-w-2xl px-8">
+            <h1 className="text-6xl md:text-7xl font-bold mb-8 animate-pulse">
+              <span className="text-nird-blue">SNAKE</span>
+              <br />
+              <span className="text-nird-pink">3D</span>
+            </h1>
+
+            <div className="mb-12 space-y-4">
+              <p className="text-xl text-gray-300">
+                Mange les ressources du numérique responsable
+              </p>
+              <p className="text-lg text-nird-yellow">
+                💻 ☁️ 🐝 🌱 ♻️ 🔋
+              </p>
+            </div>
+
+            <div className="mb-8 space-y-3 text-left bg-gray-900/50 p-6 rounded-lg border border-nird-blue/30">
+              <h2 className="text-2xl font-bold text-nird-blue mb-4">Contrôles :</h2>
+              <div className="text-gray-300">
+                <div className="md:hidden">
+                  <p className="mb-2">📱 <span className="text-white font-semibold">Mobile:</span></p>
+                  <p>• Swipe pour diriger</p>
+                  <p>• Drag pour tourner la caméra</p>
+                </div>
+                <div className="hidden md:block">
+                  <p className="mb-2">⌨️ <span className="text-white font-semibold">Clavier:</span></p>
+                  <p>• Flèches / ZQSD pour diriger</p>
+                  <p>• Souris pour tourner la caméra</p>
+                  <p>• Espace pour pause</p>
+                </div>
+              </div>
+            </div>
+
+            <button
+              onClick={handleStartGame}
+              className="bg-nird-blue hover:bg-blue-600 text-white px-12 py-4 rounded-lg font-bold text-2xl transition-all hover:scale-110 shadow-lg"
+            >
+              Commencer le jeu
+            </button>
           </div>
         </div>
-        <button
-          onClick={onClose}
-          className="bg-red-500 hover:bg-red-600 text-white p-2 rounded-lg transition-colors"
-          aria-label="Close game"
-        >
-          <XMarkIcon className="w-6 h-6" />
-        </button>
-      </div>
+      )}
+
+      {/* UI Header */}
+      {gameStarted && (
+        <div className="absolute top-0 left-0 right-0 p-4 flex items-center justify-between z-10 bg-linear-to-b from-black/80 to-transparent">
+          <div className="flex items-center gap-6">
+            <div className="text-nird-blue font-bold text-2xl md:text-3xl tracking-wider animate-pulse">
+              SNAKE <span className="text-nird-pink">3D</span>
+            </div>
+            <div className="text-nird-yellow text-xl md:text-2xl font-mono">
+              Score: <span className="text-white font-bold">{score}</span>
+            </div>
+          </div>
+          <button
+            onClick={onClose}
+            className="bg-red-500 hover:bg-red-600 text-white p-2 rounded-lg transition-colors"
+            aria-label="Close game"
+          >
+            <XMarkIcon className="w-6 h-6" />
+          </button>
+        </div>
+      )}
 
       {/* 3D Canvas */}
-      <Canvas
-        camera={{ position: [0, 20, 25], fov: 50 }}
-        shadows
-        gl={{ antialias: true, alpha: true }}
-        style={{ position: "relative", zIndex: 5 }}
-      >
-        <Scene3D snake={snake} food={food} foodType={foodType} />
-      </Canvas>
+      {gameStarted && (
+        <Canvas
+          camera={{ position: [0, 20, 25], fov: 50 }}
+          shadows
+          gl={{ antialias: true, alpha: true }}
+          style={{ position: "relative", zIndex: 5 }}
+        >
+          <Scene3D snake={snake} food={food} foodType={foodType} />
+        </Canvas>
+      )}
 
       {/* Video Overlay - on top of canvas */}
-      {currentVideo > 0 && (
+      {gameStarted && currentVideo > 0 && (
         <div className="absolute inset-0 z-10 pointer-events-none flex items-center justify-center">
           <video
             ref={videoRef}
             key={currentVideo}
-            className="w-full h-full object-cover opacity-60"
+            className="w-full h-full object-cover opacity-20"
             playsInline
             autoPlay
             src={videos[currentVideo - 1]}
@@ -512,7 +568,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       )}
 
       {/* Game Over Overlay */}
-      {gameOver && (
+      {gameStarted && gameOver && (
         <div className="absolute inset-0 bg-black/80 flex items-center justify-center z-20 animate-in fade-in backdrop-blur-md">
           <div className="bg-linear-to-br from-gray-900 to-black p-8 rounded-2xl border-4 border-nird-pink shadow-2xl text-center max-w-md">
             <h2 className="text-5xl font-bold text-nird-yellow mb-4 animate-pulse">
@@ -539,7 +595,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       )}
 
       {/* Pause Overlay */}
-      {isPaused && !gameOver && (
+      {gameStarted && isPaused && !gameOver && (
         <div className="absolute inset-0 bg-black/60 flex items-center justify-center z-20 backdrop-blur-sm">
           <div className="text-6xl font-bold text-nird-yellow animate-pulse">
             PAUSE
@@ -548,12 +604,14 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       )}
 
       {/* Controls hint */}
-      <div className="absolute bottom-4 left-0 right-0 text-center text-gray-400 text-sm">
-        <div className="md:hidden">Swipe pour diriger • Drag pour tourner la caméra</div>
-        <div className="hidden md:block">
-          Flèches / ZQSD pour diriger • Souris pour tourner la caméra • Espace pour pause
+      {gameStarted && (
+        <div className="absolute bottom-4 left-0 right-0 text-center text-gray-400 text-sm">
+          <div className="md:hidden">Swipe pour diriger • Drag pour tourner la caméra</div>
+          <div className="hidden md:block">
+            Flèches / ZQSD pour diriger • Souris pour tourner la caméra • Espace pour pause
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
