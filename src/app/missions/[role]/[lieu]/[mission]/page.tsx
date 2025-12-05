@@ -220,16 +220,16 @@ export default function MissionRunnerPage({
         completedAt: new Date().toISOString(),
       };
       localStorage.setItem(storageKey, JSON.stringify(missionData));
-      
+
       // Also update global progress index
-      const progressKey = 'nird-progress';
-      const currentProgress = JSON.parse(localStorage.getItem(progressKey) || '{}');
+      const progressKey = "nird-progress";
+      const currentProgress = JSON.parse(localStorage.getItem(progressKey) || "{}");
       if (!currentProgress[missionId]) {
         currentProgress[missionId] = missionData;
       }
       localStorage.setItem(progressKey, JSON.stringify(currentProgress));
     } catch (error) {
-      console.error('Failed to save mission to localStorage:', error);
+      console.error("Failed to save mission to localStorage:", error);
     }
   };
 
@@ -246,7 +246,7 @@ export default function MissionRunnerPage({
         return missionData.scores;
       }
     } catch (error) {
-      console.error('Failed to load mission from localStorage:', error);
+      console.error("Failed to load mission from localStorage:", error);
     }
     return null;
   };
@@ -324,7 +324,7 @@ export default function MissionRunnerPage({
     if (isLastStep) {
       // Save mission completion to localStorage
       saveMissionToStorage(scores);
-      
+
       // Trigger confetti before redirect
       confetti({
         particleCount: 100,
@@ -422,7 +422,7 @@ export default function MissionRunnerPage({
 
         <div className="mb-8">
           <div className="flex items-center justify-between mb-2">
-            <h1 className={`text-3xl md:text-4xl font-bold ${isCatastrophe ? 'text-red-700' : 'text-slate-900'}`}>
+            <h1 className={`text-3xl md:text-4xl font-bold ${isCatastrophe ? "text-red-700" : "text-slate-900"}`}>
               {mission.title}
             </h1>
             {hasSavedProgress && (
@@ -434,7 +434,7 @@ export default function MissionRunnerPage({
               </div>
             )}
           </div>
-          <p className={isCatastrophe ? 'text-red-600' : 'text-slate-600'}>
+          <p className={isCatastrophe ? "text-red-600" : "text-slate-600"}>
             Étape {currentStepIndex + 1} sur {mission.steps.length}
           </p>
         </div>

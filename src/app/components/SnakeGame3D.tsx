@@ -235,24 +235,12 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
   const [gameOver, setGameOver] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
   const [speed, setSpeed] = useState(INITIAL_SPEED);
-  const [currentVideo, setCurrentVideo] = useState<number>(0); // 0 = no video, 1+ = video index
-  const [videos, setVideos] = useState<string[]>([]);
 
   const directionRef = useRef<Direction>("RIGHT");
   const gameLoopRef = useRef<number | undefined>(undefined);
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
-  const videoRef = useRef<HTMLVideoElement>(null);
 
   const sound = useSound();
-
-  // Load all videos from /public/snake/ directory
-  useEffect(() => {
-    const videoFiles = [
-      "/snake/BigardV2.mp4",
-      "/snake/Meilleurs memes - Tu vas repartir mal mon copain.mp4",
-    ];
-    setVideos(videoFiles);
-  }, []);
 
   const generateFood = useCallback(() => {
     const newFood = {
@@ -295,37 +283,13 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       if (checkCollision(newHead, prevSnake)) {
         setGameOver(true);
         sound.play("gameOver");
-        // Pause video on game over
-        if (videoRef.current) {
-          videoRef.current.pause();
-        }
         return prevSnake;
       }
 
       const newSnake = [newHead, ...prevSnake];
 
       if (newHead.x === food.x && newHead.y === food.y) {
-        setScore((prev) => {
-          const newScore = prev + 20;
-
-          // Trigger videos at intervals of 60 points
-          const videoInterval = 150;
-          const videoIndex = Math.floor(newScore / videoInterval);
-
-          if (videoIndex > 0 && videoIndex <= videos.length && videoIndex > currentVideo) {
-            setCurrentVideo(videoIndex);
-            setTimeout(() => {
-              if (videoRef.current) {
-                videoRef.current.currentTime = 0;
-                videoRef.current.play().catch((err) => {
-                  console.log("Video autoplay blocked:", err);
-                });
-              }
-            }, 100);
-          }
-
-          return newScore;
-        });
+        setScore((prev) => prev + 20);
         setSpeed((prev) => Math.max(50, prev - 2));
         generateFood();
         sound.play("eat");
@@ -335,7 +299,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
 
       return newSnake;
     });
-  }, [gameStarted, gameOver, isPaused, food, checkCollision, generateFood, sound, currentVideo]);
+  }, [gameStarted, gameOver, isPaused, food, checkCollision, generateFood, sound]);
 
   useEffect(() => {
     let lastTime = 0;
@@ -452,11 +416,6 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
     setDirection("RIGHT");
     directionRef.current = "RIGHT";
     setScore(0);
-    setCurrentVideo(0);
-    if (videoRef.current) {
-      videoRef.current.pause();
-      videoRef.current.currentTime = 0;
-    }
     setGameOver(false);
     setIsPaused(false);
     setSpeed(INITIAL_SPEED);
@@ -551,20 +510,6 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
         >
           <Scene3D snake={snake} food={food} foodType={foodType} />
         </Canvas>
-      )}
-
-      {/* Video Overlay - on top of canvas */}
-      {gameStarted && currentVideo > 0 && (
-        <div className="absolute inset-0 z-10 pointer-events-none flex items-center justify-center">
-          <video
-            ref={videoRef}
-            key={currentVideo}
-            className="w-full h-full object-cover opacity-20"
-            playsInline
-            autoPlay
-            src={videos[currentVideo - 1]}
-          />
-        </div>
       )}
 
       {/* Game Over Overlay */}

@@ -56,7 +56,7 @@ export default function ProgressionPage() {
 
   // Calculate totals
   const completedMissions = Object.values(progress).length;
-  
+
   const totalScores = Object.values(progress).reduce(
     (acc, mission) => ({
       inclusion: acc.inclusion + mission.scores.inclusion,
@@ -243,7 +243,7 @@ export default function ProgressionPage() {
             {roles.map((role) => {
               const isExpanded = expandedRole === role;
               const roleMissions = Object.values(progress).filter((m) => m.role === role);
-              
+
               return (
                 <div key={role}>
                   <button
@@ -347,7 +347,7 @@ export default function ProgressionPage() {
             {lieux.map((lieu) => {
               const isExpanded = expandedLieu === lieu.id;
               const lieuMissions = Object.values(progress).filter((m) => m.lieu === lieu.id);
-              
+
               return (
                 <div key={lieu.id}>
                   <button
