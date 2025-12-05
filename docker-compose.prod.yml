@@ -17,3 +17,7 @@ services:
       - 11434
     volumes:
       - ./ollama:/root/.ollama
+    deploy:
+      resources:
+        limits:
+          memory: 6G
