@@ -48,7 +48,7 @@ export default function MissionsPage({
         // Try to dynamically import the JSON file
         const data = await import(`@/data/missions/${lieu}/${role}.json`);
         setMissions(data.default || []);
-      } catch (error) {
+      } catch {
         console.error(`No missions found for ${role} in ${lieu}`);
         // Fallback to old data structure
         setMissions(missionsDataFallback[lieu]?.[role] || []);

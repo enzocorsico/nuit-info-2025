@@ -30,7 +30,7 @@ export default function SnakeGame({ onClose }: SnakeGameProps) {
     { x: 9, y: 10 },
     { x: 8, y: 10 },
   ]);
-  const [direction, setDirection] = useState<Direction>("RIGHT");
+  const [, setDirection] = useState<Direction>("RIGHT");
   const [food, setFood] = useState<Position>({ x: 15, y: 10 });
   const [foodType, setFoodType] = useState(0);
   const [score, setScore] = useState(0);
@@ -41,7 +41,7 @@ export default function SnakeGame({ onClose }: SnakeGameProps) {
   const directionRef = useRef<Direction>("RIGHT");
   const gameLoopRef = useRef<number | undefined>(undefined);
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
-  
+
   // Sound effects
   const sound = useSound();
 

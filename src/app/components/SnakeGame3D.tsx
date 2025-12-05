@@ -36,7 +36,7 @@ function Snake3D({ snake, food, foodType }: Snake3DProps) {
         const isHead = index === 0;
         const scale = isHead ? 1.2 : 1 - index * 0.02;
         const height = isHead ? 1.5 : 1;
-        
+
         return (
           <Box
             key={index}
@@ -227,7 +227,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
     { x: 9, y: 10 },
     { x: 8, y: 10 },
   ]);
-  const [direction, setDirection] = useState<Direction>("RIGHT");
+  const [, setDirection] = useState<Direction>("RIGHT");
   const [food, setFood] = useState<Position>({ x: 15, y: 10 });
   const [foodType, setFoodType] = useState(0);
   const [score, setScore] = useState(0);
@@ -306,11 +306,11 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
       if (newHead.x === food.x && newHead.y === food.y) {
         setScore((prev) => {
           const newScore = prev + 20;
-          
+
           // Trigger videos at intervals of 60 points
           const videoInterval = 60;
           const videoIndex = Math.floor(newScore / videoInterval);
-          
+
           if (videoIndex > 0 && videoIndex <= videos.length && videoIndex > currentVideo) {
             setCurrentVideo(videoIndex);
             setTimeout(() => {
@@ -322,7 +322,7 @@ export default function SnakeGame3D({ onClose }: SnakeGame3DProps) {
               }
             }, 100);
           }
-          
+
           return newScore;
         });
         setSpeed((prev) => Math.max(50, prev - 2));

@@ -6,32 +6,6 @@ import { useRouter } from "next/navigation";
 import { CheckCircleIcon, ExclamationTriangleIcon } from "@heroicons/react/24/solid";
 import confetti from "canvas-confetti";
 
-// Add custom animations
-const animationStyles = `
-  @keyframes bounce-water {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-12px); }
-  }
-  @keyframes shake-scale {
-    0%, 100% { transform: scale(1) rotate(0deg); }
-    25% { transform: scale(1.1) rotate(-3deg); }
-    75% { transform: scale(1.1) rotate(3deg); }
-  }
-  @keyframes grow-plant {
-    0%, 100% { transform: scale(1) rotate(0deg); }
-    50% { transform: scale(1.15) rotate(-5deg); }
-  }
-  .animate-bounce-water {
-    animation: bounce-water 1s infinite;
-  }
-  .animate-shake-scale {
-    animation: shake-scale 0.6s infinite;
-  }
-  .animate-grow-plant {
-    animation: grow-plant 1.2s ease-in-out infinite;
-  }
-`;
-
 // Mission data structure
 interface Choice {
   id: string;
@@ -239,7 +213,7 @@ export default function MissionRunnerPage({
         // Try to dynamically import the JSON file
         const data = await import(`@/data/missions-content/${missionId}.json`);
         setMission(data.default || missionsDatabase[missionId] || null);
-      } catch (error) {
+      } catch {
         console.error(`No mission content found for ${missionId}`);
         // Fallback to old data structure
         setMission(missionsDatabase[missionId] || null);
@@ -288,7 +262,7 @@ export default function MissionRunnerPage({
 
   const handleValidateChoice = () => {
     if (!selectedChoice) return;
-    
+
     setShowFeedback(selectedChoice.feedback);
 
     // Update scores
@@ -307,7 +281,7 @@ export default function MissionRunnerPage({
         spread: 70,
         origin: { y: 0.6 },
       });
-      
+
       setTimeout(() => {
         // Redirect to results with scores
         const queryParams = new URLSearchParams({
@@ -326,55 +300,14 @@ export default function MissionRunnerPage({
     }
   };
 
-  const getScoreColor = (value: number): string => {
-    if (value < 0) return "text-red-600";
-    if (value < 20) return "text-orange-600";
-    if (value < 40) return "text-yellow-600";
-    return "text-green-600";
-  };
-
-  // Fonction pour obtenir l'emoji de la plante basée sur le score
-
-  // Fonction pour obtenir l'état de la terre
-  const getDirtEmoji = (score: number): string => {
-    if (score === 0) return "🤎"; // Coeur gris pour terre sèche
-    if (score < 50) return "💛"; // Coeur jaune
-    return "💚"; // Coeur vert
-  };
-
-  // Animation keyframes
-  const animationStyle = `
-    @keyframes grow {
-      from { transform: scale(0.8) rotate(-5deg); }
-      to { transform: scale(1.1) rotate(5deg); }
-    }
-    @keyframes pulse-glow {
-      0%, 100% { filter: drop-shadow(0 0 4px rgba(59, 130, 246, 0.4)); }
-      50% { filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8)); }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-    }
-    @keyframes shake {
-      0%, 100% { transform: rotate(0deg); }
-      25% { transform: rotate(-2deg); }
-      75% { transform: rotate(2deg); }
-    }
-    .animate-grow { animation: grow 0.6s ease-out; }
-    .animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
-    .animate-float { animation: float 2s ease-in-out infinite; }
-    .animate-shake { animation: shake 0.5s ease-in-out; }
-  `;
-
   const totalScore = scores.inclusion + scores.responsabilité + scores.durabilité;
   const isCatastrophe = totalScore < 0;
 
   return (
     <main className={`min-h-screen w-full py-8 md:py-16 px-4 md:px-6 ${
-      isCatastrophe 
-        ? 'bg-linear-to-br from-amber-50 via-orange-50 to-amber-50' 
-        : 'bg-linear-to-br from-slate-50 to-slate-100'
+      isCatastrophe
+        ? "bg-linear-to-br from-amber-50 via-orange-50 to-amber-50"
+        : "bg-linear-to-br from-slate-50 to-slate-100"
     }`}>
       <style>{`
         @keyframes bounce-water {
@@ -426,9 +359,9 @@ export default function MissionRunnerPage({
         <Link
           href={`/missions/${role}/${lieu}`}
           className={`inline-flex items-center mb-6 font-semibold cursor-pointer transition-colors ${
-            isCatastrophe 
-              ? 'text-red-700 hover:text-red-900' 
-              : 'text-slate-600 hover:text-slate-900'
+            isCatastrophe
+              ? "text-red-700 hover:text-red-900"
+              : "text-slate-600 hover:text-slate-900"
           }`}
         >
           <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -438,21 +371,21 @@ export default function MissionRunnerPage({
         </Link>
 
         <div className="mb-8">
-          <h1 className={`text-3xl md:text-4xl font-bold mb-2 ${isCatastrophe ? 'text-red-700' : 'text-slate-900'}`}>
+          <h1 className={`text-3xl md:text-4xl font-bold mb-2 ${isCatastrophe ? "text-red-700" : "text-slate-900"}`}>
             {mission.title}
           </h1>
-          <p className={isCatastrophe ? 'text-red-600' : 'text-slate-600'}>
+          <p className={isCatastrophe ? "text-red-600" : "text-slate-600"}>
             Étape {currentStepIndex + 1} sur {mission.steps.length}
           </p>
         </div>
 
         {/* Progress bar */}
-        <div className={`w-full rounded-full h-3 overflow-hidden ${isCatastrophe ? 'bg-red-200' : 'bg-slate-200'}`}>
+        <div className={`w-full rounded-full h-3 overflow-hidden ${isCatastrophe ? "bg-red-200" : "bg-slate-200"}`}>
           <div
             className={`h-full transition-all duration-500 ${
               isCatastrophe
-                ? 'bg-linear-to-r from-red-400 to-orange-400'
-                : 'bg-linear-to-r from-blue-500 via-purple-500 to-pink-500'
+                ? "bg-linear-to-r from-red-400 to-orange-400"
+                : "bg-linear-to-r from-blue-500 via-purple-500 to-pink-500"
             }`}
             style={{ width: `${progress}%` }}
           ></div>
@@ -465,15 +398,15 @@ export default function MissionRunnerPage({
           {/* Step content - main card */}
           <div className="lg:col-span-2">
             <div className={`rounded-2xl shadow-lg p-8 md:p-12 transition-all duration-700 ${
-              isCatastrophe 
-                ? 'bg-red-50 border-2 border-red-200' 
-                : 'bg-white'
+              isCatastrophe
+                ? "bg-red-50 border-2 border-red-200"
+                : "bg-white"
             }`}>
-              <h2 className={`text-3xl md:text-4xl font-bold mb-6 ${isCatastrophe ? 'text-red-700' : 'text-slate-900'}`}>
+              <h2 className={`text-3xl md:text-4xl font-bold mb-6 ${isCatastrophe ? "text-red-700" : "text-slate-900"}`}>
                 {currentStep.title}
               </h2>
 
-              <p className={`text-lg mb-12 leading-relaxed ${isCatastrophe ? 'text-red-600' : 'text-slate-700'}`}>
+              <p className={`text-lg mb-12 leading-relaxed ${isCatastrophe ? "text-red-600" : "text-slate-700"}`}>
                 {currentStep.description}
               </p>
 
@@ -501,7 +434,7 @@ export default function MissionRunnerPage({
                           : isCatastrophe ? "border-orange-300" : "border-slate-300"
                       }`}></div>
                       <div className="grow">
-                        <p className={`text-lg font-semibold ${isCatastrophe ? 'text-orange-100' : 'text-slate-900'}`}>
+                        <p className={`text-lg font-semibold ${isCatastrophe ? "text-orange-100" : "text-slate-900"}`}>
                           {choice.text}
                         </p>
                       </div>
@@ -511,12 +444,12 @@ export default function MissionRunnerPage({
                     {showFeedback === choice.feedback && (
                       <div className={`mt-4 ml-10 p-4 rounded-lg border ${
                         isCatastrophe
-                          ? 'bg-orange-700 border-orange-500'
-                          : 'bg-green-100 border-green-300'
+                          ? "bg-orange-700 border-orange-500"
+                          : "bg-green-100 border-green-300"
                       }`}>
                         <div className="flex items-start gap-3">
-                          <CheckCircleIcon className={`w-5 h-5 shrink-0 mt-0.5 ${isCatastrophe ? 'text-orange-200' : 'text-green-600'}`} />
-                          <p className={`font-semibold ${isCatastrophe ? 'text-orange-100' : 'text-green-900'}`}>{choice.feedback}</p>
+                          <CheckCircleIcon className={`w-5 h-5 shrink-0 mt-0.5 ${isCatastrophe ? "text-orange-200" : "text-green-600"}`} />
+                          <p className={`font-semibold ${isCatastrophe ? "text-orange-100" : "text-green-900"}`}>{choice.feedback}</p>
                         </div>
                       </div>
                     )}
@@ -531,8 +464,8 @@ export default function MissionRunnerPage({
                     onClick={handleValidateChoice}
                     className={`w-full px-6 py-4 text-white font-bold rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105 cursor-pointer ${
                       isCatastrophe
-                        ? 'bg-linear-to-r from-orange-500 to-red-500'
-                        : 'bg-linear-to-r from-green-500 to-emerald-600'
+                        ? "bg-linear-to-r from-orange-500 to-red-500"
+                        : "bg-linear-to-r from-green-500 to-emerald-600"
                     }`}
                   >
                     Valider mon choix
@@ -547,8 +480,8 @@ export default function MissionRunnerPage({
                     onClick={handleNext}
                     className={`flex-1 px-6 py-4 text-white font-bold rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105 cursor-pointer ${
                       isCatastrophe
-                        ? 'bg-linear-to-r from-orange-600 to-red-600'
-                        : 'bg-linear-to-r from-blue-500 to-purple-600'
+                        ? "bg-linear-to-r from-orange-600 to-red-600"
+                        : "bg-linear-to-r from-blue-500 to-purple-600"
                     }`}
                   >
                     {isLastStep ? "Voir mes résultats" : "Suivant"}
@@ -562,10 +495,10 @@ export default function MissionRunnerPage({
           <div className="lg:col-span-1">
             <div className={`rounded-2xl shadow-xl p-8 sticky top-8 border transition-all duration-700 ${
               isCatastrophe
-                ? 'bg-red-50 border-red-200'
-                : 'bg-linear-to-br from-slate-50 to-slate-100 border-slate-200'
+                ? "bg-red-50 border-red-200"
+                : "bg-linear-to-br from-slate-50 to-slate-100 border-slate-200"
             }`}>
-              <h3 className={`text-2xl font-bold mb-8 flex items-center gap-2 ${isCatastrophe ? 'text-orange-200' : 'text-slate-900'}`}>
+              <h3 className={`text-2xl font-bold mb-8 flex items-center gap-2 ${isCatastrophe ? "text-orange-200" : "text-slate-900"}`}>
                 🎮 Votre progression
               </h3>
 
@@ -574,12 +507,12 @@ export default function MissionRunnerPage({
                 <div className="group">
                   <div className="flex items-center justify-between mb-3">
                     <div className="flex items-center gap-2">
-                      <span className={`text-4xl transition-all duration-500 ${scores.inclusion > 0 ? 'animate-shake-scale' : ''}`}>
+                      <span className={`text-4xl transition-all duration-500 ${scores.inclusion > 0 ? "animate-shake-scale" : ""}`}>
                         ❤️
                       </span>
                       <span className="font-bold text-slate-900">Inclusion</span>
                     </div>
-                    <span className={`font-bold text-xl px-3 py-1 rounded-lg transition-all ${scores.inclusion > 0 ? 'bg-blue-100 text-blue-700 animate-pulse' : 'bg-slate-100 text-slate-600'}`}>
+                    <span className={`font-bold text-xl px-3 py-1 rounded-lg transition-all ${scores.inclusion > 0 ? "bg-blue-100 text-blue-700 animate-pulse" : "bg-slate-100 text-slate-600"}`}>
                       {scores.inclusion > 0 ? "+" : ""}{scores.inclusion}
                     </span>
                   </div>
@@ -589,7 +522,7 @@ export default function MissionRunnerPage({
                       style={{ width: `${Math.min(Math.max(scores.inclusion, 0) / 2, 100)}%` }}
                     >
                       {scores.inclusion > 0 && (
-                        <div className="absolute inset-0 animate-pulse-glow" style={{background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent)'}}></div>
+                        <div className="absolute inset-0 animate-pulse-glow" style={{ background: "linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent)" }}></div>
                       )}
                     </div>
                   </div>
@@ -600,12 +533,12 @@ export default function MissionRunnerPage({
                 <div className="group">
                   <div className="flex items-center justify-between mb-3">
                     <div className="flex items-center gap-2">
-                      <span className={`text-4xl transition-all duration-500 ${scores.responsabilité > 0 ? 'animate-bounce-water' : ''}`}>
+                      <span className={`text-4xl transition-all duration-500 ${scores.responsabilité > 0 ? "animate-bounce-water" : ""}`}>
                         🧠
                       </span>
                       <span className="font-bold text-slate-900">Responsabilité</span>
                     </div>
-                    <span className={`font-bold text-xl px-3 py-1 rounded-lg transition-all ${scores.responsabilité > 0 ? 'bg-pink-100 text-pink-700 animate-pulse' : 'bg-slate-100 text-slate-600'}`}>
+                    <span className={`font-bold text-xl px-3 py-1 rounded-lg transition-all ${scores.responsabilité > 0 ? "bg-pink-100 text-pink-700 animate-pulse" : "bg-slate-100 text-slate-600"}`}>
                       {scores.responsabilité > 0 ? "+" : ""}{scores.responsabilité}
                     </span>
                   </div>
@@ -615,7 +548,7 @@ export default function MissionRunnerPage({
                       style={{ width: `${Math.min(Math.max(scores.responsabilité, 0) / 2, 100)}%` }}
                     >
                       {scores.responsabilité > 0 && (
-                        <div className="absolute inset-0 animate-pulse-glow" style={{background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent)'}}></div>
+                        <div className="absolute inset-0 animate-pulse-glow" style={{ background: "linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent)" }}></div>
                       )}
                     </div>
                   </div>
@@ -626,12 +559,12 @@ export default function MissionRunnerPage({
                 <div className="group">
                   <div className="flex items-center justify-between mb-3">
                     <div className="flex items-center gap-2">
-                      <span className={`text-4xl transition-all duration-500 ${scores.durabilité > 0 ? 'animate-grow-plant' : ''}`}>
+                      <span className={`text-4xl transition-all duration-500 ${scores.durabilité > 0 ? "animate-grow-plant" : ""}`}>
                         {getPlantEmoji(scores.durabilité)}
                       </span>
                       <span className="font-bold text-slate-900">Durabilité</span>
                     </div>
-                    <span className={`font-bold text-xl px-3 py-1 rounded-lg transition-all ${scores.durabilité > 0 ? 'bg-amber-100 text-amber-700 animate-pulse' : 'bg-slate-100 text-slate-600'}`}>
+                    <span className={`font-bold text-xl px-3 py-1 rounded-lg transition-all ${scores.durabilité > 0 ? "bg-amber-100 text-amber-700 animate-pulse" : "bg-slate-100 text-slate-600"}`}>
                       {scores.durabilité > 0 ? "+" : ""}{scores.durabilité}
                     </span>
                   </div>
@@ -641,7 +574,7 @@ export default function MissionRunnerPage({
                       style={{ width: `${Math.min(Math.max(scores.durabilité, 0) / 2, 100)}%` }}
                     >
                       {scores.durabilité > 0 && (
-                        <div className="absolute inset-0 animate-pulse-glow" style={{background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent)'}}></div>
+                        <div className="absolute inset-0 animate-pulse-glow" style={{ background: "linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent)" }}></div>
                       )}
                     </div>
                   </div>
@@ -651,7 +584,7 @@ export default function MissionRunnerPage({
 
               {/* Total score */}
               <div className={`mt-8 pt-8 transition-all ${
-                isCatastrophe ? 'border-t-red-200' : 'border-t-slate-200'
+                isCatastrophe ? "border-t-red-200" : "border-t-slate-200"
               } border-t-2`}>
                 {isCatastrophe ? (
                   // Catastrophe UI
