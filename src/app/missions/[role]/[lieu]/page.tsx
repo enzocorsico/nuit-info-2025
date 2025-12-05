@@ -41,6 +41,20 @@ export default function MissionsPage({
   const { role, lieu } = use(params);
   const [missions, setMissions] = useState<Mission[]>([]);
   const [loading, setLoading] = useState(true);
+  const [completedMissions, setCompletedMissions] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    // Load completed missions from localStorage
+    try {
+      const progress = localStorage.getItem("nird-progress");
+      if (progress) {
+        const completedIds = new Set(Object.keys(JSON.parse(progress)));
+        setCompletedMissions(completedIds);
+      }
+    } catch {
+      console.error("Failed to load progress");
+    }
+  }, []);
 
   useEffect(() => {
     async function fetchMissions() {
@@ -105,8 +119,13 @@ export default function MissionsPage({
             {missions.map((mission: Mission) => (
               <div
                 key={mission.id}
-                className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 p-8 border border-slate-200 hover:border-slate-300 group cursor-pointer transform hover:scale-102"
+                className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 p-8 border border-slate-200 hover:border-slate-300 group cursor-pointer transform hover:scale-102 relative"
               >
+                {completedMissions.has(mission.id) && (
+                  <div className="absolute top-4 right-4 bg-green-100 rounded-full p-2">
+                    <CheckCircleIcon className="w-6 h-6 text-green-600" />
+                  </div>
+                )}
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
                   {/* Left content */}
                   <div className="grow">
@@ -154,8 +173,12 @@ export default function MissionsPage({
                   {/* CTA Button */}
                   <div className="md:ml-6">
                     <Link href={`/missions/${role}/${lieu}/${mission.id}`}>
-                      <button className="px-8 py-4 bg-linear-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105 cursor-pointer whitespace-nowrap">
-                        Commencer
+                      <button className={`px-8 py-4 font-bold rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105 cursor-pointer whitespace-nowrap ${
+                        completedMissions.has(mission.id)
+                          ? "bg-linear-to-r from-green-500 to-emerald-600 text-white"
+                          : "bg-linear-to-r from-blue-500 to-purple-600 text-white"
+                      }`}>
+                        {completedMissions.has(mission.id) ? "Revisiter" : "Commencer"}
                       </button>
                     </Link>
                   </div>

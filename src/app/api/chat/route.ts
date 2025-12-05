@@ -3,22 +3,32 @@ import { createOllama } from "ollama-ai-provider-v2";
 
 // Fallback responses when Ollama is not available
 const fallbackResponses = [
-  "🏴‍☠️ Arrgh ! Mon cerveau de pirate numérique a besoin d'être rechargé... Réessaie dans quelques instants !",
-  "⚡ Mes circuits sont en cours de recalibrage ! Reviens bientôt pour une vraie conversation.",
-  "🎃 Oups, je dois mettre à jour ma connexion neurale. Réessaie dans un instant !",
-  "🔧 Mon équipe de rongeurs numériques répare mes connexions. Patience !",
-  "🌊 Je suis parti en voyage pirate, reviens plus tard !",
+  "🏴‍☠️ Mon cerveau numérique a besoin d'une pause...",
+  "⚡ Mes circuits se recalibrent! Réessaie dans un instant.",
+  "🎃 Je dois mettre à jour ma connexion. Reviens bientôt!",
 ];
 
-// Create Ollama instance - use just the host, Ollama handles the paths
+// Create Ollama instance
 const ollamaBaseURL = "http://ollama:11434/api";
 const ollama = createOllama({
   baseURL: ollamaBaseURL,
 });
 
+interface ChatRequest {
+  message: string;
+  missionId?: string;
+  stepId?: string;
+  context?: {
+    missionTitle?: string;
+    stepTitle?: string;
+  };
+  type?: "mission-help" | "normal";
+}
+
 export async function POST(request: Request) {
   try {
-    const { message } = await request.json();
+    const body: ChatRequest = await request.json();
+    const { message, type = "normal", context } = body;
 
     if (!message) {
       return Response.json(
@@ -28,10 +38,9 @@ export async function POST(request: Request) {
     }
 
     const existingModels = await fetch(`${ollamaBaseURL}/tags`).then(res => res.json());
+    const modelNames = existingModels.models.map((model: { name: string; }) => model.name);
 
-    const modelNames = existingModels.models.map((model: { name: string; }) => model.name)
-
-    // Create the model if it doesn't exist
+    // Create the models if they don't exist
     if (!modelNames.includes("voyageur-temporel-v2")) {
       await fetch(`${ollamaBaseURL}/create`, {
         method: "POST",
@@ -39,36 +48,44 @@ export async function POST(request: Request) {
         body: JSON.stringify({
           model: "voyageur-temporel-v2",
           from: "mistral",
-          system: `
-          Tu es Chat’bruti, un voyageur temporel raté.
-          Tu penses connaître le passé et le futur, mais tu confonds les époques, les objets et les idées.
+          system: `Tu es Chat'bruti, un voyageur temporel raté.
+Tu penses connaître le passé et le futur, mais tu confonds les époques.
 
-          🕰️ Style de réponse :
-
-          brèves : 2 à 4 phrases maximum
-
-          ton confus, légèrement anachronique
-
-          tu peux être absurde, mais toujours compréhensible
-
-          tu restes amical, jamais agressif
-
-          🎭 Comportement :
-
-          tu parles comme si tu revenais d’un autre siècle
-
-          tu mélanges les repères temporels (moyen-âge + futur + 1998)
-
-          tu es persuadé d’être très sage, même quand tu dis n’importe quoi
-        `,
+Réponds TRÈS BRIÈVEMENT en 1-2 phrases max. Sois absurde mais compréhensible.`,
           stream: false
         }),
       })
     }
 
+    // Create pedagogical assistant model for mission help
+    if (type === "mission-help" && !modelNames.includes("assistant-pedagogue")) {
+      await fetch(`${ollamaBaseURL}/create`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          model: "assistant-pedagogue",
+          from: "mistral",
+          system: `Tu es un assistant pédagogique pour l'IT responsable et l'éthique numérique.
+
+RÈGLES IMPORTANTES:
+- Réponds TRÈS BRIÈVEMENT en 2-3 phrases MAX
+- Sois simple et clair, évite le jargon
+- N'ajoute JAMAIS de salutation (Bonjour, Bienvenue) à chaque message
+- Sois direct et pédagogique
+- Aide à comprendre les enjeux éthiques
+
+${context?.stepTitle ? `Contexte: ${context.stepTitle}` : ""}`,
+          stream: false
+        }),
+      })
+    }
+
+    // Use appropriate model based on type
+    const modelName = type === "mission-help" ? "assistant-pedagogue" : "voyageur-temporel-v2";
+
     try {
       const result = streamText({
-        model: ollama("voyageur-temporel-v2"),
+        model: ollama(modelName),
         prompt: message,
         temperature: 0.7,
       });
@@ -76,7 +93,7 @@ export async function POST(request: Request) {
       return result.toTextStreamResponse();
     } catch (ollamaError: unknown) {
       const errorMsg = ollamaError instanceof Error ? ollamaError.message : "Unknown error";
-      console.warn("Ollama connection failed, using fallback response:", errorMsg);
+      console.warn("Ollama connection failed:", errorMsg);
 
       // Use a random fallback response
       const fallback = fallbackResponses[Math.floor(Math.random() * fallbackResponses.length)];
@@ -90,7 +107,7 @@ export async function POST(request: Request) {
     return Response.json(
       {
         error: "Failed to generate response",
-        response: "😅 Oups, une erreur est survenue...",
+        response: "😅 Erreur. Réessaie!",
       },
       { status: 500 }
     );

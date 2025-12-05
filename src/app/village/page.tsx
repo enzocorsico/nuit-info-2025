@@ -83,6 +83,13 @@ function VillageContent() {
               En tant que <span className="font-bold capitalize">{role}</span>, découvrez les différentes ressources et missions adaptées à ton rôle
             </p>
           </div>
+          <Link href="/progression" className="px-6 py-3 bg-purple-600 text-white font-bold rounded-xl hover:bg-purple-700 transition-all hover:shadow-lg flex items-center gap-2 whitespace-nowrap">
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
+              <path fillRule="evenodd" d="M4 5a2 2 0 012-2 1 1 0 000 2H3a1 1 0 100 2v7a2 2 0 002 2h10a2 2 0 002-2V7a1 1 0 100-2 2 2 0 012-2h1a1 1 0 100-2h-1a4 4 0 00-4 4V5a1 1 0 100 2H4z" clipRule="evenodd"/>
+            </svg>
+            Progression
+          </Link>
         </div>
       </div>
 
