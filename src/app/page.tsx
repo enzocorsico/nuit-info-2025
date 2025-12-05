@@ -260,6 +260,13 @@ export default function Home() {
             </p>
           </div>
           <Logo3DImage />
+          <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link href="/stl-vision">
+              <button className="px-8 py-3 md:px-10 md:py-4 bg-blue-500 hover:bg-blue-600 text-white font-bold text-base md:text-lg rounded-lg transition-all duration-300 transform hover:scale-105 cursor-pointer">
+                Visualiser un modèle STL
+              </button>
+            </Link>
+          </div>
         </div>
       </section>
 
