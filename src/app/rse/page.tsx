@@ -294,15 +294,11 @@ export default function RSEPage() {
             Découvrez comment chaque utilisateur peut contribuer à un numérique plus responsable
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/roles">
-              <button className="px-8 py-4 bg-white text-green-600 rounded-xl font-bold text-lg hover:bg-green-50 transition-colors shadow-lg">
-                Commencer mon parcours
-              </button>
+            <Link href="/roles" className="px-8 py-4 bg-white text-green-600 rounded-xl font-bold text-lg hover:bg-green-50 transition-colors shadow-lg cursor-pointer inline-block">
+              Commencer mon parcours
             </Link>
-            <Link href="/village">
-              <button className="px-8 py-4 bg-green-700 text-white rounded-xl font-bold text-lg hover:bg-green-800 transition-colors border-2 border-white/30">
-                Explorer le village
-              </button>
+            <Link href="/village" className="px-8 py-4 bg-green-700 text-white rounded-xl font-bold text-lg hover:bg-green-800 transition-colors border-2 border-white/30 cursor-pointer inline-block">
+              Explorer le village
             </Link>
           </div>
         </div>
@@ -322,13 +318,11 @@ export default function RSEPage() {
 
       {/* Back button */}
       <div className="max-w-6xl mx-auto mt-12">
-        <Link href="/">
-          <button className="px-6 py-3 text-slate-600 hover:text-slate-900 font-semibold transition-colors flex items-center">
-            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            Retour à l'accueil
-          </button>
+        <Link href="/" className="px-6 py-3 text-slate-600 hover:text-slate-900 font-semibold transition-colors inline-flex items-center cursor-pointer">
+          <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+          Retour à l'accueil
         </Link>
       </div>
     </main>
