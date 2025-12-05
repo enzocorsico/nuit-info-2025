@@ -53,7 +53,7 @@ export default function SnakeMenu({ onClose }: SnakeMenuProps) {
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center flex-wrap">
           <button
             onClick={() => setGameMode("2d")}
-            className="group relative bg-linear-to-br from-nird-blue to-nird-pink p-8 rounded-2xl border-4 border-nird-blue hover:border-nird-yellow transition-all hover:scale-110 w-64"
+            className="group relative bg-linear-to-br from-nird-blue to-nird-pink p-8 rounded-2xl border-4 border-nird-blue hover:border-nird-yellow transition-all hover:scale-110 w-64 cursor-pointer"
           >
             <div className="text-6xl mb-4">🎮</div>
             <h2 className="text-3xl font-bold text-white mb-2">2D Classic</h2>
@@ -62,7 +62,7 @@ export default function SnakeMenu({ onClose }: SnakeMenuProps) {
 
           <button
             onClick={() => setGameMode("3d")}
-            className="group relative bg-linear-to-br from-nird-pink to-nird-coral p-8 rounded-2xl border-4 border-nird-pink hover:border-nird-yellow transition-all hover:scale-110 w-64"
+            className="group relative bg-linear-to-br from-nird-pink to-nird-coral p-8 rounded-2xl border-4 border-nird-pink hover:border-nird-yellow transition-all hover:scale-110 w-64 cursor-pointer"
           >
             <div className="text-6xl mb-4">🌟</div>
             <h2 className="text-3xl font-bold text-white mb-2">3D Ultra</h2>
@@ -81,7 +81,7 @@ export default function SnakeMenu({ onClose }: SnakeMenuProps) {
         {/* Close button */}
         <button
           onClick={onClose}
-          className="text-gray-500 hover:text-white transition-colors"
+          className="text-gray-500 hover:text-white transition-colors cursor-pointer"
         >
           ✕ Quitter
         </button>
